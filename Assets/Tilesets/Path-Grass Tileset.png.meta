@@ -1,0 +1,1599 @@
+fileFormatVersion: 2
+guid: e02b5c33f76a61b47b442f9bf0889f26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1902434014973690642
+    second: Path-Grass Tileset_0
+  - first:
+      213: -4842104727070912355
+    second: Path-Grass Tileset_1
+  - first:
+      213: -8780717430629991929
+    second: Path-Grass Tileset_2
+  - first:
+      213: -8562838627491163371
+    second: Path-Grass Tileset_3
+  - first:
+      213: -2286453342062052386
+    second: Path-Grass Tileset_4
+  - first:
+      213: 364311756520771108
+    second: Path-Grass Tileset_5
+  - first:
+      213: 6012012538374156460
+    second: Path-Grass Tileset_6
+  - first:
+      213: -3665000787929818036
+    second: Path-Grass Tileset_7
+  - first:
+      213: -1621229902130260375
+    second: Path-Grass Tileset_8
+  - first:
+      213: -1274523473436428307
+    second: Path-Grass Tileset_9
+  - first:
+      213: 7380818410633855772
+    second: Path-Grass Tileset_10
+  - first:
+      213: 8355224931131972002
+    second: Path-Grass Tileset_11
+  - first:
+      213: 2029585057405681739
+    second: Path-Grass Tileset_12
+  - first:
+      213: 7041703016620604190
+    second: Path-Grass Tileset_13
+  - first:
+      213: 2148848988800691685
+    second: Path-Grass Tileset_14
+  - first:
+      213: 2503654194544684957
+    second: Path-Grass Tileset_15
+  - first:
+      213: -774249494209669159
+    second: Path-Grass Tileset_16
+  - first:
+      213: -4024021502429814713
+    second: Path-Grass Tileset_17
+  - first:
+      213: 2606255231193007960
+    second: Path-Grass Tileset_18
+  - first:
+      213: 4053815549023633658
+    second: Path-Grass Tileset_19
+  - first:
+      213: -2589308763283890002
+    second: Path-Grass Tileset_20
+  - first:
+      213: 8113236516607881260
+    second: Path-Grass Tileset_21
+  - first:
+      213: -6368643260839153783
+    second: Path-Grass Tileset_22
+  - first:
+      213: 7639720666961107318
+    second: Path-Grass Tileset_23
+  - first:
+      213: -4678912266227481281
+    second: Path-Grass Tileset_24
+  - first:
+      213: 5524259321890669147
+    second: Path-Grass Tileset_25
+  - first:
+      213: 2535208676125245889
+    second: Path-Grass Tileset_26
+  - first:
+      213: 161051730536452599
+    second: Path-Grass Tileset_27
+  - first:
+      213: -2003112585697332233
+    second: Path-Grass Tileset_28
+  - first:
+      213: -7294714838997324572
+    second: Path-Grass Tileset_29
+  - first:
+      213: 3919874176966326413
+    second: Path-Grass Tileset_30
+  - first:
+      213: 8848250246213795822
+    second: Path-Grass Tileset_31
+  - first:
+      213: -1501721649409418964
+    second: Path-Grass Tileset_32
+  - first:
+      213: -4254045316195516104
+    second: Path-Grass Tileset_33
+  - first:
+      213: -7590729195477601768
+    second: Path-Grass Tileset_34
+  - first:
+      213: -5405767768884765746
+    second: Path-Grass Tileset_35
+  - first:
+      213: -4562853879293597645
+    second: Path-Grass Tileset_36
+  - first:
+      213: 1838636942846788953
+    second: Path-Grass Tileset_37
+  - first:
+      213: -2670789183349533275
+    second: Path-Grass Tileset_38
+  - first:
+      213: 4649334635766295070
+    second: Path-Grass Tileset_39
+  - first:
+      213: 6757650031947365617
+    second: Path-Grass Tileset_40
+  - first:
+      213: 3718184722579297614
+    second: Path-Grass Tileset_41
+  - first:
+      213: -870981917016651896
+    second: Path-Grass Tileset_42
+  - first:
+      213: 1249873626115693844
+    second: Path-Grass Tileset_43
+  - first:
+      213: 8826617418851519509
+    second: Path-Grass Tileset_44
+  - first:
+      213: 3130673077157510416
+    second: Path-Grass Tileset_45
+  - first:
+      213: 8867577455248934351
+    second: Path-Grass Tileset_46
+  - first:
+      213: 9204310185937436932
+    second: Path-Grass Tileset_47
+  - first:
+      213: -1253077294482409982
+    second: Path-Grass Tileset_48
+  - first:
+      213: -6345954023780187354
+    second: Path-Grass Tileset_49
+  - first:
+      213: -6191047925757966635
+    second: Path-Grass Tileset_50
+  - first:
+      213: -3034722968794521813
+    second: Path-Grass Tileset_51
+  - first:
+      213: -5570636315463781708
+    second: Path-Grass Tileset_52
+  - first:
+      213: 7636657332680948149
+    second: Path-Grass Tileset_53
+  - first:
+      213: 6278772448200249798
+    second: Path-Grass Tileset_54
+  - first:
+      213: 7993826141825742963
+    second: Path-Grass Tileset_55
+  - first:
+      213: 4068672066771374105
+    second: Path-Grass Tileset_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Path-Grass Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec7fd8c7523995e0800000000000000
+      internalID: -1902434014973690642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90d2b1c7636dccb0800000000000000
+      internalID: -4842104727070912355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70af732e400a42680800000000000000
+      internalID: -8780717430629991929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513556bd2afaa2980800000000000000
+      internalID: -8562838627491163371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbf2eeacc2e440e0800000000000000
+      internalID: -2286453342062052386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e4be2cc9b4e0500800000000000000
+      internalID: 364311756520771108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca07cf6fc85fe6350800000000000000
+      internalID: 6012012538374156460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c9aed833d432dc0800000000000000
+      internalID: -3665000787929818036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966d8406efb3089e0800000000000000
+      internalID: -1621229902130260375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7bce357abff4ee0800000000000000
+      internalID: -1274523473436428307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c138e7d3d3fed6660800000000000000
+      internalID: 7380818410633855772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9db969ec8b3f370800000000000000
+      internalID: 8355224931131972002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b404b144bd88a2c10800000000000000
+      internalID: 2029585057405681739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bb777c59729b160800000000000000
+      internalID: 7041703016620604190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed2c6d25ce32dd10800000000000000
+      internalID: 2148848988800691685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fa04a9934ceb220800000000000000
+      internalID: 2503654194544684957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 138
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d75b1aef205145f0800000000000000
+      internalID: -774249494209669159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740232383cdc728c0800000000000000
+      internalID: -4024021502429814713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857434103574b2420800000000000000
+      internalID: 2606255231193007960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0428883cb024830800000000000000
+      internalID: 4053815549023633658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea068a6066de01cd0800000000000000
+      internalID: -2589308763283890002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20f32740a1089070800000000000000
+      internalID: 8113236516607881260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f2f7062b80e97a0800000000000000
+      internalID: -6368643260839153783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6795d69387db50a60800000000000000
+      internalID: 7639720666961107318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f350b44751a211fb0800000000000000
+      internalID: -4678912266227481281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 120
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b520f60a59c1aac40800000000000000
+      internalID: 5524259321890669147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 106
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c10febdbdede2320800000000000000
+      internalID: 2535208676125245889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1561512bb2c3200800000000000000
+      internalID: 161051730536452599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3756c57b38334e0800000000000000
+      internalID: -2003112585697332233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec2bc3c087f3ca90800000000000000
+      internalID: -7294714838997324572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88fd4aabc0366630800000000000000
+      internalID: 3919874176966326413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeff55908bc4bca70800000000000000
+      internalID: 8848250246213795822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c291077cd10d82be0800000000000000
+      internalID: -1501721649409418964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83180c5e25896f4c0800000000000000
+      internalID: -4254045316195516104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812fe5d930058a690800000000000000
+      internalID: -7590729195477601768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 79
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb1e5deadadaf4b0800000000000000
+      internalID: -5405767768884765746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33821b2629c7da0c0800000000000000
+      internalID: -4562853879293597645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9550b49de86248910800000000000000
+      internalID: 1838636942846788953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5de7063637fead0800000000000000
+      internalID: -2670789183349533275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a25cec731c58040800000000000000
+      internalID: 4649334635766295070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc31a686eef7cd50800000000000000
+      internalID: 6757650031947365617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e459f9e2e45a99330800000000000000
+      internalID: 3718184722579297614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8870f66af86a9e3f0800000000000000
+      internalID: -870981917016651896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d51cad071785110800000000000000
+      internalID: 1249873626115693844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c8beae6c17e7a70800000000000000
+      internalID: 8826617418851519509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 53
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d3adf9392627b20800000000000000
+      internalID: 3130673077157510416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 44
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5006e86b6ff0b70800000000000000
+      internalID: 8867577455248934351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 41
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4018f4bf8574cbf70800000000000000
+      internalID: 9204310185937436932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206b44af6dc2c9ee0800000000000000
+      internalID: -1253077294482409982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6230f9b0074aee7a0800000000000000
+      internalID: -6345954023780187354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d607cd86baf41aa0800000000000000
+      internalID: -6191047925757966635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f984dd98f72e5d0800000000000000
+      internalID: -3034722968794521813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2f3eb19cf11b2b0800000000000000
+      internalID: -5570636315463781708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b974d1226bdaf960800000000000000
+      internalID: 7636657332680948149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c15c78764ea22750800000000000000
+      internalID: 6278772448200249798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37831cbd586cfee60800000000000000
+      internalID: 7993826141825742963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Grass Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 11
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910567f10b3d67830800000000000000
+      internalID: 4068672066771374105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Path-Grass Tileset_0: -1902434014973690642
+      Path-Grass Tileset_1: -4842104727070912355
+      Path-Grass Tileset_10: 7380818410633855772
+      Path-Grass Tileset_11: 8355224931131972002
+      Path-Grass Tileset_12: 2029585057405681739
+      Path-Grass Tileset_13: 7041703016620604190
+      Path-Grass Tileset_14: 2148848988800691685
+      Path-Grass Tileset_15: 2503654194544684957
+      Path-Grass Tileset_16: -774249494209669159
+      Path-Grass Tileset_17: -4024021502429814713
+      Path-Grass Tileset_18: 2606255231193007960
+      Path-Grass Tileset_19: 4053815549023633658
+      Path-Grass Tileset_2: -8780717430629991929
+      Path-Grass Tileset_20: -2589308763283890002
+      Path-Grass Tileset_21: 8113236516607881260
+      Path-Grass Tileset_22: -6368643260839153783
+      Path-Grass Tileset_23: 7639720666961107318
+      Path-Grass Tileset_24: -4678912266227481281
+      Path-Grass Tileset_25: 5524259321890669147
+      Path-Grass Tileset_26: 2535208676125245889
+      Path-Grass Tileset_27: 161051730536452599
+      Path-Grass Tileset_28: -2003112585697332233
+      Path-Grass Tileset_29: -7294714838997324572
+      Path-Grass Tileset_3: -8562838627491163371
+      Path-Grass Tileset_30: 3919874176966326413
+      Path-Grass Tileset_31: 8848250246213795822
+      Path-Grass Tileset_32: -1501721649409418964
+      Path-Grass Tileset_33: -4254045316195516104
+      Path-Grass Tileset_34: -7590729195477601768
+      Path-Grass Tileset_35: -5405767768884765746
+      Path-Grass Tileset_36: -4562853879293597645
+      Path-Grass Tileset_37: 1838636942846788953
+      Path-Grass Tileset_38: -2670789183349533275
+      Path-Grass Tileset_39: 4649334635766295070
+      Path-Grass Tileset_4: -2286453342062052386
+      Path-Grass Tileset_40: 6757650031947365617
+      Path-Grass Tileset_41: 3718184722579297614
+      Path-Grass Tileset_42: -870981917016651896
+      Path-Grass Tileset_43: 1249873626115693844
+      Path-Grass Tileset_44: 8826617418851519509
+      Path-Grass Tileset_45: 3130673077157510416
+      Path-Grass Tileset_46: 8867577455248934351
+      Path-Grass Tileset_47: 9204310185937436932
+      Path-Grass Tileset_48: -1253077294482409982
+      Path-Grass Tileset_49: -6345954023780187354
+      Path-Grass Tileset_5: 364311756520771108
+      Path-Grass Tileset_50: -6191047925757966635
+      Path-Grass Tileset_51: -3034722968794521813
+      Path-Grass Tileset_52: -5570636315463781708
+      Path-Grass Tileset_53: 7636657332680948149
+      Path-Grass Tileset_54: 6278772448200249798
+      Path-Grass Tileset_55: 7993826141825742963
+      Path-Grass Tileset_56: 4068672066771374105
+      Path-Grass Tileset_6: 6012012538374156460
+      Path-Grass Tileset_7: -3665000787929818036
+      Path-Grass Tileset_8: -1621229902130260375
+      Path-Grass Tileset_9: -1274523473436428307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

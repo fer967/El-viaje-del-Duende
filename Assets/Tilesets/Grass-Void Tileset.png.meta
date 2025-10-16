@@ -1,0 +1,1859 @@
+fileFormatVersion: 2
+guid: e58bf948db166b145a1e2ff6fd00b8f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6502584750093017372
+    second: Grass-Void Tileset_0
+  - first:
+      213: 1429000940784639394
+    second: Grass-Void Tileset_1
+  - first:
+      213: 5691321421099487199
+    second: Grass-Void Tileset_2
+  - first:
+      213: 3974005247826071430
+    second: Grass-Void Tileset_3
+  - first:
+      213: -1759140605837233534
+    second: Grass-Void Tileset_4
+  - first:
+      213: 3749108429834001507
+    second: Grass-Void Tileset_5
+  - first:
+      213: -302064568261976550
+    second: Grass-Void Tileset_6
+  - first:
+      213: -333180398624070984
+    second: Grass-Void Tileset_7
+  - first:
+      213: 2863399376674106979
+    second: Grass-Void Tileset_8
+  - first:
+      213: -656835151209774497
+    second: Grass-Void Tileset_9
+  - first:
+      213: 7331242243607479825
+    second: Grass-Void Tileset_10
+  - first:
+      213: 27257776446688535
+    second: Grass-Void Tileset_11
+  - first:
+      213: -466407321401966908
+    second: Grass-Void Tileset_12
+  - first:
+      213: -9015549619834750594
+    second: Grass-Void Tileset_13
+  - first:
+      213: 4856527810973779430
+    second: Grass-Void Tileset_14
+  - first:
+      213: -3535630731005539589
+    second: Grass-Void Tileset_15
+  - first:
+      213: 7342010905494258910
+    second: Grass-Void Tileset_16
+  - first:
+      213: -2653824051855609472
+    second: Grass-Void Tileset_17
+  - first:
+      213: -453461222899609775
+    second: Grass-Void Tileset_18
+  - first:
+      213: -7463011074774960940
+    second: Grass-Void Tileset_19
+  - first:
+      213: 81341743759591416
+    second: Grass-Void Tileset_20
+  - first:
+      213: -5337331077631658718
+    second: Grass-Void Tileset_21
+  - first:
+      213: -6303046868169113280
+    second: Grass-Void Tileset_22
+  - first:
+      213: 1049688410334194221
+    second: Grass-Void Tileset_23
+  - first:
+      213: -4833943335162259637
+    second: Grass-Void Tileset_24
+  - first:
+      213: 5794663733405048268
+    second: Grass-Void Tileset_25
+  - first:
+      213: 725041875924827754
+    second: Grass-Void Tileset_26
+  - first:
+      213: 785454577883725606
+    second: Grass-Void Tileset_27
+  - first:
+      213: -8576156419417340952
+    second: Grass-Void Tileset_28
+  - first:
+      213: 7135718929546725048
+    second: Grass-Void Tileset_29
+  - first:
+      213: 6384955642146669956
+    second: Grass-Void Tileset_30
+  - first:
+      213: 8321230744039671340
+    second: Grass-Void Tileset_31
+  - first:
+      213: -5884510280776026862
+    second: Grass-Void Tileset_32
+  - first:
+      213: 6710712643752338763
+    second: Grass-Void Tileset_33
+  - first:
+      213: 4895762201297669350
+    second: Grass-Void Tileset_34
+  - first:
+      213: -857524591837005647
+    second: Grass-Void Tileset_35
+  - first:
+      213: -7053081810536426079
+    second: Grass-Void Tileset_36
+  - first:
+      213: -1032650097385445172
+    second: Grass-Void Tileset_37
+  - first:
+      213: 8820869949240919803
+    second: Grass-Void Tileset_38
+  - first:
+      213: 407080298402303103
+    second: Grass-Void Tileset_39
+  - first:
+      213: -4112290459003143799
+    second: Grass-Void Tileset_40
+  - first:
+      213: 2962744983910989081
+    second: Grass-Void Tileset_41
+  - first:
+      213: 6709189549272472663
+    second: Grass-Void Tileset_42
+  - first:
+      213: 111015948910602778
+    second: Grass-Void Tileset_43
+  - first:
+      213: 8148979708662046538
+    second: Grass-Void Tileset_44
+  - first:
+      213: 7101113245606621241
+    second: Grass-Void Tileset_45
+  - first:
+      213: 8975583165866178760
+    second: Grass-Void Tileset_46
+  - first:
+      213: -1358469885008150233
+    second: Grass-Void Tileset_47
+  - first:
+      213: -5501548007914171407
+    second: Grass-Void Tileset_48
+  - first:
+      213: 2787927137511323068
+    second: Grass-Void Tileset_49
+  - first:
+      213: -7860925536577656061
+    second: Grass-Void Tileset_50
+  - first:
+      213: 814669579145903055
+    second: Grass-Void Tileset_51
+  - first:
+      213: -1301355497264043408
+    second: Grass-Void Tileset_52
+  - first:
+      213: -2204848919537252473
+    second: Grass-Void Tileset_53
+  - first:
+      213: -403150522961362712
+    second: Grass-Void Tileset_54
+  - first:
+      213: -5109098503795870525
+    second: Grass-Void Tileset_55
+  - first:
+      213: -726124088247452944
+    second: Grass-Void Tileset_56
+  - first:
+      213: 5383507104919538940
+    second: Grass-Void Tileset_57
+  - first:
+      213: -3816708025940935906
+    second: Grass-Void Tileset_58
+  - first:
+      213: 1867104851916540053
+    second: Grass-Void Tileset_59
+  - first:
+      213: -2487418230089486233
+    second: Grass-Void Tileset_60
+  - first:
+      213: -7436106566666501487
+    second: Grass-Void Tileset_61
+  - first:
+      213: -2286081236636611663
+    second: Grass-Void Tileset_62
+  - first:
+      213: -5635403801853506554
+    second: Grass-Void Tileset_63
+  - first:
+      213: -5609397072739997534
+    second: Grass-Void Tileset_64
+  - first:
+      213: 4681899809765694894
+    second: Grass-Void Tileset_65
+  - first:
+      213: -4511703986231862686
+    second: Grass-Void Tileset_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grass-Void Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11aa27c062dd3a50800000000000000
+      internalID: 6502584750093017372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adda23d8c4d4d310800000000000000
+      internalID: 1429000940784639394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfc437bda2abfe40800000000000000
+      internalID: 5691321421099487199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f063cb7b0862730800000000000000
+      internalID: 3974005247826071430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2823b1770f64697e0800000000000000
+      internalID: -1759140605837233534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c9da8d042870430800000000000000
+      internalID: 3749108429834001507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e538520e9decbf0800000000000000
+      internalID: -302064568261976550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2a3e5513e406bf0800000000000000
+      internalID: -333180398624070984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e2cb8ef86dcb720800000000000000
+      internalID: 2863399376674106979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 169
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52c628f8e372e6f0800000000000000
+      internalID: -656835151209774497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116cf8c5afdcdb560800000000000000
+      internalID: 7331242243607479825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dc872adc6d06000800000000000000
+      internalID: 27257776446688535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ceb137230df689f0800000000000000
+      internalID: -466407321401966908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7977de136552e280800000000000000
+      internalID: -9015549619834750594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5c5e6205ad56340800000000000000
+      internalID: 4856527810973779430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfac57d259aeeeec0800000000000000
+      internalID: -3535630731005539589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed48707d40014e560800000000000000
+      internalID: 7342010905494258910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08132ccd519bb2bd0800000000000000
+      internalID: -2653824051855609472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f87a99b6bf4b9f0800000000000000
+      internalID: -453461222899609775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d47b3dd7fe0e6890800000000000000
+      internalID: -7463011074774960940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 139
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7833e82ebf02100800000000000000
+      internalID: 81341743759591416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225bc1dc9adfde5b0800000000000000
+      internalID: -5337331077631658718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0414424b4441788a0800000000000000
+      internalID: -6303046868169113280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a60d63c0e319e00800000000000000
+      internalID: 1049688410334194221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b475943e5226aecb0800000000000000
+      internalID: -4833943335162259637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd527ec6f7ca6050800000000000000
+      internalID: 5794663733405048268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e38c5aebddf0a00800000000000000
+      internalID: 725041875924827754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fb6fde6ce76ea00800000000000000
+      internalID: 785454577883725606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3817acc2f5bf880800000000000000
+      internalID: -8576156419417340952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6c9ac4f8a270360800000000000000
+      internalID: 7135718929546725048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48547ccd35beb9850800000000000000
+      internalID: 6384955642146669956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c264b802643fa7370800000000000000
+      internalID: 8321230744039671340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215f53db315065ea0800000000000000
+      internalID: -5884510280776026862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45a498389d312d50800000000000000
+      internalID: 6710712643752338763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecc12188cd31f340800000000000000
+      internalID: 4895762201297669350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8b4655de57914f0800000000000000
+      internalID: -857524591837005647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5153f467b6e1e90800000000000000
+      internalID: -7053081810536426079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc86118253a4ba1f0800000000000000
+      internalID: -1032650097385445172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf64c6edb760a6a70800000000000000
+      internalID: 8820869949240919803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c4455ef5d36a500800000000000000
+      internalID: 407080298402303103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989b3e98d953ee6c0800000000000000
+      internalID: -4112290459003143799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91db5169dd8cd1920800000000000000
+      internalID: 2962744983910989081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c16272954db1d50800000000000000
+      internalID: 6709189549272472663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a2837da686a8100800000000000000
+      internalID: 111015948910602778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fdaa0beddf61170800000000000000
+      internalID: 8148979708662046538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9303432afd83c8260800000000000000
+      internalID: 7101113245606621241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8fd6da55daf8c70800000000000000
+      internalID: 8975583165866178760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721060a46deb52de0800000000000000
+      internalID: -1358469885008150233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f394893c3396a3b0800000000000000
+      internalID: -5501548007914171407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5b803e5f4b0b620800000000000000
+      internalID: 2787927137511323068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bed7a9fd168e290800000000000000
+      internalID: -7860925536577656061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 37
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbfe4a7aa94e4b00800000000000000
+      internalID: 814669579145903055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 43
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a2313f118a0fde0800000000000000
+      internalID: -1301355497264043408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 36
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7870497e69dc661e0800000000000000
+      internalID: -2204848919537252473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e000ef3cb8b76af0800000000000000
+      internalID: -403150522961362712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c474cedaf5d819b0800000000000000
+      internalID: -5109098503795870525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faf7292df94ce5f0800000000000000
+      internalID: -726124088247452944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc458a503f06ba40800000000000000
+      internalID: 5383507104919538940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b786ea544580bc0800000000000000
+      internalID: -3816708025940935906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598c4e078f949e910800000000000000
+      internalID: 1867104851916540053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7607fa37c4aea7dd0800000000000000
+      internalID: -2487418230089486233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192c4edc974adc890800000000000000
+      internalID: -7436106566666501487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 15
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbc69a3a353640e0800000000000000
+      internalID: -2286081236636611663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_63
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 19
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cc2a099160bc1b0800000000000000
+      internalID: -5635403801853506554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_64
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 7
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8673b051b6722b0800000000000000
+      internalID: -5609397072739997534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead9d0b321379f040800000000000000
+      internalID: 4681899809765694894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Void Tileset_66
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 4
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a9fe8e0253361c0800000000000000
+      internalID: -4511703986231862686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grass-Void Tileset_0: 6502584750093017372
+      Grass-Void Tileset_1: 1429000940784639394
+      Grass-Void Tileset_10: 7331242243607479825
+      Grass-Void Tileset_11: 27257776446688535
+      Grass-Void Tileset_12: -466407321401966908
+      Grass-Void Tileset_13: -9015549619834750594
+      Grass-Void Tileset_14: 4856527810973779430
+      Grass-Void Tileset_15: -3535630731005539589
+      Grass-Void Tileset_16: 7342010905494258910
+      Grass-Void Tileset_17: -2653824051855609472
+      Grass-Void Tileset_18: -453461222899609775
+      Grass-Void Tileset_19: -7463011074774960940
+      Grass-Void Tileset_2: 5691321421099487199
+      Grass-Void Tileset_20: 81341743759591416
+      Grass-Void Tileset_21: -5337331077631658718
+      Grass-Void Tileset_22: -6303046868169113280
+      Grass-Void Tileset_23: 1049688410334194221
+      Grass-Void Tileset_24: -4833943335162259637
+      Grass-Void Tileset_25: 5794663733405048268
+      Grass-Void Tileset_26: 725041875924827754
+      Grass-Void Tileset_27: 785454577883725606
+      Grass-Void Tileset_28: -8576156419417340952
+      Grass-Void Tileset_29: 7135718929546725048
+      Grass-Void Tileset_3: 3974005247826071430
+      Grass-Void Tileset_30: 6384955642146669956
+      Grass-Void Tileset_31: 8321230744039671340
+      Grass-Void Tileset_32: -5884510280776026862
+      Grass-Void Tileset_33: 6710712643752338763
+      Grass-Void Tileset_34: 4895762201297669350
+      Grass-Void Tileset_35: -857524591837005647
+      Grass-Void Tileset_36: -7053081810536426079
+      Grass-Void Tileset_37: -1032650097385445172
+      Grass-Void Tileset_38: 8820869949240919803
+      Grass-Void Tileset_39: 407080298402303103
+      Grass-Void Tileset_4: -1759140605837233534
+      Grass-Void Tileset_40: -4112290459003143799
+      Grass-Void Tileset_41: 2962744983910989081
+      Grass-Void Tileset_42: 6709189549272472663
+      Grass-Void Tileset_43: 111015948910602778
+      Grass-Void Tileset_44: 8148979708662046538
+      Grass-Void Tileset_45: 7101113245606621241
+      Grass-Void Tileset_46: 8975583165866178760
+      Grass-Void Tileset_47: -1358469885008150233
+      Grass-Void Tileset_48: -5501548007914171407
+      Grass-Void Tileset_49: 2787927137511323068
+      Grass-Void Tileset_5: 3749108429834001507
+      Grass-Void Tileset_50: -7860925536577656061
+      Grass-Void Tileset_51: 814669579145903055
+      Grass-Void Tileset_52: -1301355497264043408
+      Grass-Void Tileset_53: -2204848919537252473
+      Grass-Void Tileset_54: -403150522961362712
+      Grass-Void Tileset_55: -5109098503795870525
+      Grass-Void Tileset_56: -726124088247452944
+      Grass-Void Tileset_57: 5383507104919538940
+      Grass-Void Tileset_58: -3816708025940935906
+      Grass-Void Tileset_59: 1867104851916540053
+      Grass-Void Tileset_6: -302064568261976550
+      Grass-Void Tileset_60: -2487418230089486233
+      Grass-Void Tileset_61: -7436106566666501487
+      Grass-Void Tileset_62: -2286081236636611663
+      Grass-Void Tileset_63: -5635403801853506554
+      Grass-Void Tileset_64: -5609397072739997534
+      Grass-Void Tileset_65: 4681899809765694894
+      Grass-Void Tileset_66: -4511703986231862686
+      Grass-Void Tileset_7: -333180398624070984
+      Grass-Void Tileset_8: 2863399376674106979
+      Grass-Void Tileset_9: -656835151209774497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: b615bc0d4d4383a4297085156f664197
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8753118886368769576
+    second: SwallowWater-Grass Tileset_0
+  - first:
+      213: 2215462901481135987
+    second: SwallowWater-Grass Tileset_1
+  - first:
+      213: -2428780054548197172
+    second: SwallowWater-Grass Tileset_2
+  - first:
+      213: 3698138118348769241
+    second: SwallowWater-Grass Tileset_3
+  - first:
+      213: -1907743834731974275
+    second: SwallowWater-Grass Tileset_4
+  - first:
+      213: 8871460614298636078
+    second: SwallowWater-Grass Tileset_5
+  - first:
+      213: -1742652545560927992
+    second: SwallowWater-Grass Tileset_6
+  - first:
+      213: 7984748531373270318
+    second: SwallowWater-Grass Tileset_7
+  - first:
+      213: 7218614882137378648
+    second: SwallowWater-Grass Tileset_8
+  - first:
+      213: -7247236444049549717
+    second: SwallowWater-Grass Tileset_9
+  - first:
+      213: 469908457442091120
+    second: SwallowWater-Grass Tileset_10
+  - first:
+      213: 7382287511816875496
+    second: SwallowWater-Grass Tileset_11
+  - first:
+      213: -7076900046111819241
+    second: SwallowWater-Grass Tileset_12
+  - first:
+      213: 7064346380929249668
+    second: SwallowWater-Grass Tileset_13
+  - first:
+      213: 4321373548503986693
+    second: SwallowWater-Grass Tileset_14
+  - first:
+      213: -5644521845769091759
+    second: SwallowWater-Grass Tileset_15
+  - first:
+      213: -6318803578806618441
+    second: SwallowWater-Grass Tileset_16
+  - first:
+      213: -8989293746347584885
+    second: SwallowWater-Grass Tileset_17
+  - first:
+      213: -7602657439047713809
+    second: SwallowWater-Grass Tileset_18
+  - first:
+      213: 8150022458250033006
+    second: SwallowWater-Grass Tileset_19
+  - first:
+      213: 6814461657312947225
+    second: SwallowWater-Grass Tileset_20
+  - first:
+      213: -2037002316293493215
+    second: SwallowWater-Grass Tileset_21
+  - first:
+      213: 2413978002003159915
+    second: SwallowWater-Grass Tileset_22
+  - first:
+      213: -5789115808128660799
+    second: SwallowWater-Grass Tileset_23
+  - first:
+      213: 7090143181638506155
+    second: SwallowWater-Grass Tileset_24
+  - first:
+      213: -6722184686573577261
+    second: SwallowWater-Grass Tileset_25
+  - first:
+      213: -6296889814805136724
+    second: SwallowWater-Grass Tileset_26
+  - first:
+      213: 1726084306307476076
+    second: SwallowWater-Grass Tileset_27
+  - first:
+      213: -2091409787214953626
+    second: SwallowWater-Grass Tileset_28
+  - first:
+      213: 6126950680945365474
+    second: SwallowWater-Grass Tileset_29
+  - first:
+      213: -7656440174521221224
+    second: SwallowWater-Grass Tileset_30
+  - first:
+      213: -4314133337367740651
+    second: SwallowWater-Grass Tileset_31
+  - first:
+      213: 4100789726883281410
+    second: SwallowWater-Grass Tileset_32
+  - first:
+      213: -5814483186146733970
+    second: SwallowWater-Grass Tileset_33
+  - first:
+      213: -3612203339644239876
+    second: SwallowWater-Grass Tileset_34
+  - first:
+      213: 2385645722391699282
+    second: SwallowWater-Grass Tileset_35
+  - first:
+      213: -2699417602365073004
+    second: SwallowWater-Grass Tileset_36
+  - first:
+      213: -2616085988287136315
+    second: SwallowWater-Grass Tileset_37
+  - first:
+      213: 1351534675199310231
+    second: SwallowWater-Grass Tileset_38
+  - first:
+      213: 5865429453077747700
+    second: SwallowWater-Grass Tileset_39
+  - first:
+      213: 6240832692698458490
+    second: SwallowWater-Grass Tileset_40
+  - first:
+      213: 8384626593128592575
+    second: SwallowWater-Grass Tileset_41
+  - first:
+      213: -485843324446060434
+    second: SwallowWater-Grass Tileset_42
+  - first:
+      213: 5146791328147507325
+    second: SwallowWater-Grass Tileset_43
+  - first:
+      213: -3851833049993882905
+    second: SwallowWater-Grass Tileset_44
+  - first:
+      213: 3011366869409119973
+    second: SwallowWater-Grass Tileset_45
+  - first:
+      213: -4086293412119102586
+    second: SwallowWater-Grass Tileset_46
+  - first:
+      213: 3701565032704551861
+    second: SwallowWater-Grass Tileset_47
+  - first:
+      213: -2643608783230803945
+    second: SwallowWater-Grass Tileset_48
+  - first:
+      213: 1334999534812042799
+    second: SwallowWater-Grass Tileset_49
+  - first:
+      213: 5382980223392810451
+    second: SwallowWater-Grass Tileset_50
+  - first:
+      213: 1805924718115742534
+    second: SwallowWater-Grass Tileset_51
+  - first:
+      213: -3218995567824749048
+    second: SwallowWater-Grass Tileset_52
+  - first:
+      213: 3065493244731638762
+    second: SwallowWater-Grass Tileset_53
+  - first:
+      213: -746287283688688640
+    second: SwallowWater-Grass Tileset_54
+  - first:
+      213: 4689175398823683618
+    second: SwallowWater-Grass Tileset_55
+  - first:
+      213: -1445769456677685778
+    second: SwallowWater-Grass Tileset_56
+  - first:
+      213: -4979472931863742022
+    second: SwallowWater-Grass Tileset_57
+  - first:
+      213: 8091180119325199473
+    second: SwallowWater-Grass Tileset_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d90a35bfbca68680800000000000000
+      internalID: -8753118886368769576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fd6d755c7eebe10800000000000000
+      internalID: 2215462901481135987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0d91b986d3b4ed0800000000000000
+      internalID: -2428780054548197172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7828a660d625330800000000000000
+      internalID: 3698138118348769241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71fb5807155685e0800000000000000
+      internalID: -1907743834731974275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f832afc62cd1b70800000000000000
+      internalID: 8871460614298636078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80129e62ebad0d7e0800000000000000
+      internalID: -1742652545560927992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 169
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e256359fb768fce60800000000000000
+      internalID: 7984748531373270318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f852c4dfbad2460800000000000000
+      internalID: 7218614882137378648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6659250ad4ac6b90800000000000000
+      internalID: -7247236444049549717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070a9ca9043758600800000000000000
+      internalID: 469908457442091120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eda5a30167237660800000000000000
+      internalID: 7382287511816875496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a3f8037ecc9cd90800000000000000
+      internalID: -7076900046111819241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481ba9dda99990260800000000000000
+      internalID: 7064346380929249668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5027954c85a98fb30800000000000000
+      internalID: 4321373548503986693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15540088941aaa1b0800000000000000
+      internalID: -5644521845769091759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 134
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6b3cf9f991f48a0800000000000000
+      internalID: -6318803578806618441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82df4b07fc9f3380800000000000000
+      internalID: -8989293746347584885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb749cf65fed7690800000000000000
+      internalID: -7602657439047713809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67f27fbe32ba1170800000000000000
+      internalID: 8150022458250033006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c68a3d5c4d19e50800000000000000
+      internalID: 6814461657312947225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12eada29f2d1bb3e0800000000000000
+      internalID: -2037002316293493215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b6109f33c208120800000000000000
+      internalID: 2413978002003159915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca84e438dde8afa0800000000000000
+      internalID: -5789115808128660799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6983498af356260800000000000000
+      internalID: 7090143181638506155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 118
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db163aa4a006b2a0800000000000000
+      internalID: -6722184686573577261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caab3c66314fc98a0800000000000000
+      internalID: -6296889814805136724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 103
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a65d9088844f710800000000000000
+      internalID: 1726084306307476076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663074911e1d9f2e0800000000000000
+      internalID: -2091409787214953626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1161eae2d470550800000000000000
+      internalID: 6126950680945365474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ff1a11a3cdeb590800000000000000
+      internalID: -7656440174521221224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f7680469e1124c0800000000000000
+      internalID: -4314133337367740651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20af279978ee8e830800000000000000
+      internalID: 4100789726883281410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e601e31495ece4fa0800000000000000
+      internalID: -5814483186146733970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff760c6330eeddc0800000000000000
+      internalID: -3612203339644239876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f561315248b1120800000000000000
+      internalID: 2385645722391699282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499d7962efdb98ad0800000000000000
+      internalID: -2699417602365073004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdb44e77abc1bbd0800000000000000
+      internalID: -2616085988287136315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 82
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799b0e850ad91c210800000000000000
+      internalID: 1351534675199310231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 69
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f710ddd201366150800000000000000
+      internalID: 5865429453077747700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79afe6c444eb9650800000000000000
+      internalID: 6240832692698458490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb439b9767d2c5470800000000000000
+      internalID: 8384626593128592575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60d5ed0210f149f0800000000000000
+      internalID: -485843324446060434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d780b4fa1731d6740800000000000000
+      internalID: 5146791328147507325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e25109bf3a8b8ac0800000000000000
+      internalID: -3851833049993882905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eeb28b76368ac920800000000000000
+      internalID: 3011366869409119973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b3f92bac19a47c0800000000000000
+      internalID: -4086293412119102586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbac5719c99e5330800000000000000
+      internalID: 3701565032704551861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 42
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710ec6e61d3005bd0800000000000000
+      internalID: -2643608783230803945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2698c7f00fd68210800000000000000
+      internalID: 1334999534812042799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d508403eff24ba40800000000000000
+      internalID: 5382980223392810451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643e26286feef0910800000000000000
+      internalID: 1805924718115742534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ebf360694d353d0800000000000000
+      internalID: -3218995567824749048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3c6994dd1da8a20800000000000000
+      internalID: 3065493244731638762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00438536ba7a4a5f0800000000000000
+      internalID: -746287283688688640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226e2605e2c431140800000000000000
+      internalID: 4689175398823683618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5fd93d6589febe0800000000000000
+      internalID: -1445769456677685778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 14
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9b69730cb55eab0800000000000000
+      internalID: -4979472931863742022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwallowWater-Grass Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 5
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cc41a1375a94070800000000000000
+      internalID: 8091180119325199473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SwallowWater-Grass Tileset_0: -8753118886368769576
+      SwallowWater-Grass Tileset_1: 2215462901481135987
+      SwallowWater-Grass Tileset_10: 469908457442091120
+      SwallowWater-Grass Tileset_11: 7382287511816875496
+      SwallowWater-Grass Tileset_12: -7076900046111819241
+      SwallowWater-Grass Tileset_13: 7064346380929249668
+      SwallowWater-Grass Tileset_14: 4321373548503986693
+      SwallowWater-Grass Tileset_15: -5644521845769091759
+      SwallowWater-Grass Tileset_16: -6318803578806618441
+      SwallowWater-Grass Tileset_17: -8989293746347584885
+      SwallowWater-Grass Tileset_18: -7602657439047713809
+      SwallowWater-Grass Tileset_19: 8150022458250033006
+      SwallowWater-Grass Tileset_2: -2428780054548197172
+      SwallowWater-Grass Tileset_20: 6814461657312947225
+      SwallowWater-Grass Tileset_21: -2037002316293493215
+      SwallowWater-Grass Tileset_22: 2413978002003159915
+      SwallowWater-Grass Tileset_23: -5789115808128660799
+      SwallowWater-Grass Tileset_24: 7090143181638506155
+      SwallowWater-Grass Tileset_25: -6722184686573577261
+      SwallowWater-Grass Tileset_26: -6296889814805136724
+      SwallowWater-Grass Tileset_27: 1726084306307476076
+      SwallowWater-Grass Tileset_28: -2091409787214953626
+      SwallowWater-Grass Tileset_29: 6126950680945365474
+      SwallowWater-Grass Tileset_3: 3698138118348769241
+      SwallowWater-Grass Tileset_30: -7656440174521221224
+      SwallowWater-Grass Tileset_31: -4314133337367740651
+      SwallowWater-Grass Tileset_32: 4100789726883281410
+      SwallowWater-Grass Tileset_33: -5814483186146733970
+      SwallowWater-Grass Tileset_34: -3612203339644239876
+      SwallowWater-Grass Tileset_35: 2385645722391699282
+      SwallowWater-Grass Tileset_36: -2699417602365073004
+      SwallowWater-Grass Tileset_37: -2616085988287136315
+      SwallowWater-Grass Tileset_38: 1351534675199310231
+      SwallowWater-Grass Tileset_39: 5865429453077747700
+      SwallowWater-Grass Tileset_4: -1907743834731974275
+      SwallowWater-Grass Tileset_40: 6240832692698458490
+      SwallowWater-Grass Tileset_41: 8384626593128592575
+      SwallowWater-Grass Tileset_42: -485843324446060434
+      SwallowWater-Grass Tileset_43: 5146791328147507325
+      SwallowWater-Grass Tileset_44: -3851833049993882905
+      SwallowWater-Grass Tileset_45: 3011366869409119973
+      SwallowWater-Grass Tileset_46: -4086293412119102586
+      SwallowWater-Grass Tileset_47: 3701565032704551861
+      SwallowWater-Grass Tileset_48: -2643608783230803945
+      SwallowWater-Grass Tileset_49: 1334999534812042799
+      SwallowWater-Grass Tileset_5: 8871460614298636078
+      SwallowWater-Grass Tileset_50: 5382980223392810451
+      SwallowWater-Grass Tileset_51: 1805924718115742534
+      SwallowWater-Grass Tileset_52: -3218995567824749048
+      SwallowWater-Grass Tileset_53: 3065493244731638762
+      SwallowWater-Grass Tileset_54: -746287283688688640
+      SwallowWater-Grass Tileset_55: 4689175398823683618
+      SwallowWater-Grass Tileset_56: -1445769456677685778
+      SwallowWater-Grass Tileset_57: -4979472931863742022
+      SwallowWater-Grass Tileset_58: 8091180119325199473
+      SwallowWater-Grass Tileset_6: -1742652545560927992
+      SwallowWater-Grass Tileset_7: 7984748531373270318
+      SwallowWater-Grass Tileset_8: 7218614882137378648
+      SwallowWater-Grass Tileset_9: -7247236444049549717
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 61be500632bb5854b9f01ac4de8c9e36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4733479918832757592
+    second: Path-Void Tileset_0
+  - first:
+      213: 1859619530801689222
+    second: Path-Void Tileset_1
+  - first:
+      213: -8096899390858137454
+    second: Path-Void Tileset_2
+  - first:
+      213: -3801280628707207172
+    second: Path-Void Tileset_3
+  - first:
+      213: -869956320205694154
+    second: Path-Void Tileset_4
+  - first:
+      213: -4467132028381785844
+    second: Path-Void Tileset_5
+  - first:
+      213: -465435977460409378
+    second: Path-Void Tileset_6
+  - first:
+      213: -4857866802834086297
+    second: Path-Void Tileset_7
+  - first:
+      213: 2253101795295739042
+    second: Path-Void Tileset_8
+  - first:
+      213: -2758870157886360981
+    second: Path-Void Tileset_9
+  - first:
+      213: 5819536079621568130
+    second: Path-Void Tileset_10
+  - first:
+      213: 4283551594342297722
+    second: Path-Void Tileset_11
+  - first:
+      213: 8844312958975675988
+    second: Path-Void Tileset_12
+  - first:
+      213: 8374735217268208088
+    second: Path-Void Tileset_13
+  - first:
+      213: -2402880309285365526
+    second: Path-Void Tileset_14
+  - first:
+      213: 153932204922240579
+    second: Path-Void Tileset_15
+  - first:
+      213: -6091516677518076745
+    second: Path-Void Tileset_16
+  - first:
+      213: 321279681676001791
+    second: Path-Void Tileset_17
+  - first:
+      213: -4243422653324519527
+    second: Path-Void Tileset_18
+  - first:
+      213: 6811320947654201508
+    second: Path-Void Tileset_19
+  - first:
+      213: 3491003598326040672
+    second: Path-Void Tileset_20
+  - first:
+      213: -687042207750683516
+    second: Path-Void Tileset_21
+  - first:
+      213: 7521140353030183131
+    second: Path-Void Tileset_22
+  - first:
+      213: -2506230203490474786
+    second: Path-Void Tileset_23
+  - first:
+      213: 2494960922358593779
+    second: Path-Void Tileset_24
+  - first:
+      213: -6389655819083606695
+    second: Path-Void Tileset_25
+  - first:
+      213: 7940171888592870893
+    second: Path-Void Tileset_26
+  - first:
+      213: 5812578423629891225
+    second: Path-Void Tileset_27
+  - first:
+      213: 700785193087463505
+    second: Path-Void Tileset_28
+  - first:
+      213: 3411999453518272609
+    second: Path-Void Tileset_29
+  - first:
+      213: -4667232384270157846
+    second: Path-Void Tileset_30
+  - first:
+      213: 6930319160193161633
+    second: Path-Void Tileset_31
+  - first:
+      213: 647938232573241750
+    second: Path-Void Tileset_32
+  - first:
+      213: 5669544642877673282
+    second: Path-Void Tileset_33
+  - first:
+      213: 3741004878407822795
+    second: Path-Void Tileset_34
+  - first:
+      213: -3634304373800575602
+    second: Path-Void Tileset_35
+  - first:
+      213: -2739083999478464930
+    second: Path-Void Tileset_36
+  - first:
+      213: 555490353501177963
+    second: Path-Void Tileset_37
+  - first:
+      213: 1557509937278551032
+    second: Path-Void Tileset_38
+  - first:
+      213: -8001290626103938051
+    second: Path-Void Tileset_39
+  - first:
+      213: -5330035083018792378
+    second: Path-Void Tileset_40
+  - first:
+      213: 150136645046192620
+    second: Path-Void Tileset_41
+  - first:
+      213: 1669006127364028694
+    second: Path-Void Tileset_42
+  - first:
+      213: 6924397493090980271
+    second: Path-Void Tileset_43
+  - first:
+      213: -4017394270661331583
+    second: Path-Void Tileset_44
+  - first:
+      213: -4003876297041582168
+    second: Path-Void Tileset_45
+  - first:
+      213: -786696633579430643
+    second: Path-Void Tileset_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Path-Void Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a45786c71d4f4eb0800000000000000
+      internalID: -4733479918832757592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68230de4c12bec910800000000000000
+      internalID: 1859619530801689222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290f2d937e802af80800000000000000
+      internalID: -8096899390858137454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7555288632f3bc0800000000000000
+      internalID: -3801280628707207172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b9804065b4de3f0800000000000000
+      internalID: -869956320205694154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01988b861f8102c0800000000000000
+      internalID: -4467132028381785844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb19c9c1707a89f0800000000000000
+      internalID: -465435977460409378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76669e281e3659cb0800000000000000
+      internalID: -4857866802834086297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acb5673520a44f10800000000000000
+      internalID: 2253101795295739042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62f1c1653686b9d0800000000000000
+      internalID: -2758870157886360981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286b96f2b3523c050800000000000000
+      internalID: 5819536079621568130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70b4d5da7b327b30800000000000000
+      internalID: 4283551594342297722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e012ae6cf4dba70800000000000000
+      internalID: 8844312958975675988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1b9311f49093470800000000000000
+      internalID: 8374735217268208088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8d347f61147aed0800000000000000
+      internalID: -2402880309285365526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ef1e95680e22200800000000000000
+      internalID: 153932204922240579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4da252bd5967ba0800000000000000
+      internalID: -6091516677518076745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff149d31b2a657400800000000000000
+      internalID: 321279681676001791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9971fb454955c15c0800000000000000
+      internalID: -4243422653324519527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a01b10605ca68e50800000000000000
+      internalID: 6811320947654201508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06885dbc649827030800000000000000
+      internalID: 3491003598326040672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484025d80c22776f0800000000000000
+      internalID: -687042207750683516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd858386d45706860800000000000000
+      internalID: 7521140353030183131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4689398e4183dd0800000000000000
+      internalID: -2506230203490474786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f83aa17db1ef9220800000000000000
+      internalID: 2494960922358593779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955938ae2e16357a0800000000000000
+      internalID: -6389655819083606695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedde1b8348213e60800000000000000
+      internalID: 7940171888592870893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9964f89a74d6aa050800000000000000
+      internalID: 5812578423629891225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150f4d19b60b9b900800000000000000
+      internalID: 700785193087463505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16898c8ec6bd95f20800000000000000
+      internalID: 3411999453518272609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7b063efd8aa3fb0800000000000000
+      internalID: -4667232384270157846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9956bce807d2060800000000000000
+      internalID: 6930319160193161633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6992cecb360fdf800800000000000000
+      internalID: 647938232573241750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f41fc60d44eae40800000000000000
+      internalID: 5669544642877673282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd6080cd18bae330800000000000000
+      internalID: 3741004878407822795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dd7f96d6b509dc0800000000000000
+      internalID: -3634304373800575602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e31216d91dcf9d0800000000000000
+      internalID: -2739083999478464930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68089c888f75b700800000000000000
+      internalID: 555490353501177963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f301a139036d9510800000000000000
+      internalID: 1557509937278551032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df379667194b5f090800000000000000
+      internalID: -8001290626103938051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6429b4ce459e706b0800000000000000
+      internalID: -5330035083018792378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce94fb3bb74651200800000000000000
+      internalID: 150136645046192620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619bb75ea30892710800000000000000
+      internalID: 1669006127364028694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa11b4b35d6681060800000000000000
+      internalID: 6924397493090980271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185ba8622395f38c0800000000000000
+      internalID: -4017394270661331583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7ea36a8bf5f68c0800000000000000
+      internalID: -4003876297041582168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path-Void Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d908174971515f0800000000000000
+      internalID: -786696633579430643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Path-Void Tileset_0: -4733479918832757592
+      Path-Void Tileset_1: 1859619530801689222
+      Path-Void Tileset_10: 5819536079621568130
+      Path-Void Tileset_11: 4283551594342297722
+      Path-Void Tileset_12: 8844312958975675988
+      Path-Void Tileset_13: 8374735217268208088
+      Path-Void Tileset_14: -2402880309285365526
+      Path-Void Tileset_15: 153932204922240579
+      Path-Void Tileset_16: -6091516677518076745
+      Path-Void Tileset_17: 321279681676001791
+      Path-Void Tileset_18: -4243422653324519527
+      Path-Void Tileset_19: 6811320947654201508
+      Path-Void Tileset_2: -8096899390858137454
+      Path-Void Tileset_20: 3491003598326040672
+      Path-Void Tileset_21: -687042207750683516
+      Path-Void Tileset_22: 7521140353030183131
+      Path-Void Tileset_23: -2506230203490474786
+      Path-Void Tileset_24: 2494960922358593779
+      Path-Void Tileset_25: -6389655819083606695
+      Path-Void Tileset_26: 7940171888592870893
+      Path-Void Tileset_27: 5812578423629891225
+      Path-Void Tileset_28: 700785193087463505
+      Path-Void Tileset_29: 3411999453518272609
+      Path-Void Tileset_3: -3801280628707207172
+      Path-Void Tileset_30: -4667232384270157846
+      Path-Void Tileset_31: 6930319160193161633
+      Path-Void Tileset_32: 647938232573241750
+      Path-Void Tileset_33: 5669544642877673282
+      Path-Void Tileset_34: 3741004878407822795
+      Path-Void Tileset_35: -3634304373800575602
+      Path-Void Tileset_36: -2739083999478464930
+      Path-Void Tileset_37: 555490353501177963
+      Path-Void Tileset_38: 1557509937278551032
+      Path-Void Tileset_39: -8001290626103938051
+      Path-Void Tileset_4: -869956320205694154
+      Path-Void Tileset_40: -5330035083018792378
+      Path-Void Tileset_41: 150136645046192620
+      Path-Void Tileset_42: 1669006127364028694
+      Path-Void Tileset_43: 6924397493090980271
+      Path-Void Tileset_44: -4017394270661331583
+      Path-Void Tileset_45: -4003876297041582168
+      Path-Void Tileset_46: -786696633579430643
+      Path-Void Tileset_5: -4467132028381785844
+      Path-Void Tileset_6: -465435977460409378
+      Path-Void Tileset_7: -4857866802834086297
+      Path-Void Tileset_8: 2253101795295739042
+      Path-Void Tileset_9: -2758870157886360981
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
