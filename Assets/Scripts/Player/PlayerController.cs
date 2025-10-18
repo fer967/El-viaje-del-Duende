@@ -57,10 +57,8 @@ public class PlayerController : MonoBehaviour
             lastMoveDir = moveInput.normalized;
         }
 
-        // Movimiento f�sico
         rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
 
-        // Animator params (asegurate que correspondan con tu BlendTree)
         animator.SetFloat("MoveX", moveInput.x);
         animator.SetFloat("MoveY", moveInput.y);
         animator.SetBool("IsMoving", moveInput.sqrMagnitude > 0.01f);
@@ -106,8 +104,7 @@ public class PlayerController : MonoBehaviour
             if (dialog != null) dialog.TriggerDialog();
         }
     }
-
-    // llamada desde otros scripts al recibir da�o
+    //llamada desde otros scripts al recibir da�o
     public void TakeDamage(int amount)
     {
         currentLives -= amount;
@@ -133,6 +130,7 @@ public class PlayerController : MonoBehaviour
         // ir al Game Over (esperar animaci�n o llamar directamente)
         GameManager.Instance.TriggerGameOver();
     }
+    
 
     // para visualizar el radio de ataque en scene
     private void OnDrawGizmosSelected()

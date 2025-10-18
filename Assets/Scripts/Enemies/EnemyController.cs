@@ -37,7 +37,7 @@ public class EnemyController : MonoBehaviour
     {
         if (player == null)
         {
-            var p = GameObject.FindGameObjectWithTag("Duende");
+            var p = GameObject.FindGameObjectWithTag("Player");
             if (p) player = p.transform;
         }
 
