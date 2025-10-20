@@ -53,11 +53,17 @@ public class GameManager : MonoBehaviour
         //SceneManager.LoadScene("SampleScene"); // vuelve al menu
     }
 
+
     public void ShowGameOver()
     {
-        // Ejemplo: mostrar panel de Game Over o cargar escena
-        Debug.Log("🎮 GAME OVER");
+        UIManager.Instance.ShowGameOver("Has sido derrotado...");
     }
+
+    //public void ShowGameOver()
+    //{
+    //    // Ejemplo: mostrar panel de Game Over o cargar escena
+    //    Debug.Log("🎮 GAME OVER");
+    //}
 }
 
 

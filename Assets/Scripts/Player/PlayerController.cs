@@ -34,6 +34,17 @@ public class PlayerController : MonoBehaviour
         currentLives = maxLives;
     }
 
+    void Start()
+    {
+        if (PlayerPrefs.HasKey("SpawnX") && PlayerPrefs.HasKey("SpawnY"))
+        {
+            float x = PlayerPrefs.GetFloat("SpawnX");
+            float y = PlayerPrefs.GetFloat("SpawnY");
+            transform.position = new Vector2(x, y);
+        }
+    }
+
+
     private void OnEnable()
     {
         controls.Enable();
