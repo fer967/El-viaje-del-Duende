@@ -379,7 +379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6162980521943478982, guid: e6f6cffd3c868b740a0f1a7abfae77a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.66
+      value: 5.99
       objectReference: {fileID: 0}
     - target: {fileID: 6162980521943478982, guid: e6f6cffd3c868b740a0f1a7abfae77a0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -998,7 +998,6 @@ GameObject:
   - component: {fileID: 979883061}
   - component: {fileID: 979883060}
   - component: {fileID: 979883062}
-  - component: {fileID: 979883063}
   m_Layer: 0
   m_Name: Wolfman_Idle_Down_0
   m_TagString: Enemy
@@ -1185,7 +1184,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.05200529, y: 0.010401428}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1195,32 +1194,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.12, y: 1.24}
+  m_Size: {x: 1.4320321, y: 1.5520319}
   m_EdgeRadius: 0
---- !u!114 &979883063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979883056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63044c15be9c8eb4894a424fb86a5c43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WolfmanController
-  maxHealth: 3
-  damage: 1
-  coinReward: 1
-  moveSpeed: 8
-  chaseRange: 5
-  attackPoint: {fileID: 1942295909}
-  attackRange: 0.6
-  attackDamage: 1
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  attackCooldown: 1
 --- !u!1 &1499505438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,7 +1296,7 @@ Transform:
   m_GameObject: {fileID: 1942295908}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.98, y: -0.5, z: 0}
+  m_LocalPosition: {x: -1.59, y: -0.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1442,7 +1417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6162980521943478982, guid: e6f6cffd3c868b740a0f1a7abfae77a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.13
+      value: 10.76
       objectReference: {fileID: 0}
     - target: {fileID: 6162980521943478982, guid: e6f6cffd3c868b740a0f1a7abfae77a0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8479,13 +8454,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: A_Bosque2
       objectReference: {fileID: 0}
+    - target: {fileID: 482309119740985647, guid: e6f6cffd3c868b740a0f1a7abfae77a0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6162980521943478982, guid: e6f6cffd3c868b740a0f1a7abfae77a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.73
+      value: 3.97
       objectReference: {fileID: 0}
     - target: {fileID: 6162980521943478982, guid: e6f6cffd3c868b740a0f1a7abfae77a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.26
+      value: 4.46
       objectReference: {fileID: 0}
     - target: {fileID: 6162980521943478982, guid: e6f6cffd3c868b740a0f1a7abfae77a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8540,13 +8519,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5733120419543225140, guid: e8d77e4ae326ffb4f8de9cc42aeafa78, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733120419543225140, guid: e8d77e4ae326ffb4f8de9cc42aeafa78, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.43
+      objectReference: {fileID: 0}
     - target: {fileID: 7572168905201308686, guid: e8d77e4ae326ffb4f8de9cc42aeafa78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.23
+      value: -10.64
       objectReference: {fileID: 0}
     - target: {fileID: 7572168905201308686, guid: e8d77e4ae326ffb4f8de9cc42aeafa78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -3.04
       objectReference: {fileID: 0}
     - target: {fileID: 7572168905201308686, guid: e8d77e4ae326ffb4f8de9cc42aeafa78, type: 3}
       propertyPath: m_LocalPosition.z

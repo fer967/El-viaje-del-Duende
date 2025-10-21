@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public class EnemyController : MonoBehaviour
@@ -65,7 +65,7 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            // volver a posici�n inicial (opcional)
+            // volver a posición inicial (opcional)
             Vector2 dir = (startPos - (Vector2)transform.position);
             if (dir.magnitude > 0.1f)
             {
@@ -81,24 +81,45 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+
     private void TryAttack()
     {
         if (Time.time - lastAttackTime < attackCooldown) return;
         lastAttackTime = Time.time;
 
+        Debug.Log("🐺 Intentando atacar...");
+
         animator.SetTrigger("Attack");
 
-        // da�o al player si corresponde
-        Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, 0.5f, playerLayer);
+        Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, 1f, playerLayer);
         if (hit)
         {
+            Debug.Log("✅ Golpeó al jugador!");
             var playerScript = hit.GetComponent<PlayerController>();
             if (playerScript != null)
-            {
-                playerScript.TakeDamage(1); // da�o al player
-            }
+                playerScript.TakeDamage(1);
         }
     }
+
+
+    //private void TryAttack()
+    //{
+    //    if (Time.time - lastAttackTime < attackCooldown) return;
+    //    lastAttackTime = Time.time;
+
+    //    animator.SetTrigger("Attack");
+
+    //    // daño al player si corresponde
+    //    Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, 0.5f, playerLayer);
+    //    if (hit)
+    //    {
+    //        var playerScript = hit.GetComponent<PlayerController>();
+    //        if (playerScript != null)
+    //        {
+    //            playerScript.TakeDamage(1); // daño al player
+    //        }
+    //    }
+    //}
 
     public void TakeDamage(int amount)
     {
@@ -113,7 +134,7 @@ public class EnemyController : MonoBehaviour
         // sumar monedas y desactivar al morir
         UIManager.Instance.AddCoins(coinReward);
         GameManager.Instance.EnemyKilled(); // para contar si hay triggers
-        Destroy(gameObject, 0.4f); // dejar tiempo para animaci�n
+        Destroy(gameObject, 0.4f); // dejar tiempo para animación
     }
 
     private void OnDrawGizmosSelected()
@@ -123,7 +144,7 @@ public class EnemyController : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(attackPoint.position, 0.5f);
         }
-        Gizmos.color = Color.yellow;
+        Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, detectRadius);
     }
 }
