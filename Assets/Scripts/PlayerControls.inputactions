@@ -30,7 +30,7 @@
                     "id": "9c047cb1-a290-40a6-bf60-24d8222f31e5",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press(pressPoint=0.1)",
                     "initialStateCheck": false
                 }
             ],
@@ -92,23 +92,23 @@
                 },
                 {
                     "name": "",
-                    "id": "149a8979-391e-4512-bb9a-5a68f891d6ab",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "86f2c55c-961c-4d2b-a216-fc12d1d7a746",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "54ac3ea7-7d49-4ef2-b2c0-f505bf8234c3",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

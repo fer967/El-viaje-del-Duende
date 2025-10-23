@@ -33,7 +33,7 @@ public class PlayerHealthController : MonoBehaviour
     {
         Debug.Log("💀 El jugador murió");
         // Aquí podés mostrar el panel Game Over o reiniciar la escena
-        GameManager.Instance.ShowGameOver();
+        //GameManager.Instance.ShowGameOver();
     }
 
     void UpdateHeartsUI()

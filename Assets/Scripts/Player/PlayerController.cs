@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("MoveY", moveInput.y);
         animator.SetBool("IsMoving", moveInput.sqrMagnitude > 0.01f);
 
-        animator.SetFloat("LastMoveX", lastMoveDir.x);
+        animator.SetFloat("LastMoveX 0", lastMoveDir.x);
         animator.SetFloat("LastMoveY", lastMoveDir.y);
     }
 
@@ -104,6 +104,7 @@ public class PlayerController : MonoBehaviour
         canAttack = true;
     }
 
+
     // Interact�a con NPCs cercanos (usa un OverlapCircle para encontrar un NPC con script NPCDialog)
     private void OnInteract()
     {
@@ -112,9 +113,12 @@ public class PlayerController : MonoBehaviour
         if (hit != null)
         {
             var dialog = hit.GetComponent<NPCDialog>();
-            if (dialog != null) dialog.TriggerDialog();
+            //if (dialog != null) dialog.TriggerDialog();
+
         }
     }
+
+
     //llamada desde otros scripts al recibir da�o
     public void TakeDamage(int amount)
     {
@@ -153,7 +157,7 @@ public class PlayerController : MonoBehaviour
         }
 
         Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(transform.position, 1f); // interact radius
+        Gizmos.DrawWireSphere(transform.position, 3f); // interact radius
     }
 
     // m�todos p�blicos para setear spawn inicial (Portales usan PlayerPrefs en tu Portal script)

@@ -102,24 +102,7 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    //private void TryAttack()
-    //{
-    //    if (Time.time - lastAttackTime < attackCooldown) return;
-    //    lastAttackTime = Time.time;
-
-    //    animator.SetTrigger("Attack");
-
-    //    // daño al player si corresponde
-    //    Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, 0.5f, playerLayer);
-    //    if (hit)
-    //    {
-    //        var playerScript = hit.GetComponent<PlayerController>();
-    //        if (playerScript != null)
-    //        {
-    //            playerScript.TakeDamage(1); // daño al player
-    //        }
-    //    }
-    //}
+   
 
     public void TakeDamage(int amount)
     {
