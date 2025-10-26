@@ -4,17 +4,23 @@ using UnityEngine.UI;
 public class PlayerHealthController : MonoBehaviour
 {
     [Header("Salud del Player")]
-    public int maxHealth = 5;
+    public int maxHealth = 0;
     public int currentHealth;
-    public Image[] hearts;       // UI: imágenes de corazones
+    public Image[] hearts;       
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
-    void Start()
+    private void Start()
     {
-        currentHealth = maxHealth;
+        if (GameManager.Instance != null)
+        {
+            maxHealth = GameManager.Instance.playerMaxHealth;
+            currentHealth = GameManager.Instance.playerCurrentHealth;
+        }
+
         UpdateHeartsUI();
     }
+
 
     public void TakeDamage(int amount)
     {
@@ -23,16 +29,53 @@ public class PlayerHealthController : MonoBehaviour
 
         UpdateHeartsUI();
 
+        // 🔹 Sincronizar con GameManager
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.playerCurrentHealth = currentHealth;
+        }
+
         if (currentHealth <= 0)
         {
             Die();
         }
     }
 
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        if (currentHealth > maxHealth) currentHealth = maxHealth;
+
+        UpdateHeartsUI();
+
+        // 🔹 Sincronizar con GameManager
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.playerCurrentHealth = currentHealth;
+        }
+    }
+
+    public void AddMaxHeart(int amount)
+    {
+        maxHealth += amount;
+        currentHealth = maxHealth;
+
+        UpdateHeartsUI();
+
+        // 🔹 Sincronizar con GameManager
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.playerMaxHealth = maxHealth;
+            GameManager.Instance.playerCurrentHealth = currentHealth;
+        }
+    }
+
+    
+
     void Die()
     {
         Debug.Log("💀 El jugador murió");
-        // Aquí podés mostrar el panel Game Over o reiniciar la escena
+        // Aquí se puede mostrar el panel Game Over o reiniciar la escena
         //GameManager.Instance.ShowGameOver();
     }
 
@@ -49,10 +92,5 @@ public class PlayerHealthController : MonoBehaviour
         }
     }
 
-    public void Heal(int amount)
-    {
-        currentHealth += amount;
-        if (currentHealth > maxHealth) currentHealth = maxHealth;
-        UpdateHeartsUI();
-    }
+
 }

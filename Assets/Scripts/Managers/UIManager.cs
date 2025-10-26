@@ -1,39 +1,35 @@
 ﻿using System.Collections.Generic;
-using TMPro;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+using UnityEngine.UI;  
 
 public class UIManager : MonoBehaviour
 {
-    public static UIManager Instance { get; private set; }
+    public static UIManager Instance;
 
-    [Header("❤️ Vidas (Hearts)")]
-    [SerializeField] private GameObject heartPrefab;      // Prefab del ícono de corazón
-    [SerializeField] private Transform heartsParent;      // Contenedor en el Canvas
-    [SerializeField] private int maxHearts = 3;
-    private List<GameObject> heartImages = new List<GameObject>();
+    [Header("Panel de corazones")]
+    public Image[] heartImages;   
+    public Sprite fullHeart;      
+    public Sprite emptyHeart;     
 
-    [Header("🪙 Monedas")]
-    [SerializeField] private GameObject coinPrefab;        // Prefab del ícono de moneda
-    [SerializeField] private Transform coinsParent;        // Contenedor en el Canvas
-    private List<GameObject> coinImages = new List<GameObject>();
-    private int currentCoins = 3;
-
-
-    [Header("💬 Diálogo NPC")]
-    public GameObject dialogPanel;
-    public TextMeshProUGUI dialogText;
-
-    [Header("☠️ Game Over")]
+    [Header("Panel Game Over")]
     public GameObject gameOverPanel;
-    public TextMeshProUGUI gameOverText;
-    public Button retryButton;
+    public Text gameOverText;
+
+    [Header("🪙 Monedas (iconos)")]
+    public GameObject coinPrefab;
+    public Transform coinsParent;
+    private List<GameObject> coinImages = new List<GameObject>();
+    private int currentCoins = 0;
 
     private void Awake()
     {
         if (Instance == null)
+        {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
         else
         {
             Destroy(gameObject);
@@ -41,38 +37,47 @@ public class UIManager : MonoBehaviour
         }
     }
 
+        
 
-    private void Start()
+    public void UpdateHearts(int current, int max)
     {
-        // Iniciar corazones visibles
-        for (int i = 0; i < maxHearts; i++)
+        if (heartImages == null || heartImages.Length == 0)
         {
-            GameObject heart = Instantiate(heartPrefab, heartsParent);
-            heartImages.Add(heart);
+            Debug.LogWarning("⚠️ UIManager: no hay corazones asignados en el array heartImages.");
+            return;
         }
 
-        // Asegurar paneles ocultos
-        if (dialogPanel) dialogPanel.SetActive(false);
-        if (gameOverPanel) gameOverPanel.SetActive(false);
-
-        if (retryButton != null)
-            retryButton.onClick.AddListener(() =>
+        for (int i = 0; i < heartImages.Length; i++)
+        {
+            if (heartImages[i] == null)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            });
-    }
-
-    
-    // 🔹 Actualiza cantidad de corazones visibles
-    public void SetLives(int lives)
-    {
-        for (int i = 0; i < heartImages.Count; i++)
-        {
-            heartImages[i].SetActive(i < lives);
+                Debug.LogWarning($"⚠️ Corazón {i} no está asignado en el UIManager.");
+                continue;
+            }
+            heartImages[i].sprite = (i < current) ? fullHeart : emptyHeart;
+            heartImages[i].enabled = (i < max);
         }
     }
 
-    // 🔹 Agrega monedas (visualmente con íconos)
+
+    public void ShowGameOver(string message)
+    {
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+            if (gameOverText != null)
+                gameOverText.text = message;
+        }
+    }
+
+ 
+    public void HideGameOver()
+    {
+        if (gameOverPanel != null)
+            gameOverPanel.SetActive(false);
+    }
+   
+   
     public void AddCoins(int amount)
     {
         currentCoins += amount;
@@ -84,7 +89,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    // 🔹 Reinicia monedas (por ejemplo al cambiar de escena)
+   
     public void ResetCoins()
     {
         foreach (GameObject coin in coinImages)
@@ -92,43 +97,12 @@ public class UIManager : MonoBehaviour
             Destroy(coin);
         }
         coinImages.Clear();
-        currentCoins = 1;
+        currentCoins = 0;
     }
-
-    // 🔹 Devuelve cantidad actual de monedas
-    public int GetCoins() => currentCoins;
-
-
-    // === DIÁLOGOS ===
-    public void ShowDialog(string text)
-    {
-        if (dialogPanel == null || dialogText == null) return;
-
-        dialogPanel.SetActive(true);
-        dialogText.text = text;
-    }
-
-    public void HideDialog()
-    {
-        if (dialogPanel == null) return;
-        dialogPanel.SetActive(false);
-    }
-
-    // === GAME OVER ===
-
-    public void ShowGameOver(string message = "GAME OVER")
-    {
-        if (gameOverPanel == null) return;
-
-        gameOverPanel.SetActive(true);
-        if (gameOverText != null)
-            gameOverText.text = message;
-
-        Debug.Log("🎮 GAME OVER mostrado por UIManager");
-    }
-
 
    
+    public int GetCoins() => currentCoins;
+    
 }
 
 

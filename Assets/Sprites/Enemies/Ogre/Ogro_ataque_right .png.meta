@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: f91344b7980b50145be4eca088fa43ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3764377970290765564
+    second: Ogro_ataque_right _0
+  - first:
+      213: -4486850089173007514
+    second: Ogro_ataque_right _1
+  - first:
+      213: 1042418797752944599
+    second: Ogro_ataque_right _2
+  - first:
+      213: 3514530151939001521
+    second: Ogro_ataque_right _3
+  - first:
+      213: 262174862972664324
+    second: Ogro_ataque_right _4
+  - first:
+      213: 7519387246821581421
+    second: Ogro_ataque_right _5
+  - first:
+      213: -1251272763061523047
+    second: Ogro_ataque_right _6
+  - first:
+      213: -1067209408480918897
+    second: Ogro_ataque_right _7
+  - first:
+      213: -5235712464950410838
+    second: Ogro_ataque_right _8
+  - first:
+      213: 2546133084029737350
+    second: Ogro_ataque_right _9
+  - first:
+      213: 8901105112187305670
+    second: Ogro_ataque_right _10
+  - first:
+      213: -1468564174366729936
+    second: Ogro_ataque_right _11
+  - first:
+      213: 8147110102692940482
+    second: Ogro_ataque_right _12
+  - first:
+      213: 4953747958326503713
+    second: Ogro_ataque_right _13
+  - first:
+      213: 3651107008484773156
+    second: Ogro_ataque_right _14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ogro_ataque_right _0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 31
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40153883e2e32cbc0800000000000000
+      internalID: -3764377970290765564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 31
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663c962cd918bb1c0800000000000000
+      internalID: -4486850089173007514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 31
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d70143af5a677e00800000000000000
+      internalID: 1042418797752944599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 31
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc49ba6d8e16c030800000000000000
+      internalID: 3514530151939001521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 31
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ab58816ae63a300800000000000000
+      internalID: 262174862972664324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _5
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 31
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62276f8cda3a5860800000000000000
+      internalID: 7519387246821581421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 31
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99da8903d0692aee0800000000000000
+      internalID: -1251272763061523047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _7
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 31
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f824a8282b28031f0800000000000000
+      internalID: -1067209408480918897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _8
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 31
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1cb8cc0430757b0800000000000000
+      internalID: -5235712464950410838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _9
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 31
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6895678cc8ea55320800000000000000
+      internalID: 2546133084029737350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _10
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 31
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce765080f3178b70800000000000000
+      internalID: 8901105112187305670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _11
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 31
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03991090aac9e9be0800000000000000
+      internalID: -1468564174366729936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _12
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 31
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca42012979501170800000000000000
+      internalID: 8147110102692940482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _13
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 31
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1292ed2a58f3fb440800000000000000
+      internalID: 4953747958326503713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ogro_ataque_right _14
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 9
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d8ca5da765ba230800000000000000
+      internalID: 3651107008484773156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ogro_ataque_right _0: -3764377970290765564
+      Ogro_ataque_right _1: -4486850089173007514
+      Ogro_ataque_right _10: 8901105112187305670
+      Ogro_ataque_right _11: -1468564174366729936
+      Ogro_ataque_right _12: 8147110102692940482
+      Ogro_ataque_right _13: 4953747958326503713
+      Ogro_ataque_right _14: 3651107008484773156
+      Ogro_ataque_right _2: 1042418797752944599
+      Ogro_ataque_right _3: 3514530151939001521
+      Ogro_ataque_right _4: 262174862972664324
+      Ogro_ataque_right _5: 7519387246821581421
+      Ogro_ataque_right _6: -1251272763061523047
+      Ogro_ataque_right _7: -1067209408480918897
+      Ogro_ataque_right _8: -5235712464950410838
+      Ogro_ataque_right _9: 2546133084029737350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

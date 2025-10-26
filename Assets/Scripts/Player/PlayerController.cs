@@ -17,13 +17,13 @@ public class PlayerController : MonoBehaviour
     [Header("Ataque")]
     public Transform attackPoint;
     public float attackRadius = 0.5f;
-    public LayerMask hitLayer; // layer de enemigos
+    public LayerMask hitLayer;
     public int swordDamage = 1;
     public float attackCooldown = 0.4f;
     private bool canAttack = true;
 
     [Header("Stats")]
-    public int maxLives = 3;
+    public int maxLives = 4;
     private int currentLives;
 
     private void Awake()
@@ -31,19 +31,34 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         controls = new PlayerControls();
-        currentLives = maxLives;
+
+        // 🔹 Cargar vidas desde GameManager si existen
+        if (GameManager.Instance != null && GameManager.Instance.playerMaxHealth > 0)
+        {
+            maxLives = GameManager.Instance.playerMaxHealth;
+            currentLives = GameManager.Instance.playerCurrentHealth;
+        }
+        else
+        {
+            currentLives = maxLives;
+            if (GameManager.Instance != null)
+                GameManager.Instance.SetPlayerHealth(currentLives, maxLives);
+        }
     }
 
     void Start()
     {
+        // 🔹 Cargar posición guardada si existe
         if (PlayerPrefs.HasKey("SpawnX") && PlayerPrefs.HasKey("SpawnY"))
         {
             float x = PlayerPrefs.GetFloat("SpawnX");
             float y = PlayerPrefs.GetFloat("SpawnY");
             transform.position = new Vector2(x, y);
         }
-    }
 
+        // 🔹 Actualizar corazones al iniciar
+        UIManager.Instance.UpdateHearts(currentLives, maxLives);
+    }
 
     private void OnEnable()
     {
@@ -64,9 +79,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         if (moveInput != Vector2.zero)
-        {
             lastMoveDir = moveInput.normalized;
-        }
 
         rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
 
@@ -74,7 +87,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("MoveY", moveInput.y);
         animator.SetBool("IsMoving", moveInput.sqrMagnitude > 0.01f);
 
-        animator.SetFloat("LastMoveX 0", lastMoveDir.x);
+        animator.SetFloat("LastMoveX", lastMoveDir.x);
         animator.SetFloat("LastMoveY", lastMoveDir.y);
     }
 
@@ -87,25 +100,18 @@ public class PlayerController : MonoBehaviour
         canAttack = false;
         Invoke(nameof(ResetAttack), attackCooldown);
 
-        // Detectar enemigos en rango
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, hitLayer);
         foreach (var col in hits)
         {
             var enemy = col.GetComponent<EnemyController>();
             if (enemy != null)
-            {
                 enemy.TakeDamage(swordDamage);
-            }
         }
     }
 
-    private void ResetAttack()
-    {
-        canAttack = true;
-    }
 
+    private void ResetAttack() => canAttack = true;
 
-    // Interact�a con NPCs cercanos (usa un OverlapCircle para encontrar un NPC con script NPCDialog)
     private void OnInteract()
     {
         float interactRadius = 1.0f;
@@ -113,41 +119,70 @@ public class PlayerController : MonoBehaviour
         if (hit != null)
         {
             var dialog = hit.GetComponent<NPCDialog>();
-            //if (dialog != null) dialog.TriggerDialog();
-
+            // lógica de diálogo si hace falta
         }
     }
 
 
-    //llamada desde otros scripts al recibir da�o
+
+
     public void TakeDamage(int amount)
     {
-        currentLives -= amount;
-        if (currentLives < 0) currentLives = 0;
 
-        // Actualiza UI
-        UIManager.Instance.SetLives(currentLives);
+        currentLives = Mathf.Max(currentLives - amount, 0);
 
+        // 🔸 Guardar inmediatamente en GameManager
+        if (GameManager.Instance != null)
+            GameManager.Instance.SetPlayerHealth(currentLives, maxLives);
+
+        // 🔸 Refrescar UI actual
+        UIManager.Instance.UpdateHearts(currentLives, maxLives);
+              
         animator.SetTrigger("Damage");
-
         if (currentLives <= 0)
-        {
             Die();
-        }
     }
+
+
+
 
     private void Die()
     {
         animator.SetTrigger("Death");
-        // podr�as desactivar controles:
         enabled = false;
         rb.linearVelocity = Vector2.zero;
-        // ir al Game Over (esperar animaci�n o llamar directamente)
         GameManager.Instance.TriggerGameOver();
     }
-    
 
-    // para visualizar el radio de ataque en scene
+
+    public void AddLife(int amount)
+    {
+        currentLives = Mathf.Min(currentLives + amount, maxLives);
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.SetPlayerHealth(currentLives, maxLives);
+
+        UIManager.Instance.UpdateHearts(currentLives, maxLives);
+    }
+
+
+    public void Heal(int amount)
+    {
+        currentLives = Mathf.Min(currentLives + amount, maxLives);
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.SetPlayerHealth(currentLives, maxLives);
+
+        UIManager.Instance.UpdateHearts(currentLives, maxLives);
+    }
+
+
+    
+    public void SetPosition(Vector2 pos)
+    {
+        transform.position = pos;
+    }
+
     private void OnDrawGizmosSelected()
     {
         if (attackPoint != null)
@@ -157,13 +192,14 @@ public class PlayerController : MonoBehaviour
         }
 
         Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(transform.position, 3f); // interact radius
-    }
-
-    // m�todos p�blicos para setear spawn inicial (Portales usan PlayerPrefs en tu Portal script)
-    public void SetPosition(Vector2 pos)
-    {
-        transform.position = pos;
+        Gizmos.DrawWireSphere(transform.position, 3f);
     }
 }
+
+
+
+
+
+
+
 

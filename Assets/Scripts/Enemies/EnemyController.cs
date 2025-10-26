@@ -87,8 +87,6 @@ public class EnemyController : MonoBehaviour
         if (Time.time - lastAttackTime < attackCooldown) return;
         lastAttackTime = Time.time;
 
-        Debug.Log("🐺 Intentando atacar...");
-
         animator.SetTrigger("Attack");
 
         Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, 1f, playerLayer);
@@ -102,7 +100,7 @@ public class EnemyController : MonoBehaviour
     }
 
 
-   
+    
 
     public void TakeDamage(int amount)
     {

@@ -1,6 +1,6 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,9 +9,13 @@ public class GameManager : MonoBehaviour
     [Header("Monedas")]
     public int coins = 3;
     public int maxCoins = 10;
-    public GameObject coinPrefab;  // Prefab del ícono de moneda
-    public Transform coinsContainer; // El contenedor (MonedasUI)
+    public GameObject coinPrefab;
+    public Transform coinsContainer;
     private List<GameObject> coinIcons = new List<GameObject>();
+
+    [Header("Salud del jugador")]
+    public int playerMaxHealth = 0;
+    public int playerCurrentHealth = 0;
 
     private void Awake()
     {
@@ -35,35 +39,17 @@ public class GameManager : MonoBehaviour
     {
         if (coinsContainer == null || coinPrefab == null) return;
 
-        // Limpia por si ya existían
         foreach (Transform child in coinsContainer)
             Destroy(child.gameObject);
 
         coinIcons.Clear();
 
-        // Crea los íconos iniciales (máx de monedas posibles)
         for (int i = 0; i < maxCoins; i++)
         {
             GameObject icon = Instantiate(coinPrefab, coinsContainer);
-            icon.SetActive(true); // Ocultas hasta que se consiga                ver  --> estaba false
+            icon.SetActive(true);
             coinIcons.Add(icon);
         }
-    }
-
-
-    //public void AddCoins(int amount)
-    //{
-    //    UIManager.Instance.AddCoins(amount);
-    //}
-
-
-    public void AddCoins(int amount)
-    {
-        coins += amount;
-        if (coins > maxCoins) coins = maxCoins;
-        UpdateCoinsUI();
-
-        UIManager.Instance.AddCoins(amount);
     }
 
     public void SpendCoins(int amount)
@@ -85,45 +71,73 @@ public class GameManager : MonoBehaviour
 
     public void EnemyKilled()
     {
-        // lógica de enemigos si la necesitás
+        // lógica de enemigos si hace falta
     }
-
 
     public void TriggerGameOver()
     {
-        // 🔹 Llama al UIManager para mostrar el panel
         if (UIManager.Instance != null)
-            UIManager.Instance.ShowGameOver("Has sido derrotado...");
-        else
-            Debug.LogWarning("⚠️ No se encontró el UIManager para mostrar el Game Over.");
+            UIManager.Instance.ShowGameOver("GAME OVER");
 
-        Debug.Log("🎮 GAME OVER (GameManager delegó a UIManager)");
+        Time.timeScale = 0f;
     }
 
+    public void RestartGame()
+    {
+        if (UIManager.Instance != null)
+            UIManager.Instance.HideGameOver();
 
-    //public void TriggerGameOver()
-    //{
-    //    UIManager.Instance.ShowGameOver("Has sido derrotado ... ");
-    //    Debug.Log("🎮 GAME OVER");
-    //}
+        PlayerPrefs.DeleteKey("SpawnX");
+        PlayerPrefs.DeleteKey("SpawnY");
 
+        coins = 3;
+        UpdateCoinsUI();
 
+        // 🔹 Restaurar vidas
+        playerCurrentHealth = playerMaxHealth;
 
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    // 🔹 Métodos para sincronizar salud del jugador
+    public void SetPlayerHealth(int current, int max)
+    {
+        playerCurrentHealth = current;
+        playerMaxHealth = max;
+    }
+
+    public void UpdatePlayerHealth(int newHealth)
+    {
+        playerCurrentHealth = Mathf.Clamp(newHealth, 0, playerMaxHealth);
+    }
 }
 
 
 
 
+
+
+
+//using System.Collections.Generic;
 //using UnityEngine;
-//using UnityEngine.UI;
+//using UnityEngine.SceneManagement;
 
 //public class GameManager : MonoBehaviour
 //{
 //    public static GameManager Instance;
 
-//    //[Header("Monedas")]
-//    //public int coins = 0;
-//    //public Text coinsText;  
+//    [Header("Monedas")]
+//    public int coins = 3;
+//    public int maxCoins = 10;
+//    public GameObject coinPrefab;  
+//    public Transform coinsContainer; 
+//    private List<GameObject> coinIcons = new List<GameObject>();
+
+//    [Header("Salud del jugador")]
+//    public int playerMaxHealth = 0;
+//    public int playerCurrentHealth = 0;
+
 
 //    private void Awake()
 //    {
@@ -138,46 +152,121 @@ public class GameManager : MonoBehaviour
 //        }
 //    }
 
-//    //public void AddCoins(int amount)
+
+
+//    // modificacion para actualizar vidas en cambio de escena
+//    private void Start()
+//    {
+//        if (playerMaxHealth == 0)
+//        {
+//            playerMaxHealth = 3;
+//            playerCurrentHealth = playerMaxHealth;
+//        }
+
+//        InitCoinsUI();
+//    }
+
+
+//    //private void Start()
 //    //{
-//    //    coins += amount;
-//    //    UpdateCoinsUI();
+//    //    InitCoinsUI();
 //    //}
 
-//    //public void SpendCoins(int amount)
-//    //{
-//    //    coins -= amount;
-//    //    if (coins < 0) coins = 0;
-//    //    UpdateCoinsUI();
-//    //}
+//    void InitCoinsUI()
+//    {
+//        if (coinsContainer == null || coinPrefab == null) return;
 
-//    //public void UpdateCoinsUI()
-//    //{
-//    //    if (coinsText != null)
-//    //        coinsText.text = coins.ToString();
-//    //}
+//        // Limpia por si ya existían
+//        foreach (Transform child in coinsContainer)
+//            Destroy(child.gameObject);
+
+//        coinIcons.Clear();
+
+//        // Crea los íconos iniciales (máx de monedas posibles)
+//        for (int i = 0; i < maxCoins; i++)
+//        {
+//            GameObject icon = Instantiate(coinPrefab, coinsContainer);
+//            icon.SetActive(true); 
+//            coinIcons.Add(icon);
+//        }
+//    }
+
+
+
+//    public void SpendCoins(int amount)
+//    {
+//        coins -= amount;
+//        if (coins < 0) coins = 0;
+//        UpdateCoinsUI();
+//    }
+
+//    void UpdateCoinsUI()
+//    {
+//        if (coinIcons.Count == 0) return;
+
+//        for (int i = 0; i < coinIcons.Count; i++)
+//        {
+//            coinIcons[i].SetActive(i < coins);
+//        }
+//    }
 
 //    public void EnemyKilled()
 //    {
-//        //UnregisterEnemy();
-//        // si querés hacer spawn de cofre al matar X enemigos, lo manejás aquí
+//        // lógica de enemigos si hace falta
 //    }
+
 
 //    public void TriggerGameOver()
 //    {
-//        // Podés cargar una escena de GameOver o activar panel
-//        //SceneManager.LoadScene("SampleScene"); // vuelve al menu
+//         if (UIManager.Instance != null)
+//            UIManager.Instance.ShowGameOver("GAME OVER");
+
+//            Time.timeScale = 0f;
 //    }
 
 
-//    public void ShowGameOver()
+//    public void RestartGame()
 //    {
-//        UIManager.Instance.ShowGameOver("Has sido derrotado...");
-//        Debug.Log("🎮 GAME OVER");
+//        if (UIManager.Instance != null)
+//           UIManager.Instance.HideGameOver();
+
+//        PlayerPrefs.DeleteKey("SpawnX");
+//        PlayerPrefs.DeleteKey("SpawnY");
+
+//        coins = 3;
+//        UpdateCoinsUI();
+
+//          Time.timeScale = 1f;
+
+//        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+//    }
+
+//    // modificacion para actualizar vidas en cambio de escena
+//    private void OnEnable()
+//    {
+//        SceneManager.sceneLoaded += OnSceneLoaded;
+//    }
+
+//    private void OnDisable()
+//    {
+//        SceneManager.sceneLoaded -= OnSceneLoaded;
+//    }
+
+//    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+//    {
+//        // Cuando carga una nueva escena, actualizamos la UI de corazones
+//        if (UIManager.Instance != null)
+//        {
+//            UIManager.Instance.UpdateHearts(playerCurrentHealth, playerMaxHealth);
+//        }
 //    }
 
 
 //}
+
+
+
+
 
 
 

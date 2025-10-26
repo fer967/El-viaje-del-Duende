@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3332295703211131009}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: -0.41, z: 0}
+  m_LocalPosition: {x: 0.59, y: -0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 3633287123188463381}
   - component: {fileID: 1288691007758548692}
   - component: {fileID: 2032653395216756082}
-  - component: {fileID: 6255131561487201168}
+  - component: {fileID: 5133177470783442887}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -65,7 +65,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.277023, y: -2.9207947, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3196, y: 0.8506, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5733120419543225140}
@@ -198,7 +198,7 @@ MonoBehaviour:
     m_Bits: 64
   swordDamage: 1
   attackCooldown: 0.4
-  maxLives: 3
+  maxLives: 4
 --- !u!114 &3633287123188463381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,7 +263,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.06415558}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -273,7 +273,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.72, y: 1.12}
+  m_Size: {x: 0.72, y: 1.248311}
   m_EdgeRadius: 0
 --- !u!114 &2032653395216756082
 MonoBehaviour:
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea79ef194d1a1864eaf3b316a366e9af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttackController
-  attackRange: 0.8
+  attackRange: 1
   attackDamage: 1
   attackCooldown: 0.4
   attackPoint: {fileID: 5733120419543225140}
@@ -295,7 +295,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 3744491977588133405}
---- !u!114 &6255131561487201168
+--- !u!114 &5133177470783442887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -304,6 +304,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 3928270256845437260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5f70bdb9be58d54881c7dae8a5e1750, type: 3}
+  m_Script: {fileID: 11500000, guid: e2c651e8268c7704c85a6d9c662217fe, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealthController
+  maxHealth: 0
+  currentHealth: 0
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullHeart: {fileID: 4538435666813884082, guid: be68046d37cb3d446bb0681ba28d896c, type: 3}
+  emptyHeart: {fileID: 292758189509097687, guid: be68046d37cb3d446bb0681ba28d896c, type: 3}

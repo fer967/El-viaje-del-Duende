@@ -5,14 +5,14 @@ using UnityEngine.InputSystem;
 public class PlayerAttackController : MonoBehaviour
 {
     [Header("Ajustes de ataque")]
-    public float attackRange = 0.8f;         // Distancia del golpe
-    public int attackDamage = 1;             // Daño al enemigo
-    public float attackCooldown = 0.4f;      // Tiempo entre ataques
+    public float attackRange = 0.8f;         
+    public int attackDamage = 1;             
+    public float attackCooldown = 0.4f;      
 
     [Header("Referencias")]
-    public Transform attackPoint;            // Punto desde donde se lanza el golpe
-    public LayerMask enemyLayers;            // Capa de enemigos
-    public Animator animator;                // Animator del Player
+    public Transform attackPoint;            
+    public LayerMask enemyLayers;            
+    public Animator animator;                
 
     private bool canAttack = true;           // Control de cooldown
 
@@ -30,7 +30,6 @@ public class PlayerAttackController : MonoBehaviour
     {
         canAttack = false;
 
-        // 🔹 Activar animación de ataque
         if (animator != null)
             animator.SetTrigger("Attack");
 
@@ -53,6 +52,7 @@ public class PlayerAttackController : MonoBehaviour
         // 🔹 Reiniciar cooldown
         Invoke(nameof(ResetAttack), attackCooldown);
     }
+
 
     private void ResetAttack()
     {

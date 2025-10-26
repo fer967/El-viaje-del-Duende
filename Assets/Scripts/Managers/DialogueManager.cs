@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     private int currentLine = 0;
     private bool isActive = false;
     private bool isTyping = false;
-    private bool skipTyping = false;  // ✅ Nuevo: para saltar el tipeo
+    private bool skipTyping = false;  
 
     private PlayerControls controls;
 
@@ -46,7 +46,7 @@ public class DialogueManager : MonoBehaviour
 
         StartCoroutine(EnableInputNextFrame());
         StartCoroutine(EscribirLinea(lines[currentLine]));
-        //Debug.Log($"💬 Diálogo iniciado. Total líneas: {lines.Length}");
+        
     }
 
     private IEnumerator EnableInputNextFrame()
@@ -59,14 +59,13 @@ public class DialogueManager : MonoBehaviour
     {
         if (!isActive) return;
 
-        // 🔹 Si el texto aún se está escribiendo → lo completamos instantáneamente
+        
         if (isTyping)
         {
             skipTyping = true;
             return;
         }
-
-        // 🔹 Si terminó de escribir, pasa a la siguiente línea
+      
         currentLine++;
 
         if (currentLine < lines.Length)
@@ -78,6 +77,7 @@ public class DialogueManager : MonoBehaviour
             StartCoroutine(CerrarDespuesDeTiempo());
         }
     }
+
 
     private IEnumerator EscribirLinea(string linea)
     {
@@ -101,18 +101,19 @@ public class DialogueManager : MonoBehaviour
         isTyping = false;
     }
 
+
     private IEnumerator CerrarDespuesDeTiempo()
     {
         yield return new WaitForSeconds(tiempoAutoCierre);
         EndDialogue();
     }
 
+
     void EndDialogue()
     {
         isActive = false;
         dialogPanel.SetActive(false);
         controls.Player.Interact.performed -= OnInteract;
-        //Debug.Log("✅ Diálogo terminado.");
     }
 }
 
