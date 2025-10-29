@@ -23,12 +23,22 @@ public class UIManager : MonoBehaviour
     private List<GameObject> coinImages = new List<GameObject>();
     private int currentCoins = 0;
 
+    [Header("Botón Salir Global")]
+    public Button exitButton; 
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+
+            // Configurar el botón de salida
+            if (exitButton != null)
+            {
+                exitButton.onClick.AddListener(ReturnToMenu);
+                Debug.Log("✅ Botón Salir Global configurado en UIManager");
+            }
         }
         else
         {
@@ -37,7 +47,28 @@ public class UIManager : MonoBehaviour
         }
     }
 
-        
+
+    // 🚪 MÉTODO DE SALIDA GLOBAL
+    public void ExitGame()
+    {
+        Debug.Log("🚪 Cerrando juego desde UIManager...");
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+    }
+
+    // 🏠 VOLVER AL MENÚ (sin cerrar)
+    public void ReturnToMenu()
+    {
+        Debug.Log("🏠 Volviendo al menú principal...");
+        Time.timeScale = 1f; // Asegurar que no esté pausado
+        SceneManager.LoadScene("MenuInicio");
+    }
+
+
 
     public void UpdateHearts(int current, int max)
     {

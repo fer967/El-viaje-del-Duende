@@ -33,6 +33,8 @@ public class EnemyController : MonoBehaviour
         startPos = transform.position;
     }
 
+
+    // modificacion por tamaño build
     private void Update()
     {
         if (player == null)
@@ -51,11 +53,13 @@ public class EnemyController : MonoBehaviour
             Vector2 dir = (player.position - transform.position).normalized;
             if (dist > attackRadius)
             {
-                rb.MovePosition(rb.position + dir * moveSpeed * Time.deltaTime);
+                // MOVIMIENTO AHORA EN FIXEDUPDATE
+                currentMovement = dir * moveSpeed;
                 animator.SetBool("IsMoving", true);
             }
             else
             {
+                currentMovement = Vector2.zero;
                 animator.SetBool("IsMoving", false);
                 TryAttack();
             }
@@ -65,21 +69,84 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            // volver a posición inicial (opcional)
+            // volver a posición inicial
             Vector2 dir = (startPos - (Vector2)transform.position);
             if (dir.magnitude > 0.1f)
             {
-                rb.MovePosition(rb.position + dir.normalized * (moveSpeed * 0.5f) * Time.deltaTime);
+                currentMovement = dir.normalized * (moveSpeed * 0.5f);
                 animator.SetBool("IsMoving", true);
             }
             else
             {
+                currentMovement = Vector2.zero;
                 animator.SetBool("IsMoving", false);
             }
             animator.SetFloat("MoveX", dir.x);
             animator.SetFloat("MoveY", dir.y);
         }
     }
+
+    // NUEVA VARIABLE para movimiento
+    private Vector2 currentMovement = Vector2.zero;
+
+
+    private void FixedUpdate()
+    {
+        // MOVIMIENTO FÍSICO AQUÍ - con Time.fixedDeltaTime
+        if (currentMovement != Vector2.zero)
+        {
+            rb.MovePosition(rb.position + currentMovement * Time.fixedDeltaTime);
+        }
+    }
+
+
+    //private void Update()
+    //{
+    //    if (player == null)
+    //    {
+    //        var p = GameObject.FindGameObjectWithTag("Player");
+    //        if (p) player = p.transform;
+    //    }
+
+    //    if (player == null) return;
+
+    //    float dist = Vector2.Distance(transform.position, player.position);
+
+    //    if (dist <= detectRadius)
+    //    {
+    //        // perseguir
+    //        Vector2 dir = (player.position - transform.position).normalized;
+    //        if (dist > attackRadius)
+    //        {
+    //            rb.MovePosition(rb.position + dir * moveSpeed * Time.deltaTime);
+    //            animator.SetBool("IsMoving", true);
+    //        }
+    //        else
+    //        {
+    //            animator.SetBool("IsMoving", false);
+    //            TryAttack();
+    //        }
+
+    //        animator.SetFloat("MoveX", dir.x);
+    //        animator.SetFloat("MoveY", dir.y);
+    //    }
+    //    else
+    //    {
+    //        // volver a posición inicial (opcional)
+    //        Vector2 dir = (startPos - (Vector2)transform.position);
+    //        if (dir.magnitude > 0.1f)
+    //        {
+    //            rb.MovePosition(rb.position + dir.normalized * (moveSpeed * 0.5f) * Time.deltaTime);
+    //            animator.SetBool("IsMoving", true);
+    //        }
+    //        else
+    //        {
+    //            animator.SetBool("IsMoving", false);
+    //        }
+    //        animator.SetFloat("MoveX", dir.x);
+    //        animator.SetFloat("MoveY", dir.y);
+    //    }
+    //}
 
 
     private void TryAttack()
