@@ -39,7 +39,6 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        // Escape para volver al menú desde cualquier nivel
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             if (UIManager.Instance != null)
@@ -109,14 +108,14 @@ public class GameManager : MonoBehaviour
         coins = 3;
         UpdateCoinsUI();
 
-        // 🔹 Restaurar vidas
+        
         playerCurrentHealth = playerMaxHealth;
 
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    // 🔹 Métodos para sincronizar salud del jugador
+    
     public void SetPlayerHealth(int current, int max)
     {
         playerCurrentHealth = current;

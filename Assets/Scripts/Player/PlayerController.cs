@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         controls = new PlayerControls();
 
-        // 🔹 Cargar vidas desde GameManager si existen
+        
         if (GameManager.Instance != null && GameManager.Instance.playerMaxHealth > 0)
         {
             maxLives = GameManager.Instance.playerMaxHealth;
@@ -48,7 +48,6 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        // 🔹 Cargar posición guardada si existe
         if (PlayerPrefs.HasKey("SpawnX") && PlayerPrefs.HasKey("SpawnY"))
         {
             float x = PlayerPrefs.GetFloat("SpawnX");
@@ -56,7 +55,6 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector2(x, y);
         }
 
-        // 🔹 Actualizar corazones al iniciar
         UIManager.Instance.UpdateHearts(currentLives, maxLives);
     }
 
@@ -131,12 +129,11 @@ public class PlayerController : MonoBehaviour
 
         currentLives = Mathf.Max(currentLives - amount, 0);
 
-        // 🔸 Guardar inmediatamente en GameManager
+       
         if (GameManager.Instance != null)
             GameManager.Instance.SetPlayerHealth(currentLives, maxLives);
 
-        // 🔸 Refrescar UI actual
-        UIManager.Instance.UpdateHearts(currentLives, maxLives);
+            UIManager.Instance.UpdateHearts(currentLives, maxLives);
               
         animator.SetTrigger("Damage");
         if (currentLives <= 0)

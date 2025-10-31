@@ -5,20 +5,23 @@ public class MenuController : MonoBehaviour
 {
     public void PlayGame()
     {
+        PlayerPrefs.DeleteKey("SpawnX");
+        PlayerPrefs.DeleteKey("SpawnY");
+        PlayerPrefs.Save();
         SceneManager.LoadScene("Bosque1");
     }
 
 
     public void ExitGame()
     {
-        // Ahora usa el UIManager global
+        
         if (UIManager.Instance != null)
         {
             UIManager.Instance.ExitGame();
         }
         else
         {
-            // Fallback por si UIManager no está disponible
+            
             Application.Quit();
             Debug.Log("Juego cerrado (fallback)");
         }

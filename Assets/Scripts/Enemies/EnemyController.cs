@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
     public LayerMask playerLayer;
     public Transform attackPoint;
 
-    // components
+    
     private Transform player;
     private Rigidbody2D rb;
     private Animator animator;
@@ -34,7 +34,7 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    // modificacion por tamaño build
+    
     private void Update()
     {
         if (player == null)
@@ -86,7 +86,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    // NUEVA VARIABLE para movimiento
+    
     private Vector2 currentMovement = Vector2.zero;
 
 
@@ -100,54 +100,7 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    //private void Update()
-    //{
-    //    if (player == null)
-    //    {
-    //        var p = GameObject.FindGameObjectWithTag("Player");
-    //        if (p) player = p.transform;
-    //    }
-
-    //    if (player == null) return;
-
-    //    float dist = Vector2.Distance(transform.position, player.position);
-
-    //    if (dist <= detectRadius)
-    //    {
-    //        // perseguir
-    //        Vector2 dir = (player.position - transform.position).normalized;
-    //        if (dist > attackRadius)
-    //        {
-    //            rb.MovePosition(rb.position + dir * moveSpeed * Time.deltaTime);
-    //            animator.SetBool("IsMoving", true);
-    //        }
-    //        else
-    //        {
-    //            animator.SetBool("IsMoving", false);
-    //            TryAttack();
-    //        }
-
-    //        animator.SetFloat("MoveX", dir.x);
-    //        animator.SetFloat("MoveY", dir.y);
-    //    }
-    //    else
-    //    {
-    //        // volver a posición inicial (opcional)
-    //        Vector2 dir = (startPos - (Vector2)transform.position);
-    //        if (dir.magnitude > 0.1f)
-    //        {
-    //            rb.MovePosition(rb.position + dir.normalized * (moveSpeed * 0.5f) * Time.deltaTime);
-    //            animator.SetBool("IsMoving", true);
-    //        }
-    //        else
-    //        {
-    //            animator.SetBool("IsMoving", false);
-    //        }
-    //        animator.SetFloat("MoveX", dir.x);
-    //        animator.SetFloat("MoveY", dir.y);
-    //    }
-    //}
-
+    
 
     private void TryAttack()
     {
@@ -166,7 +119,6 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-
     
 
     public void TakeDamage(int amount)
@@ -179,10 +131,9 @@ public class EnemyController : MonoBehaviour
     private void Die()
     {
         animator.SetTrigger("Death");
-        // sumar monedas y desactivar al morir
         UIManager.Instance.AddCoins(coinReward);
-        GameManager.Instance.EnemyKilled(); // para contar si hay triggers
-        Destroy(gameObject, 0.4f); // dejar tiempo para animación
+        GameManager.Instance.EnemyKilled(); 
+        Destroy(gameObject, 0.4f); 
     }
 
     private void OnDrawGizmosSelected()

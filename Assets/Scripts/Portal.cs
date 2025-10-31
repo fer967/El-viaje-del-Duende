@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 public class Portal : MonoBehaviour
 {
     [Header("Configuración del portal")]
-    public string sceneToLoad;    // Nombre exacto de la escena destino
-    public Vector2 spawnPosition; // Coordenadas donde aparecerá el player en la nueva escena
+    public string sceneToLoad;    
+    public Vector2 spawnPosition; 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -24,7 +24,7 @@ public class Portal : MonoBehaviour
             PlayerPrefs.SetFloat("SpawnY", spawnPosition.y);
             PlayerPrefs.Save();
 
-            // 🔹 Cargar escena destino
+            
             SceneManager.LoadScene(sceneToLoad);
         }
     }

@@ -33,7 +33,6 @@ public class UIManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
 
-            // Configurar el botón de salida
             if (exitButton != null)
             {
                 exitButton.onClick.AddListener(ReturnToMenu);
@@ -48,7 +47,7 @@ public class UIManager : MonoBehaviour
     }
 
 
-    // 🚪 MÉTODO DE SALIDA GLOBAL
+    
     public void ExitGame()
     {
         Debug.Log("🚪 Cerrando juego desde UIManager...");
@@ -60,11 +59,11 @@ public class UIManager : MonoBehaviour
 #endif
     }
 
-    // 🏠 VOLVER AL MENÚ (sin cerrar)
+    
     public void ReturnToMenu()
     {
         Debug.Log("🏠 Volviendo al menú principal...");
-        Time.timeScale = 1f; // Asegurar que no esté pausado
+        Time.timeScale = 1f; 
         SceneManager.LoadScene("MenuInicio");
     }
 
