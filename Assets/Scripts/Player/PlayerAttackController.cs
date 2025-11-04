@@ -46,8 +46,24 @@ public class PlayerAttackController : MonoBehaviour
             if (wolfman != null)
             {
                 wolfman.TakeDamage(attackDamage);
+                continue;
+            }
+
+            OgreController ogre = enemy.GetComponent<OgreController>();
+            if (ogre != null)
+            {
+                ogre.TakeDamage(attackDamage);
             }
         }
+
+        //foreach (Collider2D enemy in hitEnemies)
+        //{
+        //    EnemyController wolfman = enemy.GetComponent<EnemyController>();
+        //    if (wolfman != null)
+        //    {
+        //        wolfman.TakeDamage(attackDamage);
+        //    }
+        //}
 
         // 🔹 Reiniciar cooldown
         Invoke(nameof(ResetAttack), attackCooldown);

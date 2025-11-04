@@ -2,9 +2,9 @@ using UnityEngine;
 public class SapoController : MonoBehaviour
 {
     public Animator animator;
-    public float rangoDeteccion = 2f;        // Distancia máxima a la que detecta
-    public float anguloVision = 60f;         // Campo de visión frontal (en grados)
-    public Vector2 direccionFrontal = Vector2.down; // Dirección en la que mira el sapo (por defecto hacia abajo)
+    public float rangoDeteccion = 2f;        
+    public float anguloVision = 60f;         
+    public Vector2 direccionFrontal = Vector2.down; 
 
     private Transform jugador;
 
@@ -20,7 +20,6 @@ public class SapoController : MonoBehaviour
         Vector2 direccionAlJugador = (jugador.position - transform.position).normalized;
         float distancia = Vector2.Distance(transform.position, jugador.position);
 
-        // Producto punto para saber el ángulo entre el frente del sapo y el jugador
         float dot = Vector2.Dot(direccionFrontal.normalized, direccionAlJugador);
         float angulo = Mathf.Acos(dot) * Mathf.Rad2Deg;
 
@@ -31,7 +30,7 @@ public class SapoController : MonoBehaviour
     }
 
 #if UNITY_EDITOR
-    // Gizmo para ver el rango y ángulo en el editor
+    
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;

@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     private PlayerControls controls;
 
     [Header("Ataque")]
-    public Transform attackPoint;
+    public Transform attackPoint;      
     public float attackRadius = 0.5f;
     public LayerMask hitLayer;
     public int swordDamage = 1;
@@ -87,6 +87,15 @@ public class PlayerController : MonoBehaviour
 
         animator.SetFloat("LastMoveX", lastMoveDir.x);
         animator.SetFloat("LastMoveY", lastMoveDir.y);
+
+        
+        if (attackPoint != null)
+        {
+            float dist = 0.8f; 
+            Vector2 offset = lastMoveDir.normalized * dist;
+            attackPoint.localPosition = offset;
+        }
+
     }
 
     private void OnAttack()
