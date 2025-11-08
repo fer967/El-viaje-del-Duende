@@ -24,7 +24,14 @@ public class UIManager : MonoBehaviour
     private int currentCoins = 0;
 
     [Header("Botón Salir Global")]
-    public Button exitButton; 
+    public Button exitButton;
+
+    [Header("Mensajes temporales")]
+    public GameObject messagePanel;
+    public TMPro.TextMeshProUGUI messageText;
+    public float messageDuration = 3f;
+    private Coroutine messageCoroutine;
+
 
     private void Awake()
     {
@@ -132,7 +139,38 @@ public class UIManager : MonoBehaviour
 
    
     public int GetCoins() => currentCoins;
-    
+
+
+    public void ShowMessage(string message)
+    {
+        if (messageText == null)
+        {
+            Debug.LogWarning("⚠️ UIManager: messageText no está asignado.");
+            return;
+        }
+
+        // Si ya hay un mensaje mostrándose, cancelamos para reiniciar
+        if (messageCoroutine != null)
+            StopCoroutine(messageCoroutine);
+
+        messageCoroutine = StartCoroutine(ShowMessageCoroutine(message));
+    }
+
+
+    private System.Collections.IEnumerator ShowMessageCoroutine(string message)
+    {
+        messageText.text = message;
+        if (messagePanel != null) messagePanel.SetActive(true);
+        else messageText.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(messageDuration);
+
+        if (messagePanel != null) messagePanel.SetActive(false);
+        else messageText.gameObject.SetActive(false);
+
+        messageCoroutine = null;
+    }
+
 }
 
 

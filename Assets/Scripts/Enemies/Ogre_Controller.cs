@@ -19,11 +19,11 @@ public class OgreController : MonoBehaviour
     public float attackCooldown = 1.0f;
     public LayerMask playerLayer;
     public Transform attackPoint;
-    float dist = 0.8f;                 // distancia desde el centro del ogro hasta el punto de ataque
+    float dist = 0.8f;                 
 
     [Header("Drop al morir")]
-    public GameObject bowDropPrefab;   // prefab del arco a dropear
-    public GameObject arrowDropPrefab; // prefab de la flecha
+    public GameObject bowDropPrefab;   
+    public GameObject arrowDropPrefab; 
 
     private Transform player;
     private Rigidbody2D rb;
@@ -38,7 +38,7 @@ public class OgreController : MonoBehaviour
         currentHealth = maxHealth;
 
         if (pointA != null && pointB != null)
-            currentTarget = pointB; // empieza yendo hacia abajo
+            currentTarget = pointB; 
     }
 
     private void Update()
@@ -74,12 +74,12 @@ public class OgreController : MonoBehaviour
         }
         else
         {
-            // 🔹 Patrullar entre los puntos
+            
             Patrol();
         }
 
         
-        // 🔹 Actualiza posición del punto de ataque según la dirección actual
+        
         if (attackPoint != null)
         {
             Vector2 offset = Vector2.zero;

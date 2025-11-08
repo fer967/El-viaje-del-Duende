@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - NPC
+  - Chest
   layers:
   - Default
   - TransparentFX
@@ -16,9 +17,9 @@ TagManager:
   - Enemy
   - NPC
   - Ogre
-  - 
-  - 
-  - 
+  - Interactable
+  - Decorado
+  - Base
   - 
   - 
   - 
@@ -42,6 +43,21 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3589451219
+    locked: 0
+  - name: Base
+    uniqueID: 2277872939
+    locked: 0
+  - name: Player
+    uniqueID: 1730243751
+    locked: 0
+  - name: Decorado
+    uniqueID: 912107499
+    locked: 0
+  - name: UI
+    uniqueID: 4129389435
     locked: 0
   m_RenderingLayers:
   - Default

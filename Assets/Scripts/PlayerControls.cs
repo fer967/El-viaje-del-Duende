@@ -116,7 +116,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""id"": ""9c047cb1-a290-40a6-bf60-24d8222f31e5"",
                     ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": ""Press(pressPoint=0.1)"",
+                    ""interactions"": ""Press(pressPoint=0.01)"",
                     ""initialStateCheck"": false
                 }
             ],
