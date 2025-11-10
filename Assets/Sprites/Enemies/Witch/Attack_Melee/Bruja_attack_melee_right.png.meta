@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 53ddf124e1d272346b3e9c755dd64728
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5341633403364285694
+    second: Bruja_attack_melee_right_0
+  - first:
+      213: -2799854155708361510
+    second: Bruja_attack_melee_right_1
+  - first:
+      213: -7687373362901523527
+    second: Bruja_attack_melee_right_2
+  - first:
+      213: -1442686584579857562
+    second: Bruja_attack_melee_right_3
+  - first:
+      213: 6653332925017300437
+    second: Bruja_attack_melee_right_4
+  - first:
+      213: -8027848995826958685
+    second: Bruja_attack_melee_right_5
+  - first:
+      213: -3890800777998824943
+    second: Bruja_attack_melee_right_6
+  - first:
+      213: -4301425605493842206
+    second: Bruja_attack_melee_right_7
+  - first:
+      213: -8272891832402261693
+    second: Bruja_attack_melee_right_8
+  - first:
+      213: 2472705768323385734
+    second: Bruja_attack_melee_right_9
+  - first:
+      213: -6828257573072476255
+    second: Bruja_attack_melee_right_10
+  - first:
+      213: 6791919442199228344
+    second: Bruja_attack_melee_right_11
+  - first:
+      213: 1581600024705891904
+    second: Bruja_attack_melee_right_12
+  - first:
+      213: 8783145345849249219
+    second: Bruja_attack_melee_right_13
+  - first:
+      213: 8574643275660136861
+    second: Bruja_attack_melee_right_14
+  - first:
+      213: -1155184325164294797
+    second: Bruja_attack_melee_right_15
+  - first:
+      213: 479806389164263911
+    second: Bruja_attack_melee_right_16
+  - first:
+      213: 3604462419029407256
+    second: Bruja_attack_melee_right_17
+  - first:
+      213: -4030887483750884567
+    second: Bruja_attack_melee_right_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 32
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc93e7774b412a40800000000000000
+      internalID: 5341633403364285694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 32
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad41a1aca7be429d0800000000000000
+      internalID: -2799854155708361510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 32
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b36478e7a6f05590800000000000000
+      internalID: -7687373362901523527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 32
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66365ebe13c8afbe0800000000000000
+      internalID: -1442686584579857562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 32
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd11106b03655c50800000000000000
+      internalID: 6653332925017300437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 32
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aef1452fd9579090800000000000000
+      internalID: -8027848995826958685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_6
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 32
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a01978e49110ac0800000000000000
+      internalID: -3890800777998824943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_7
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 32
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee15c4a3344e44c0800000000000000
+      internalID: -4301425605493842206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_8
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 32
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349ce68c5b8c03d80800000000000000
+      internalID: -8272891832402261693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_9
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 32
+        width: 28
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68989fa9bc0d05220800000000000000
+      internalID: 2472705768323385734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_10
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 32
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7e42a3ae72d31a0800000000000000
+      internalID: -6828257573072476255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_11
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 32
+        width: 28
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfaa5f5fbeb14e50800000000000000
+      internalID: 6791919442199228344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_12
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 32
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ef751c7d8f2f510800000000000000
+      internalID: 1581600024705891904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_13
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 32
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd48fd282004e970800000000000000
+      internalID: 8783145345849249219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_14
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 32
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d911a69f0a04ff670800000000000000
+      internalID: 8574643275660136861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_15
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 32
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d9b780af5f7ffe0800000000000000
+      internalID: -1155184325164294797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_16
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 32
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9491b6e5d98a600800000000000000
+      internalID: 479806389164263911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_17
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 27
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8163e7c097f950230800000000000000
+      internalID: 3604462419029407256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_attack_melee_right_18
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 22
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bd579a0396f08c0800000000000000
+      internalID: -4030887483750884567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bruja_attack_melee_right_0: 5341633403364285694
+      Bruja_attack_melee_right_1: -2799854155708361510
+      Bruja_attack_melee_right_10: -6828257573072476255
+      Bruja_attack_melee_right_11: 6791919442199228344
+      Bruja_attack_melee_right_12: 1581600024705891904
+      Bruja_attack_melee_right_13: 8783145345849249219
+      Bruja_attack_melee_right_14: 8574643275660136861
+      Bruja_attack_melee_right_15: -1155184325164294797
+      Bruja_attack_melee_right_16: 479806389164263911
+      Bruja_attack_melee_right_17: 3604462419029407256
+      Bruja_attack_melee_right_18: -4030887483750884567
+      Bruja_attack_melee_right_2: -7687373362901523527
+      Bruja_attack_melee_right_3: -1442686584579857562
+      Bruja_attack_melee_right_4: 6653332925017300437
+      Bruja_attack_melee_right_5: -8027848995826958685
+      Bruja_attack_melee_right_6: -3890800777998824943
+      Bruja_attack_melee_right_7: -4301425605493842206
+      Bruja_attack_melee_right_8: -8272891832402261693
+      Bruja_attack_melee_right_9: 2472705768323385734
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

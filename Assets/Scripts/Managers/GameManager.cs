@@ -1,159 +1,230 @@
 ﻿// corregido
+//using System.Collections.Generic;
 //using UnityEngine;
 //using UnityEngine.SceneManagement;
 
 //public class GameManager : MonoBehaviour
 //{
-//    // ==============================
-//    // 🔹 SINGLETON
-//    // ==============================
-//    private static GameManager instance;
-//    public static GameManager Instance => instance;
+//    public static GameManager Instance;
+
+//    [Header("Monedas")]
+//    public int coins = 3;
+//    public int maxCoins = 10;
+//    public GameObject coinPrefab;        // asignar en el prefab de GameManager (o en la escena inicial)
+//    public Transform coinsContainer;     // asignar en el prefab (Canvas.coinsParent)
+//    private List<GameObject> coinIcons = new List<GameObject>();
+
+//    [Header("Salud del jugador (persistente)")]
+//    public int playerMaxHealth = 3;
+//    public int playerCurrentHealth = 3;
+
+//    [Header("Habilidad")]
+//    public bool hasTitanPunch = false;
+
+//    //public bool punchMessageShown = false;
+
+//    // PlayerPrefs keys
+//    const string KEY_COINS = "GM_Coins";
+//    const string KEY_MAX_HEALTH = "GM_MaxHealth";
+//    const string KEY_CUR_HEALTH = "GM_CurHealth";
+//    const string KEY_HAS_PUNCH = "GM_HasPunch";
 
 //    private void Awake()
 //    {
-//        // Asegura que solo exista una instancia de GameManager
-//        if (instance != null && instance != this)
+//        if (Instance == null)
+//        {
+//            Instance = this;
+//            DontDestroyOnLoad(gameObject);
+
+//            // Load saved state (si existe)
+//            LoadState();
+
+//            // Nos suscribimos para re-inicializar UI cuando se cargue una nueva escena,
+//            // así coinsContainer asignado en el prefab puede apuntar a un Canvas de la escena
+//            SceneManager.sceneLoaded += OnSceneLoaded;
+//        }
+//        else
 //        {
 //            Destroy(gameObject);
-//            return;
 //        }
-
-//        instance = this;
-//        DontDestroyOnLoad(gameObject);
 //    }
 
-//    // ==============================
-//    // 🔹 DATOS DEL JUGADOR
-//    // ==============================
-//    [Header("Datos del jugador")]
-//    public int maxHealth = 4;
-//    public int currentHealth = 4;
-//    public int coins = 0;
-
-//    [Header("Habilidades")]
-//    public bool hasTitanPunch = false;
-//    public bool punchMessageShown = false;
-
-//    // Referencia al jugador actual
-//    private Player player;
-
-//    // ==============================
-//    // 🔹 REFERENCIAS
-//    // ==============================
 //    private void Start()
 //    {
-//        SceneManager.sceneLoaded += OnSceneLoaded;
+//        // Init UI si ya tenemos referencia al container
+//        InitCoinsUI();
+//        // Sincronizar UI de hearts si existe UIManager
+//        if (UIManager.Instance != null)
+//            UIManager.Instance.UpdateHearts(playerCurrentHealth, playerMaxHealth);
+//    }
+
+//    private void OnDestroy()
+//    {
+//        SceneManager.sceneLoaded -= OnSceneLoaded;
 //    }
 
 //    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
 //    {
-//        // Busca un nuevo Player cuando cambia la escena
-//        player = FindObjectOfType<Player>();
-
-//        // Actualiza los corazones al cargar la nueva escena
-//        if (UIManager.Instance != null)
+//        // Si el coinsContainer no está asignado (o apunta a un objeto de escena anterior),
+//        // intenta localizar el coinsParent en la escena (si tu Canvas prefab usa siempre el mismo nombre).
+//        if (coinsContainer == null)
 //        {
-//            UIManager.Instance.UpdateHearts(currentHealth, maxHealth);
-//            UpdateCoinUI();
+//            // ejemplo: busca un objeto llamado "CoinsPanel" o "CoinsParent" en la escena
+//            var found = GameObject.Find("CoinsParent");
+//            if (found != null) coinsContainer = found.transform;
 //        }
 
-//        // Si el jugador ya tiene Puño Titánico y todavía no se mostró mensaje, lo mostramos una sola vez
-//        if (hasTitanPunch && !punchMessageShown)
+//        // Re-inicializar la UI de monedas (siempre que coinsContainer exista)
+//        InitCoinsUI();
+
+//        // Actualizar UI de salud si existe UIManager
+//        if (UIManager.Instance != null)
+//            UIManager.Instance.UpdateHearts(playerCurrentHealth, playerMaxHealth);
+//    }
+
+//    // Inicializa los iconos de UI para monedas (máximo)
+//    void InitCoinsUI()
+//    {
+//        if (coinsContainer == null || coinPrefab == null) return;
+
+//        // destruir hijos existentes (por si quedaron de escenas anteriores)
+//        foreach (Transform child in coinsContainer)
+//            Destroy(child.gameObject);
+
+//        coinIcons.Clear();
+
+//        for (int i = 0; i < maxCoins; i++)
 //        {
-//            UIManager.Instance?.ShowMessage("¡Has obtenido la habilidad Puño Titánico!");
-//            punchMessageShown = true;
+//            GameObject icon = Instantiate(coinPrefab, coinsContainer);
+//            icon.SetActive(i < coins); // mostrar activos según la cantidad actual
+//            coinIcons.Add(icon);
 //        }
 //    }
 
-//    // ==============================
-//    // 🔹 SISTEMA DE VIDA
-//    // ==============================
-//    public void TakeDamage(int amount)
+//    void UpdateCoinsUI()
 //    {
-//        currentHealth -= amount;
-//        if (currentHealth < 0) currentHealth = 0;
+//        if (coinIcons == null || coinIcons.Count == 0) return;
 
-//        if (UIManager.Instance != null)
-//            UIManager.Instance.UpdateHearts(currentHealth, maxHealth);
-
-//        if (currentHealth <= 0)
-//            PlayerDied();
+//        for (int i = 0; i < coinIcons.Count; i++)
+//            coinIcons[i].SetActive(i < coins);
 //    }
 
-//    public void Heal(int amount)
-//    {
-//        currentHealth += amount;
-//        if (currentHealth > maxHealth) currentHealth = maxHealth;
-
-//        if (UIManager.Instance != null)
-//            UIManager.Instance.UpdateHearts(currentHealth, maxHealth);
-//    }
-
-//    private void PlayerDied()
-//    {
-//        Debug.Log("💀 Jugador derrotado");
-//        UIManager.Instance?.ShowGameOver("Has sido derrotado...");
-//        // Podés agregar respawn o menú aquí
-//    }
-
-//    // ==============================
-//    // 🔹 MONEDAS
-//    // ==============================
+//    // ---------------- Monedas ----------------
 //    public void AddCoins(int amount)
 //    {
 //        coins += amount;
-//        UIManager.Instance?.AddCoins(amount);
+//        if (coins > maxCoins) coins = maxCoins;
+//        UpdateCoinsUI();
+//        SaveState();
+//        // opcional: notificar a UIManager para efectos extra
+//        if (UIManager.Instance != null) UIManager.Instance.AddCoins(amount);
 //    }
 
-//    public void UpdateCoinUI()
+//    public void SpendCoins(int amount)
 //    {
-//        // Actualiza el UI con la cantidad actual (si querés sincronizarlo)
-//        UIManager.Instance?.ResetCoins();
-//        UIManager.Instance?.AddCoins(coins);
+//        coins -= amount;
+//        if (coins < 0) coins = 0;
+//        UpdateCoinsUI();
+//        SaveState();
 //    }
 
-//    // ==============================
-//    // 🔹 HABILIDADES
-//    // ==============================
+//    // ---------------- Salud ----------------
+//    // Setea ambos valores (llamado por Player al iniciar o al cambiar vida)
+//    public void SetPlayerHealth(int current, int max)
+//    {
+//        playerCurrentHealth = Mathf.Clamp(current, 0, max);
+//        playerMaxHealth = Mathf.Max(1, max);
+//        SaveState();
+
+//        if (UIManager.Instance != null)
+//            UIManager.Instance.UpdateHearts(playerCurrentHealth, playerMaxHealth);
+//    }
+
+//    // Actualiza solo la salud actual
+//    public void UpdatePlayerHealth(int newHealth)
+//    {
+//        playerCurrentHealth = Mathf.Clamp(newHealth, 0, playerMaxHealth);
+//        SaveState();
+
+//        if (UIManager.Instance != null)
+//            UIManager.Instance.UpdateHearts(playerCurrentHealth, playerMaxHealth);
+//    }
+
+//    // ---------------- Habilidad Puño Titánico ----------------
 //    public void UnlockTitanPunch()
 //    {
+//        if (hasTitanPunch) return;
 //        hasTitanPunch = true;
+//        PlayerPrefs.SetInt(KEY_HAS_PUNCH, 1);
+//        PlayerPrefs.Save();
 
-//        // Mostramos el mensaje solo una vez por partida
-//        if (!punchMessageShown)
-//        {
-//            UIManager.Instance?.ShowMessage("¡Has obtenido la habilidad Puño Titánico!");
-//            punchMessageShown = true;
-//        }
+//        // Mostrar mensaje por UIManager
+//        if (UIManager.Instance != null)
+//            UIManager.Instance.ShowMessage("¡Has obtenido la habilidad Puño Titánico!");
 
-//        Debug.Log("🟢 Puño Titánico desbloqueado");
+//        Debug.Log("GameManager: Titan Punch desbloqueado y guardado.");
+//        SaveState();
 //    }
 
-//    // ==============================
-//    // 🔹 UTILIDAD
-//    // ==============================
-//    public void UpdatePlayerReference(Player p)
+//    public bool HasTitanPunch() => hasTitanPunch;
+
+//    // ---------------- Game Over / Reinicio ----------------
+//    public void TriggerGameOver()
 //    {
-//        player = p;
+//        if (UIManager.Instance != null)
+//            UIManager.Instance.ShowGameOver("GAME OVER");
+
+//        Time.timeScale = 0f;
 //    }
 
-//    public void ResetAll()
+//    public void RestartGame()
 //    {
-//        // Resetea todos los valores (por ejemplo, al volver al menú)
-//        currentHealth = maxHealth;
-//        coins = 0;
-//        hasTitanPunch = false;
-//        punchMessageShown = false;
+//        if (UIManager.Instance != null)
+//            UIManager.Instance.HideGameOver();
 
-//        UIManager.Instance?.ResetCoins();
-//        UIManager.Instance?.UpdateHearts(currentHealth, maxHealth);
+//        // Reset básico (podés ajustarlo)
+//        PlayerPrefs.DeleteKey("SpawnX");
+//        PlayerPrefs.DeleteKey("SpawnY");
+
+//        coins = 3;
+//        playerCurrentHealth = playerMaxHealth; // restaurar salud
+//        UpdateCoinsUI();
+//        SaveState();
+
+//        Time.timeScale = 1f;
+//        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 //    }
+
+//    // ---------------- Guardado / Carga ----------------
+//    public void SaveState()
+//    {
+//        PlayerPrefs.SetInt(KEY_COINS, coins);
+//        PlayerPrefs.SetInt(KEY_MAX_HEALTH, playerMaxHealth);
+//        PlayerPrefs.SetInt(KEY_CUR_HEALTH, playerCurrentHealth);
+//        PlayerPrefs.SetInt(KEY_HAS_PUNCH, hasTitanPunch ? 1 : 0);
+//        PlayerPrefs.Save();
+//    }
+
+//    public void LoadState()
+//    {
+//        if (PlayerPrefs.HasKey(KEY_COINS)) coins = PlayerPrefs.GetInt(KEY_COINS);
+//        if (PlayerPrefs.HasKey(KEY_MAX_HEALTH)) playerMaxHealth = PlayerPrefs.GetInt(KEY_MAX_HEALTH);
+//        if (PlayerPrefs.HasKey(KEY_CUR_HEALTH)) playerCurrentHealth = PlayerPrefs.GetInt(KEY_CUR_HEALTH);
+//        if (PlayerPrefs.HasKey(KEY_HAS_PUNCH)) hasTitanPunch = PlayerPrefs.GetInt(KEY_HAS_PUNCH) == 1;
+//    }
+
+//    // Llamado por enemigos o sistemas cuando un enemigo muere
+//    public void EnemyKilled()
+//    {
+//        // placeholder — podés contar kills, spawnear cofres, etc.
+//    }
+
 //}
 
 
 
 
+// ultimo sin corregir (no aparece mensaje de habilidad en B5 si vengo de B4)
 
 using System.Collections.Generic;
 using UnityEngine;
@@ -203,10 +274,6 @@ public class GameManager : MonoBehaviour
     }
 
 
-    //private void Start()
-    //{
-    //    InitCoinsUI();
-    //}
 
     void InitCoinsUI()
     {
@@ -266,14 +333,13 @@ public class GameManager : MonoBehaviour
         coins = 3;
         UpdateCoinsUI();
 
-        // 🔹 Restaurar vidas
         playerCurrentHealth = playerMaxHealth;
 
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    // 🔹 Métodos para sincronizar salud del jugador
+
     public void SetPlayerHealth(int current, int max)
     {
         playerCurrentHealth = current;
@@ -297,7 +363,7 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Cuando carga una nueva escena, actualizamos la UI de corazones
+
         if (UIManager.Instance != null)
         {
             UIManager.Instance.UpdateHearts(playerCurrentHealth, playerMaxHealth);

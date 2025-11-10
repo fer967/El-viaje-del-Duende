@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: d5b6b41cb5fab4342b80ca2a320bac36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4547953915124492685
+    second: Rock-Void Tileset_0
+  - first:
+      213: 6186047970882695217
+    second: Rock-Void Tileset_1
+  - first:
+      213: -4626755824946789744
+    second: Rock-Void Tileset_2
+  - first:
+      213: -5222011238010329846
+    second: Rock-Void Tileset_3
+  - first:
+      213: -4942129066249643301
+    second: Rock-Void Tileset_4
+  - first:
+      213: -955338486987938349
+    second: Rock-Void Tileset_5
+  - first:
+      213: 5376759188839558624
+    second: Rock-Void Tileset_6
+  - first:
+      213: -3091616845678075437
+    second: Rock-Void Tileset_7
+  - first:
+      213: 7651324568546476100
+    second: Rock-Void Tileset_8
+  - first:
+      213: 3064285661250276495
+    second: Rock-Void Tileset_9
+  - first:
+      213: 4682742915138782758
+    second: Rock-Void Tileset_10
+  - first:
+      213: -2670565109772077553
+    second: Rock-Void Tileset_11
+  - first:
+      213: 2275321100029406375
+    second: Rock-Void Tileset_12
+  - first:
+      213: 8946111572701572527
+    second: Rock-Void Tileset_13
+  - first:
+      213: -719889456161914584
+    second: Rock-Void Tileset_14
+  - first:
+      213: -1594448724639254954
+    second: Rock-Void Tileset_15
+  - first:
+      213: 801151191821745801
+    second: Rock-Void Tileset_16
+  - first:
+      213: -2306349856794086807
+    second: Rock-Void Tileset_17
+  - first:
+      213: 930368588436409115
+    second: Rock-Void Tileset_18
+  - first:
+      213: -5539620645079638009
+    second: Rock-Void Tileset_19
+  - first:
+      213: 1876073136888804697
+    second: Rock-Void Tileset_20
+  - first:
+      213: 4884394763796427916
+    second: Rock-Void Tileset_21
+  - first:
+      213: 8996254650076737778
+    second: Rock-Void Tileset_22
+  - first:
+      213: -8929238966382666597
+    second: Rock-Void Tileset_23
+  - first:
+      213: -7124595813258117582
+    second: Rock-Void Tileset_24
+  - first:
+      213: 8003141098370757578
+    second: Rock-Void Tileset_25
+  - first:
+      213: 4067212730976343340
+    second: Rock-Void Tileset_26
+  - first:
+      213: -8234533904479552475
+    second: Rock-Void Tileset_27
+  - first:
+      213: -8370754256427744959
+    second: Rock-Void Tileset_28
+  - first:
+      213: 7215189554777014842
+    second: Rock-Void Tileset_29
+  - first:
+      213: -756228648499880985
+    second: Rock-Void Tileset_30
+  - first:
+      213: 585028853391260439
+    second: Rock-Void Tileset_31
+  - first:
+      213: -4653333295935295435
+    second: Rock-Void Tileset_32
+  - first:
+      213: -6150578640278172990
+    second: Rock-Void Tileset_33
+  - first:
+      213: -2294001048762705066
+    second: Rock-Void Tileset_34
+  - first:
+      213: -2510871301142675211
+    second: Rock-Void Tileset_35
+  - first:
+      213: 2229634107361316580
+    second: Rock-Void Tileset_36
+  - first:
+      213: 8367919457436920605
+    second: Rock-Void Tileset_37
+  - first:
+      213: 3859716953347873174
+    second: Rock-Void Tileset_38
+  - first:
+      213: -3766639603224483999
+    second: Rock-Void Tileset_39
+  - first:
+      213: -3304976525361598592
+    second: Rock-Void Tileset_40
+  - first:
+      213: -398953783371246728
+    second: Rock-Void Tileset_41
+  - first:
+      213: -5651003920625606711
+    second: Rock-Void Tileset_42
+  - first:
+      213: -6059831206900127650
+    second: Rock-Void Tileset_43
+  - first:
+      213: -1741248655552762510
+    second: Rock-Void Tileset_44
+  - first:
+      213: 6369493816877580570
+    second: Rock-Void Tileset_45
+  - first:
+      213: 4872558199605890331
+    second: Rock-Void Tileset_46
+  - first:
+      213: 2375617543573278302
+    second: Rock-Void Tileset_47
+  - first:
+      213: -2224065564870728574
+    second: Rock-Void Tileset_48
+  - first:
+      213: 2840895076814525984
+    second: Rock-Void Tileset_49
+  - first:
+      213: -8918173752477835485
+    second: Rock-Void Tileset_50
+  - first:
+      213: -7535968042496429746
+    second: Rock-Void Tileset_51
+  - first:
+      213: -5826725948363335545
+    second: Rock-Void Tileset_52
+  - first:
+      213: 4324066088306133723
+    second: Rock-Void Tileset_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rock-Void Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 165
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89a7dd5df39d1f30800000000000000
+      internalID: 4547953915124492685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1303dfbbad149d550800000000000000
+      internalID: 6186047970882695217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092c39f37167acfb0800000000000000
+      internalID: -4626755824946789744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05eb494270b787b0800000000000000
+      internalID: -5222011238010329846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda9e0c7cc70a6bb0800000000000000
+      internalID: -4942129066249643301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d523da25b4fdb2f0800000000000000
+      internalID: -955338486987938349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed6995bef51e9a40800000000000000
+      internalID: 5376759188839558624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 174
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1aeb3ebde5815d0800000000000000
+      internalID: -3091616845678075437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4408e691827fe2a60800000000000000
+      internalID: 7651324568546476100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 132
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c4529d297868a20800000000000000
+      internalID: 3064285661250276495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626035ffed17cf040800000000000000
+      internalID: 4682742915138782758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 133
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06bb729e2f30fad0800000000000000
+      internalID: -2670565109772077553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac243d3c70939f10800000000000000
+      internalID: 2275321100029406375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad63eba319f62c70800000000000000
+      internalID: 8946111572701572527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8218bef8a507206f0800000000000000
+      internalID: -719889456161914584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6567d4b25516fd9e0800000000000000
+      internalID: -1594448724639254954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 135
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e7ae7a3c24e1b00800000000000000
+      internalID: 801151191821745801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962f30a56033effd0800000000000000
+      internalID: -2306349856794086807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b0fe74d4559ec00800000000000000
+      internalID: 930368588436409115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 100
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700ab9b9f505f13b0800000000000000
+      internalID: -5539620645079638009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955f8e00496290a10800000000000000
+      internalID: 1876073136888804697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c843dd6b82bd8c340800000000000000
+      internalID: 4884394763796427916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0b7c6a0fd19dc70800000000000000
+      internalID: 8996254650076737778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c5f2e1878f41480800000000000000
+      internalID: -8929238966382666597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23eb3860bd9502d90800000000000000
+      internalID: -7124595813258117582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 102
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3f7bf2d6ed01f60800000000000000
+      internalID: 8003141098370757578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c259ac70e64a17830800000000000000
+      internalID: 4067212730976343340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cf594da0f09bd80800000000000000
+      internalID: -8234533904479552475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141098b9a5b15db80800000000000000
+      internalID: -8370754256427744959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32c79f1ca0812460800000000000000
+      internalID: 7215189554777014842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebd0350d065185f0800000000000000
+      internalID: -756228648499880985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b7dbd74a07e1800800000000000000
+      internalID: 585028853391260439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5307742950a0c6fb0800000000000000
+      internalID: -4653333295935295435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca4d175051c4aaa0800000000000000
+      internalID: -6150578640278172990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 73
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b102643321a20e0800000000000000
+      internalID: -2294001048762705066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f00ba2dad7972dd0800000000000000
+      internalID: -2510871301142675211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eecd54586041fe10800000000000000
+      internalID: 2229634107361316580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b6b915962d02470800000000000000
+      internalID: 8367919457436920605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6995ad19e18709530800000000000000
+      internalID: 3859716953347873174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167e2e4cc353abbc0800000000000000
+      internalID: -3766639603224483999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f21d65c5d5222d0800000000000000
+      internalID: -3304976525361598592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873db54d5a1a67af0800000000000000
+      internalID: -398953783371246728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf55cedfd99391b0800000000000000
+      internalID: -5651003920625606711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5824e9af9727eba0800000000000000
+      internalID: -6059831206900127650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 37
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27da624c297d5d7e0800000000000000
+      internalID: -1741248655552762510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11090221ecf46850800000000000000
+      internalID: 6369493816877580570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d0deaddddce9340800000000000000
+      internalID: 4872558199605890331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e0fdeb193e7f020800000000000000
+      internalID: 2375617543573278302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284a3b007288221e0800000000000000
+      internalID: -2224065564870728574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0269fa94503ec6720800000000000000
+      internalID: 2840895076814525984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f985ef8384c3480800000000000000
+      internalID: -8918173752477835485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41fd4c1efcda6790800000000000000
+      internalID: -7535968042496429746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788904c0f9f432fa0800000000000000
+      internalID: -5826725948363335545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-Void Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 12
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaccca823b220c30800000000000000
+      internalID: 4324066088306133723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rock-Void Tileset_0: 4547953915124492685
+      Rock-Void Tileset_1: 6186047970882695217
+      Rock-Void Tileset_10: 4682742915138782758
+      Rock-Void Tileset_11: -2670565109772077553
+      Rock-Void Tileset_12: 2275321100029406375
+      Rock-Void Tileset_13: 8946111572701572527
+      Rock-Void Tileset_14: -719889456161914584
+      Rock-Void Tileset_15: -1594448724639254954
+      Rock-Void Tileset_16: 801151191821745801
+      Rock-Void Tileset_17: -2306349856794086807
+      Rock-Void Tileset_18: 930368588436409115
+      Rock-Void Tileset_19: -5539620645079638009
+      Rock-Void Tileset_2: -4626755824946789744
+      Rock-Void Tileset_20: 1876073136888804697
+      Rock-Void Tileset_21: 4884394763796427916
+      Rock-Void Tileset_22: 8996254650076737778
+      Rock-Void Tileset_23: -8929238966382666597
+      Rock-Void Tileset_24: -7124595813258117582
+      Rock-Void Tileset_25: 8003141098370757578
+      Rock-Void Tileset_26: 4067212730976343340
+      Rock-Void Tileset_27: -8234533904479552475
+      Rock-Void Tileset_28: -8370754256427744959
+      Rock-Void Tileset_29: 7215189554777014842
+      Rock-Void Tileset_3: -5222011238010329846
+      Rock-Void Tileset_30: -756228648499880985
+      Rock-Void Tileset_31: 585028853391260439
+      Rock-Void Tileset_32: -4653333295935295435
+      Rock-Void Tileset_33: -6150578640278172990
+      Rock-Void Tileset_34: -2294001048762705066
+      Rock-Void Tileset_35: -2510871301142675211
+      Rock-Void Tileset_36: 2229634107361316580
+      Rock-Void Tileset_37: 8367919457436920605
+      Rock-Void Tileset_38: 3859716953347873174
+      Rock-Void Tileset_39: -3766639603224483999
+      Rock-Void Tileset_4: -4942129066249643301
+      Rock-Void Tileset_40: -3304976525361598592
+      Rock-Void Tileset_41: -398953783371246728
+      Rock-Void Tileset_42: -5651003920625606711
+      Rock-Void Tileset_43: -6059831206900127650
+      Rock-Void Tileset_44: -1741248655552762510
+      Rock-Void Tileset_45: 6369493816877580570
+      Rock-Void Tileset_46: 4872558199605890331
+      Rock-Void Tileset_47: 2375617543573278302
+      Rock-Void Tileset_48: -2224065564870728574
+      Rock-Void Tileset_49: 2840895076814525984
+      Rock-Void Tileset_5: -955338486987938349
+      Rock-Void Tileset_50: -8918173752477835485
+      Rock-Void Tileset_51: -7535968042496429746
+      Rock-Void Tileset_52: -5826725948363335545
+      Rock-Void Tileset_53: 4324066088306133723
+      Rock-Void Tileset_6: 5376759188839558624
+      Rock-Void Tileset_7: -3091616845678075437
+      Rock-Void Tileset_8: 7651324568546476100
+      Rock-Void Tileset_9: 3064285661250276495
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

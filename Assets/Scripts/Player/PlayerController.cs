@@ -65,12 +65,6 @@ public class PlayerController : MonoBehaviour
 
         UIManager.Instance.UpdateHearts(currentLives, maxLives);
 
-        // 🔹 Si estamos en Bosque6, habilitamos la habilidad
-        //if (SceneManager.GetActiveScene().name == "Bosque6" && PlayerPrefs.GetInt("HasPunchAbility", 0) == 1)
-        //{
-        //    hasPunchAbility = true;
-        //}
-
         if (SceneManager.GetActiveScene().name == "Bosque6" && PlayerPrefs.GetInt("HasPunchAbility", 0) == 1)
         {
             hasPunchAbility = true;
@@ -84,6 +78,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
 
     private void OnEnable()
     {

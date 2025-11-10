@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 4d011ae46416d7b4bbe3a3d5c12f35b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4098844507996293771
+    second: Bruja_damage_down_0
+  - first:
+      213: -6106911442900675342
+    second: Bruja_damage_down_1
+  - first:
+      213: -6792733887865419557
+    second: Bruja_damage_down_2
+  - first:
+      213: 4476737149502894235
+    second: Bruja_damage_down_3
+  - first:
+      213: 5551308353282374722
+    second: Bruja_damage_down_4
+  - first:
+      213: 1129129181857059529
+    second: Bruja_damage_down_5
+  - first:
+      213: -7154528369413969632
+    second: Bruja_damage_down_6
+  - first:
+      213: -1818126338423522793
+    second: Bruja_damage_down_7
+  - first:
+      213: -8132808624726127878
+    second: Bruja_damage_down_8
+  - first:
+      213: -4989419993139823972
+    second: Bruja_damage_down_9
+  - first:
+      213: -8429545281039367916
+    second: Bruja_damage_down_10
+  - first:
+      213: -2969440699565550854
+    second: Bruja_damage_down_11
+  - first:
+      213: 6318848278971536387
+    second: Bruja_damage_down_12
+  - first:
+      213: 5363213192995916946
+    second: Bruja_damage_down_13
+  - first:
+      213: 180338389039859303
+    second: Bruja_damage_down_14
+  - first:
+      213: 5831146989164291965
+    second: Bruja_damage_down_15
+  - first:
+      213: 7939869090702418607
+    second: Bruja_damage_down_16
+  - first:
+      213: 6009162532651689333
+    second: Bruja_damage_down_17
+  - first:
+      213: -7568575602577168112
+    second: Bruja_damage_down_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bruja_damage_down_0
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 96
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575f157f2aafd17c0800000000000000
+      internalID: -4098844507996293771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 96
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f413230664ef3ba0800000000000000
+      internalID: -6106911442900675342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 95
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd80608b48c5bb1a0800000000000000
+      internalID: -6792733887865419557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_3
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 80
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b903aecf7b0902e30800000000000000
+      internalID: 4476737149502894235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_4
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 96
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cfd0409853a0d40800000000000000
+      internalID: 5551308353282374722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 102
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c21e1e22097baf00800000000000000
+      internalID: 1129129181857059529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_6
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 101
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02920a5ba5206bc90800000000000000
+      internalID: -7154528369413969632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_7
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 99
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71afb716ab7b4c6e0800000000000000
+      internalID: -1818126338423522793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa47f035a5722f80800000000000000
+      internalID: -8132808624726127878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 31
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a3ba983f402cab0800000000000000
+      internalID: -4989419993139823972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_10
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 31
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41104918a3d340b80800000000000000
+      internalID: -8429545281039367916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_11
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 31
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2dec0aa6d6ac6d0800000000000000
+      internalID: -2969440699565550854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_12
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 88
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304dfa1f70f01b750800000000000000
+      internalID: 6318848278971536387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_13
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 77
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cc537cbf5fd6a40800000000000000
+      internalID: 5363213192995916946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 91
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76646123fc0b08200800000000000000
+      internalID: 180338389039859303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_15
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 31
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77e93aba456ce050800000000000000
+      internalID: 5831146989164291965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_16
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 83
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2eb6aeed4103e60800000000000000
+      internalID: 7939869090702418607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_17
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 31
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5756a4c4c75d46350800000000000000
+      internalID: 6009162532651689333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_down_18
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 31
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01923b8e69407f690800000000000000
+      internalID: -7568575602577168112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bruja_damage_down_0: -4098844507996293771
+      Bruja_damage_down_1: -6106911442900675342
+      Bruja_damage_down_10: -8429545281039367916
+      Bruja_damage_down_11: -2969440699565550854
+      Bruja_damage_down_12: 6318848278971536387
+      Bruja_damage_down_13: 5363213192995916946
+      Bruja_damage_down_14: 180338389039859303
+      Bruja_damage_down_15: 5831146989164291965
+      Bruja_damage_down_16: 7939869090702418607
+      Bruja_damage_down_17: 6009162532651689333
+      Bruja_damage_down_18: -7568575602577168112
+      Bruja_damage_down_2: -6792733887865419557
+      Bruja_damage_down_3: 4476737149502894235
+      Bruja_damage_down_4: 5551308353282374722
+      Bruja_damage_down_5: 1129129181857059529
+      Bruja_damage_down_6: -7154528369413969632
+      Bruja_damage_down_7: -1818126338423522793
+      Bruja_damage_down_8: -8132808624726127878
+      Bruja_damage_down_9: -4989419993139823972
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

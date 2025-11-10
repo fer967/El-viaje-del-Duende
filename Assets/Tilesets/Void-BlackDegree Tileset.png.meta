@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 995ecb98921b3364da0be9bfb7eab4dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 347125411222136963
+    second: Void-BlackDegree Tileset_0
+  - first:
+      213: -2218807310139500442
+    second: Void-BlackDegree Tileset_1
+  - first:
+      213: -7774696597785956105
+    second: Void-BlackDegree Tileset_2
+  - first:
+      213: 8603364175824271900
+    second: Void-BlackDegree Tileset_3
+  - first:
+      213: -2938924490227701136
+    second: Void-BlackDegree Tileset_4
+  - first:
+      213: 168842376201705103
+    second: Void-BlackDegree Tileset_5
+  - first:
+      213: -3422457091707908604
+    second: Void-BlackDegree Tileset_6
+  - first:
+      213: 3485542621417807792
+    second: Void-BlackDegree Tileset_7
+  - first:
+      213: -713952098836507203
+    second: Void-BlackDegree Tileset_8
+  - first:
+      213: -8992602255649435350
+    second: Void-BlackDegree Tileset_9
+  - first:
+      213: 1692490303083265549
+    second: Void-BlackDegree Tileset_10
+  - first:
+      213: -7662968106339523923
+    second: Void-BlackDegree Tileset_11
+  - first:
+      213: 6348527478384621102
+    second: Void-BlackDegree Tileset_12
+  - first:
+      213: 8853161155694332201
+    second: Void-BlackDegree Tileset_13
+  - first:
+      213: 8278128905241989879
+    second: Void-BlackDegree Tileset_14
+  - first:
+      213: -2771823022247339118
+    second: Void-BlackDegree Tileset_15
+  - first:
+      213: 464261825336857686
+    second: Void-BlackDegree Tileset_16
+  - first:
+      213: -7830333242851551810
+    second: Void-BlackDegree Tileset_17
+  - first:
+      213: -682311438103545232
+    second: Void-BlackDegree Tileset_18
+  - first:
+      213: 1028059742686631371
+    second: Void-BlackDegree Tileset_19
+  - first:
+      213: -5876086249650060529
+    second: Void-BlackDegree Tileset_20
+  - first:
+      213: -6498591279428323837
+    second: Void-BlackDegree Tileset_21
+  - first:
+      213: 2645155105892187416
+    second: Void-BlackDegree Tileset_22
+  - first:
+      213: 9160468524813689616
+    second: Void-BlackDegree Tileset_23
+  - first:
+      213: 5316732082447584425
+    second: Void-BlackDegree Tileset_24
+  - first:
+      213: 4368952186178316635
+    second: Void-BlackDegree Tileset_25
+  - first:
+      213: -7499806322143056632
+    second: Void-BlackDegree Tileset_26
+  - first:
+      213: 1716078847981683792
+    second: Void-BlackDegree Tileset_27
+  - first:
+      213: 3012569516187706391
+    second: Void-BlackDegree Tileset_28
+  - first:
+      213: -3678972045154277510
+    second: Void-BlackDegree Tileset_29
+  - first:
+      213: 5157572604050908656
+    second: Void-BlackDegree Tileset_30
+  - first:
+      213: 4715985959584929298
+    second: Void-BlackDegree Tileset_31
+  - first:
+      213: 6949434770424355853
+    second: Void-BlackDegree Tileset_32
+  - first:
+      213: 5612970081948038261
+    second: Void-BlackDegree Tileset_33
+  - first:
+      213: 1710311157258436439
+    second: Void-BlackDegree Tileset_34
+  - first:
+      213: -6019799840319333729
+    second: Void-BlackDegree Tileset_35
+  - first:
+      213: -3278269603237122878
+    second: Void-BlackDegree Tileset_36
+  - first:
+      213: 2190502233523103756
+    second: Void-BlackDegree Tileset_37
+  - first:
+      213: -7674185000653518415
+    second: Void-BlackDegree Tileset_38
+  - first:
+      213: 6535364285867840001
+    second: Void-BlackDegree Tileset_39
+  - first:
+      213: 2826900553656050048
+    second: Void-BlackDegree Tileset_40
+  - first:
+      213: 4216210623605418072
+    second: Void-BlackDegree Tileset_41
+  - first:
+      213: -6477853411862600262
+    second: Void-BlackDegree Tileset_42
+  - first:
+      213: -8639270837997006414
+    second: Void-BlackDegree Tileset_43
+  - first:
+      213: 4793739970936051856
+    second: Void-BlackDegree Tileset_44
+  - first:
+      213: 8322882632036005755
+    second: Void-BlackDegree Tileset_45
+  - first:
+      213: -6405293783798105166
+    second: Void-BlackDegree Tileset_46
+  - first:
+      213: -7570007007228748242
+    second: Void-BlackDegree Tileset_47
+  - first:
+      213: 3739078856182453805
+    second: Void-BlackDegree Tileset_48
+  - first:
+      213: 3970042394968244600
+    second: Void-BlackDegree Tileset_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388286ce8bc31d400800000000000000
+      internalID: 347125411222136963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6685816d1863531e0800000000000000
+      internalID: -2218807310139500442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 132
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0b78ce2aaba1490800000000000000
+      internalID: -7774696597785956105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ab355a22a456770800000000000000
+      internalID: 8603364175824271900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a284a4fb7d637d0800000000000000
+      internalID: -2938924490227701136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8619802f39d75200800000000000000
+      internalID: 168842376201705103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ecbb5786df080d0800000000000000
+      internalID: -3422457091707908604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf97170c822f5030800000000000000
+      internalID: 3485542621417807792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5943a49588716f0800000000000000
+      internalID: -713952098836507203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2193a1b4ebd33380800000000000000
+      internalID: -8992602255649435350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e3215a6feec7710800000000000000
+      internalID: 1692490303083265549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da22c708b1ba7a590800000000000000
+      internalID: -7662968106339523923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26fbeb0b108a1850800000000000000
+      internalID: 6348527478384621102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92982704a2fbcda70800000000000000
+      internalID: 8853161155694332201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f297d14162d1e270800000000000000
+      internalID: 8278128905241989879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b92b2a5a18889d0800000000000000
+      internalID: -2771823022247339118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6545afd9ba3617600800000000000000
+      internalID: 464261825336857686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb596ea0761155390800000000000000
+      internalID: -7830333242851551810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07af6a1bc51f786f0800000000000000
+      internalID: -682311438103545232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc557ba93e6644e00800000000000000
+      internalID: 1028059742686631371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f030d0450b2f37ea0800000000000000
+      internalID: -5876086249650060529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306393199ad50d5a0800000000000000
+      internalID: -6498591279428323837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81db38edd8a75b420800000000000000
+      internalID: 2645155105892187416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013aaadc695802f70800000000000000
+      internalID: 9160468524813689616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac0634e8a3d8c940800000000000000
+      internalID: 5316732082447584425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5923d99dd2a1ac30800000000000000
+      internalID: 4368952186178316635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d2f6cb2e55be790800000000000000
+      internalID: -7499806322143056632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054828cbe9cb0d710800000000000000
+      internalID: 1716078847981683792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714e981830ccec920800000000000000
+      internalID: 3012569516187706391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77acfdba6aa1fcc0800000000000000
+      internalID: -3678972045154277510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5adb715f0639740800000000000000
+      internalID: 5157572604050908656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 99
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2161ace6e3c827140800000000000000
+      internalID: 4715985959584929298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c54e0aa1a517060800000000000000
+      internalID: 6949434770424355853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574786dfc8645ed40800000000000000
+      internalID: 5612970081948038261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fb6c79fee3cb710800000000000000
+      internalID: 1710311157258436439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a10d280ff557ca0800000000000000
+      internalID: -6019799840319333729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc27153a2f3182d0800000000000000
+      internalID: -3278269603237122878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0828d4fc2a366e10800000000000000
+      internalID: 2190502233523103756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b98a67c661df7590800000000000000
+      internalID: -7674185000653518415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1025de0313742ba50800000000000000
+      internalID: 6535364285867840001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0812604731b2b3720800000000000000
+      internalID: 2826900553656050048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858aa36493df28a30800000000000000
+      internalID: 4216210623605418072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5a0ee94aa0a16a0800000000000000
+      internalID: -6477853411862600262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b11cc612f42b1880800000000000000
+      internalID: -8639270837997006414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0981c31fa19c68240800000000000000
+      internalID: 4793739970936051856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7736c548a1d08370800000000000000
+      internalID: 8322882632036005755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb32b68d33db17a0800000000000000
+      internalID: -6405293783798105166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e99ea0cbee1f690800000000000000
+      internalID: -7570007007228748242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 33
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26dde1c860e3e330800000000000000
+      internalID: 3739078856182453805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Void-BlackDegree Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871c257268c681730800000000000000
+      internalID: 3970042394968244600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Void-BlackDegree Tileset_0: 347125411222136963
+      Void-BlackDegree Tileset_1: -2218807310139500442
+      Void-BlackDegree Tileset_10: 1692490303083265549
+      Void-BlackDegree Tileset_11: -7662968106339523923
+      Void-BlackDegree Tileset_12: 6348527478384621102
+      Void-BlackDegree Tileset_13: 8853161155694332201
+      Void-BlackDegree Tileset_14: 8278128905241989879
+      Void-BlackDegree Tileset_15: -2771823022247339118
+      Void-BlackDegree Tileset_16: 464261825336857686
+      Void-BlackDegree Tileset_17: -7830333242851551810
+      Void-BlackDegree Tileset_18: -682311438103545232
+      Void-BlackDegree Tileset_19: 1028059742686631371
+      Void-BlackDegree Tileset_2: -7774696597785956105
+      Void-BlackDegree Tileset_20: -5876086249650060529
+      Void-BlackDegree Tileset_21: -6498591279428323837
+      Void-BlackDegree Tileset_22: 2645155105892187416
+      Void-BlackDegree Tileset_23: 9160468524813689616
+      Void-BlackDegree Tileset_24: 5316732082447584425
+      Void-BlackDegree Tileset_25: 4368952186178316635
+      Void-BlackDegree Tileset_26: -7499806322143056632
+      Void-BlackDegree Tileset_27: 1716078847981683792
+      Void-BlackDegree Tileset_28: 3012569516187706391
+      Void-BlackDegree Tileset_29: -3678972045154277510
+      Void-BlackDegree Tileset_3: 8603364175824271900
+      Void-BlackDegree Tileset_30: 5157572604050908656
+      Void-BlackDegree Tileset_31: 4715985959584929298
+      Void-BlackDegree Tileset_32: 6949434770424355853
+      Void-BlackDegree Tileset_33: 5612970081948038261
+      Void-BlackDegree Tileset_34: 1710311157258436439
+      Void-BlackDegree Tileset_35: -6019799840319333729
+      Void-BlackDegree Tileset_36: -3278269603237122878
+      Void-BlackDegree Tileset_37: 2190502233523103756
+      Void-BlackDegree Tileset_38: -7674185000653518415
+      Void-BlackDegree Tileset_39: 6535364285867840001
+      Void-BlackDegree Tileset_4: -2938924490227701136
+      Void-BlackDegree Tileset_40: 2826900553656050048
+      Void-BlackDegree Tileset_41: 4216210623605418072
+      Void-BlackDegree Tileset_42: -6477853411862600262
+      Void-BlackDegree Tileset_43: -8639270837997006414
+      Void-BlackDegree Tileset_44: 4793739970936051856
+      Void-BlackDegree Tileset_45: 8322882632036005755
+      Void-BlackDegree Tileset_46: -6405293783798105166
+      Void-BlackDegree Tileset_47: -7570007007228748242
+      Void-BlackDegree Tileset_48: 3739078856182453805
+      Void-BlackDegree Tileset_49: 3970042394968244600
+      Void-BlackDegree Tileset_5: 168842376201705103
+      Void-BlackDegree Tileset_6: -3422457091707908604
+      Void-BlackDegree Tileset_7: 3485542621417807792
+      Void-BlackDegree Tileset_8: -713952098836507203
+      Void-BlackDegree Tileset_9: -8992602255649435350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 2080d38546ed40e47ae00ac53a670436
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2018170669851271295
+    second: Bruja_damage_left_0
+  - first:
+      213: -8692128375473304174
+    second: Bruja_damage_left_1
+  - first:
+      213: -6293588968797807314
+    second: Bruja_damage_left_2
+  - first:
+      213: 5831676353599465548
+    second: Bruja_damage_left_3
+  - first:
+      213: -5828817806652089506
+    second: Bruja_damage_left_4
+  - first:
+      213: -5390140634816500232
+    second: Bruja_damage_left_5
+  - first:
+      213: -3671824085202403694
+    second: Bruja_damage_left_6
+  - first:
+      213: 2293740468243766380
+    second: Bruja_damage_left_7
+  - first:
+      213: -4661919723772497118
+    second: Bruja_damage_left_8
+  - first:
+      213: 4599813738464618584
+    second: Bruja_damage_left_9
+  - first:
+      213: 4565301879240454347
+    second: Bruja_damage_left_10
+  - first:
+      213: -534968678111982767
+    second: Bruja_damage_left_11
+  - first:
+      213: 8296560051827256299
+    second: Bruja_damage_left_12
+  - first:
+      213: 3672181943176124769
+    second: Bruja_damage_left_13
+  - first:
+      213: -2631231237715667168
+    second: Bruja_damage_left_14
+  - first:
+      213: 6015365837330740328
+    second: Bruja_damage_left_15
+  - first:
+      213: -1863285953832138847
+    second: Bruja_damage_left_16
+  - first:
+      213: -4378371863699599501
+    second: Bruja_damage_left_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bruja_damage_left_0
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 79
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70e890188bf10c10800000000000000
+      internalID: 2018170669851271295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_1
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 77
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d02dd9b4b5f5780800000000000000
+      internalID: -8692128375473304174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 95
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d5d708d2ea8a8a0800000000000000
+      internalID: -6293588968797807314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 91
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48675dfeb64ee050800000000000000
+      internalID: 5831676353599465548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_4
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 93
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bd7065611eb1fa0800000000000000
+      internalID: -5828817806652089506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_5
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 76
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd2d5c96af5235b0800000000000000
+      internalID: -5390140634816500232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_6
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 97
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e79cbd27f0b0dc0800000000000000
+      internalID: -3671824085202403694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 99
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c9b989dc005df10800000000000000
+      internalID: 2293740468243766380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 32
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223372d06b88d4fb0800000000000000
+      internalID: -4661919723772497118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 32
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858252a6932d5df30800000000000000
+      internalID: 4599813738464618584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 32
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0fc840fd53b5f30800000000000000
+      internalID: 4565301879240454347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 88
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bcc2752d86398f0800000000000000
+      internalID: -534968678111982767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 82
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb2cdaf86d432370800000000000000
+      internalID: 8296560051827256299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_13
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 32
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169dd91750636f230800000000000000
+      internalID: 3672181943176124769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_14
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 80
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027db02512dfb7bd0800000000000000
+      internalID: -2631231237715667168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 32
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8647e18bb5fda7350800000000000000
+      internalID: 6015365837330740328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 32
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a74cde0c474426e0800000000000000
+      internalID: -1863285953832138847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_damage_left_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 32
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fce91dcf5ec33c0800000000000000
+      internalID: -4378371863699599501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bruja_damage_left_0: 2018170669851271295
+      Bruja_damage_left_1: -8692128375473304174
+      Bruja_damage_left_10: 4565301879240454347
+      Bruja_damage_left_11: -534968678111982767
+      Bruja_damage_left_12: 8296560051827256299
+      Bruja_damage_left_13: 3672181943176124769
+      Bruja_damage_left_14: -2631231237715667168
+      Bruja_damage_left_15: 6015365837330740328
+      Bruja_damage_left_16: -1863285953832138847
+      Bruja_damage_left_17: -4378371863699599501
+      Bruja_damage_left_2: -6293588968797807314
+      Bruja_damage_left_3: 5831676353599465548
+      Bruja_damage_left_4: -5828817806652089506
+      Bruja_damage_left_5: -5390140634816500232
+      Bruja_damage_left_6: -3671824085202403694
+      Bruja_damage_left_7: 2293740468243766380
+      Bruja_damage_left_8: -4661919723772497118
+      Bruja_damage_left_9: 4599813738464618584
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

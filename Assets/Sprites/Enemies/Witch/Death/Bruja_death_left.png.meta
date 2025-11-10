@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 5da68f36575edfd4db04c379c7bd5e45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4867212993731230613
+    second: Bruja_death_left_0
+  - first:
+      213: 1510244772885815646
+    second: Bruja_death_left_1
+  - first:
+      213: 9103090677335876764
+    second: Bruja_death_left_2
+  - first:
+      213: 3677514445304895458
+    second: Bruja_death_left_3
+  - first:
+      213: 8589544189307764739
+    second: Bruja_death_left_4
+  - first:
+      213: -5787807534698148201
+    second: Bruja_death_left_5
+  - first:
+      213: -8048610620276660429
+    second: Bruja_death_left_6
+  - first:
+      213: 1255065269063544591
+    second: Bruja_death_left_7
+  - first:
+      213: 5111284817406498199
+    second: Bruja_death_left_8
+  - first:
+      213: 1761340270008055215
+    second: Bruja_death_left_9
+  - first:
+      213: -5779951724620184414
+    second: Bruja_death_left_10
+  - first:
+      213: -7017638321673179811
+    second: Bruja_death_left_11
+  - first:
+      213: 3778916559624713130
+    second: Bruja_death_left_12
+  - first:
+      213: -1926157354759772873
+    second: Bruja_death_left_13
+  - first:
+      213: -2299364453960817007
+    second: Bruja_death_left_14
+  - first:
+      213: -8543387249521127549
+    second: Bruja_death_left_15
+  - first:
+      213: -447892935142418707
+    second: Bruja_death_left_16
+  - first:
+      213: 8968577193768691699
+    second: Bruja_death_left_17
+  - first:
+      213: -1543913955847234335
+    second: Bruja_death_left_18
+  - first:
+      213: 2026932172719181381
+    second: Bruja_death_left_19
+  - first:
+      213: -6449763122007414844
+    second: Bruja_death_left_20
+  - first:
+      213: -6459998846794053889
+    second: Bruja_death_left_21
+  - first:
+      213: 7808697789762433514
+    second: Bruja_death_left_22
+  - first:
+      213: -5557705010790788595
+    second: Bruja_death_left_23
+  - first:
+      213: -9065771026437597738
+    second: Bruja_death_left_24
+  - first:
+      213: 1590760247041032506
+    second: Bruja_death_left_25
+  - first:
+      213: -7980681645716179769
+    second: Bruja_death_left_26
+  - first:
+      213: -8503943484124386754
+    second: Bruja_death_left_27
+  - first:
+      213: -6210670768823705124
+    second: Bruja_death_left_28
+  - first:
+      213: 321847215574478150
+    second: Bruja_death_left_29
+  - first:
+      213: -2571088465967395283
+    second: Bruja_death_left_30
+  - first:
+      213: 1221368110228084109
+    second: Bruja_death_left_31
+  - first:
+      213: 5078302736258332208
+    second: Bruja_death_left_32
+  - first:
+      213: -4308494634098676501
+    second: Bruja_death_left_33
+  - first:
+      213: -4559303393039155367
+    second: Bruja_death_left_34
+  - first:
+      213: 4595153216984675316
+    second: Bruja_death_left_35
+  - first:
+      213: 5426053415909905533
+    second: Bruja_death_left_36
+  - first:
+      213: -2459144469832650016
+    second: Bruja_death_left_37
+  - first:
+      213: 4413290722288168415
+    second: Bruja_death_left_38
+  - first:
+      213: 5482330593178226757
+    second: Bruja_death_left_39
+  - first:
+      213: 6158478698015822414
+    second: Bruja_death_left_40
+  - first:
+      213: -98448178910604075
+    second: Bruja_death_left_41
+  - first:
+      213: 8044269984380082083
+    second: Bruja_death_left_42
+  - first:
+      213: -7635384767101242913
+    second: Bruja_death_left_43
+  - first:
+      213: -3181045049604569834
+    second: Bruja_death_left_44
+  - first:
+      213: -5324794655828862151
+    second: Bruja_death_left_45
+  - first:
+      213: 4981606585294100608
+    second: Bruja_death_left_46
+  - first:
+      213: 9038660712960828664
+    second: Bruja_death_left_47
+  - first:
+      213: -8556306811088695767
+    second: Bruja_death_left_48
+  - first:
+      213: 8302295950476622574
+    second: Bruja_death_left_49
+  - first:
+      213: -5439787929248072332
+    second: Bruja_death_left_50
+  - first:
+      213: -4393656293776205574
+    second: Bruja_death_left_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bruja_death_left_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 32
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bf3812e60db8340800000000000000
+      internalID: 4867212993731230613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 32
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51efbb8e9775f410800000000000000
+      internalID: 1510244772885815646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 30
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9466c4adbca45e70800000000000000
+      internalID: 9103090677335876764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 32
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e714c857e7290330800000000000000
+      internalID: 3677514445304895458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 29
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300c53a4ee0343770800000000000000
+      internalID: 8589544189307764739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_5
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 32
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eccf956b39dafa0800000000000000
+      internalID: -5787807534698148201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_6
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 24
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33729f2c8479d4090800000000000000
+      internalID: -8048610620276660429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_7
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 32
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f667c6633ea6110800000000000000
+      internalID: 1255065269063544591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 36
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7959c5fe57eeee640800000000000000
+      internalID: 5111284817406498199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_9
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 24
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5bb62c4a9817810800000000000000
+      internalID: 1761340270008055215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 29
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a48b1ba78c79cfa0800000000000000
+      internalID: -5779951724620184414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_11
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d6082a0275c9e90800000000000000
+      internalID: -7017638321673179811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_12
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 26
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3b544e698617430800000000000000
+      internalID: 3778916559624713130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_13
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735a900571ae445e0800000000000000
+      internalID: -1926157354759772873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_14
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 21
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196618036340710e0800000000000000
+      internalID: -2299364453960817007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f01b5bf8acf6980800000000000000
+      internalID: -8543387249521127549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_16
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 19
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6dd6f9fb3c8c9f0800000000000000
+      internalID: -447892935142418707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_17
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7a04fa079c67c70800000000000000
+      internalID: 8968577193768691699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_18
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 21
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec15f9ef6ae29ae0800000000000000
+      internalID: -1543913955847234335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_19
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eccba621c112c10800000000000000
+      internalID: 2026932172719181381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_20
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 21
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c76553ec96dd76a0800000000000000
+      internalID: -6449763122007414844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_21
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6486f76497956a0800000000000000
+      internalID: -6459998846794053889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_22
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 21
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1fa2d74411e5c60800000000000000
+      internalID: 7808697789762433514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_23
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0218691db01fd2b0800000000000000
+      internalID: -5557705010790788595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_24
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 21
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d59822b849ef2280800000000000000
+      internalID: -9065771026437597738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_25
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3181b73404831610800000000000000
+      internalID: 1590760247041032506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_26
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 21
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c47b91a35cee3190800000000000000
+      internalID: -7980681645716179769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_27
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aa4cef47cebf980800000000000000
+      internalID: -8503943484124386754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_28
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 21
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd16c5f57d34fc9a0800000000000000
+      internalID: -6210670768823705124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_29
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64de34c565e677400800000000000000
+      internalID: 321847215574478150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_30
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 21
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ec8e399a8a15cd0800000000000000
+      internalID: -2571088465967395283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_31
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85922e33db23f010800000000000000
+      internalID: 1221368110228084109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_32
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 23
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0367290ce61c97640800000000000000
+      internalID: 5078302736258332208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_33
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec2fd925f62534c0800000000000000
+      internalID: -4308494634098676501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_34
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 28
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ffaa268b91ab0c0800000000000000
+      internalID: -4559303393039155367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_35
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f37dd2318345cf30800000000000000
+      internalID: 4595153216984675316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_36
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 38
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74da9355d63d4b40800000000000000
+      internalID: 5426053415909905533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_37
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 28
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e23240422d5fddd0800000000000000
+      internalID: -2459144469832650016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_38
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 41
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd638087882f3d30800000000000000
+      internalID: 4413290722288168415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_39
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54015abb0a6251c40800000000000000
+      internalID: 5482330593178226757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_40
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e421b003fbf477550800000000000000
+      internalID: 6158478698015822414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_41
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4df3327ed32aef0800000000000000
+      internalID: -98448178910604075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_42
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7df403eecf2af60800000000000000
+      internalID: 8044269984380082083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_43
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd17081220aa90690800000000000000
+      internalID: -7635384767101242913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_44
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6150ecb9168aad3d0800000000000000
+      internalID: -3181045049604569834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_45
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b1c65f8778a16b0800000000000000
+      internalID: -5324794655828862151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_46
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088933fabc8322540800000000000000
+      internalID: 4981606585294100608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_47
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f42f419706cf6d70800000000000000
+      internalID: 9038660712960828664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_48
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e8dcfd944e14980800000000000000
+      internalID: -8556306811088695767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_49
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeab254fd2ea73370800000000000000
+      internalID: 8302295950476622574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_50
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47df5b713bdf184b0800000000000000
+      internalID: -5439787929248072332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruja_death_left_51
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 19
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af85f4021e89603c0800000000000000
+      internalID: -4393656293776205574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bruja_death_left_0: 4867212993731230613
+      Bruja_death_left_1: 1510244772885815646
+      Bruja_death_left_10: -5779951724620184414
+      Bruja_death_left_11: -7017638321673179811
+      Bruja_death_left_12: 3778916559624713130
+      Bruja_death_left_13: -1926157354759772873
+      Bruja_death_left_14: -2299364453960817007
+      Bruja_death_left_15: -8543387249521127549
+      Bruja_death_left_16: -447892935142418707
+      Bruja_death_left_17: 8968577193768691699
+      Bruja_death_left_18: -1543913955847234335
+      Bruja_death_left_19: 2026932172719181381
+      Bruja_death_left_2: 9103090677335876764
+      Bruja_death_left_20: -6449763122007414844
+      Bruja_death_left_21: -6459998846794053889
+      Bruja_death_left_22: 7808697789762433514
+      Bruja_death_left_23: -5557705010790788595
+      Bruja_death_left_24: -9065771026437597738
+      Bruja_death_left_25: 1590760247041032506
+      Bruja_death_left_26: -7980681645716179769
+      Bruja_death_left_27: -8503943484124386754
+      Bruja_death_left_28: -6210670768823705124
+      Bruja_death_left_29: 321847215574478150
+      Bruja_death_left_3: 3677514445304895458
+      Bruja_death_left_30: -2571088465967395283
+      Bruja_death_left_31: 1221368110228084109
+      Bruja_death_left_32: 5078302736258332208
+      Bruja_death_left_33: -4308494634098676501
+      Bruja_death_left_34: -4559303393039155367
+      Bruja_death_left_35: 4595153216984675316
+      Bruja_death_left_36: 5426053415909905533
+      Bruja_death_left_37: -2459144469832650016
+      Bruja_death_left_38: 4413290722288168415
+      Bruja_death_left_39: 5482330593178226757
+      Bruja_death_left_4: 8589544189307764739
+      Bruja_death_left_40: 6158478698015822414
+      Bruja_death_left_41: -98448178910604075
+      Bruja_death_left_42: 8044269984380082083
+      Bruja_death_left_43: -7635384767101242913
+      Bruja_death_left_44: -3181045049604569834
+      Bruja_death_left_45: -5324794655828862151
+      Bruja_death_left_46: 4981606585294100608
+      Bruja_death_left_47: 9038660712960828664
+      Bruja_death_left_48: -8556306811088695767
+      Bruja_death_left_49: 8302295950476622574
+      Bruja_death_left_5: -5787807534698148201
+      Bruja_death_left_50: -5439787929248072332
+      Bruja_death_left_51: -4393656293776205574
+      Bruja_death_left_6: -8048610620276660429
+      Bruja_death_left_7: 1255065269063544591
+      Bruja_death_left_8: 5111284817406498199
+      Bruja_death_left_9: 1761340270008055215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
