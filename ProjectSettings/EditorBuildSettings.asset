@@ -29,6 +29,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bosque6.unity
     guid: 53a2c395f76af224cb999cde7383f206
+  - enabled: 1
+    path: Assets/Scenes/Cueva1.unity
+    guid: 03045c9416868384aa6849e69eaaa0e9
+  - enabled: 1
+    path: Assets/Scenes/Cueva2.unity
+    guid: ff070763e1f06fe439d8f7638fce0dab
+  - enabled: 1
+    path: Assets/Scenes/Cueva3.unity
+    guid: 2c937258fadf7444eabb5ccad844d5d4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
