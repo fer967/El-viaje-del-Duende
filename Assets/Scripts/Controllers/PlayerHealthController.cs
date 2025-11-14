@@ -29,7 +29,6 @@ public class PlayerHealthController : MonoBehaviour
 
         UpdateHeartsUI();
 
-        // 🔹 Sincronizar con GameManager
         if (GameManager.Instance != null)
         {
             GameManager.Instance.playerCurrentHealth = currentHealth;
@@ -48,7 +47,6 @@ public class PlayerHealthController : MonoBehaviour
 
         UpdateHeartsUI();
 
-        // 🔹 Sincronizar con GameManager
         if (GameManager.Instance != null)
         {
             GameManager.Instance.playerCurrentHealth = currentHealth;
@@ -62,7 +60,6 @@ public class PlayerHealthController : MonoBehaviour
 
         UpdateHeartsUI();
 
-        // 🔹 Sincronizar con GameManager
         if (GameManager.Instance != null)
         {
             GameManager.Instance.playerMaxHealth = maxHealth;
@@ -74,7 +71,7 @@ public class PlayerHealthController : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("💀 El jugador murió");
+        Debug.Log("El jugador murió");
         // Aquí se puede mostrar el panel Game Over o reiniciar la escena
         //GameManager.Instance.ShowGameOver();
     }
@@ -91,6 +88,5 @@ public class PlayerHealthController : MonoBehaviour
             hearts[i].enabled = i < maxHealth;
         }
     }
-
 
 }

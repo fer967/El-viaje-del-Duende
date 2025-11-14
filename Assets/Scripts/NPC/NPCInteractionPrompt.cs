@@ -5,12 +5,12 @@ using System.Collections;
 public class NPCInteractionPrompt : MonoBehaviour
 {
     [Header("UI del mensaje")]
-    public GameObject promptPanel;     // El panel o texto que dice "Presiona E para hablar"
+    public GameObject promptPanel;     
     public TMP_Text promptText;
 
     [Header("Configuración")]
     public string mensaje = "Presiona E para hablar";
-    public float tiempoVisible = 3f;   // ⏱ tiempo antes de desaparecer el mensaje
+    public float tiempoVisible = 3f;   
 
     private Coroutine ocultarCoroutine;
 

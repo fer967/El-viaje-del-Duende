@@ -54,18 +54,34 @@ public class NPCDialog : MonoBehaviour
         }
     }
 
-    private void OnInteract(InputAction.CallbackContext context)
+
+    protected virtual void OnInteract(InputAction.CallbackContext context)
     {
         if (isPlayerNear)
-        {
-            var dialogueManager = FindFirstObjectByType<DialogueManager>();
-            if (dialogueManager != null)
-            {
-                Debug.Log("🗨️ Iniciando diálogo con NPC...");
-                dialogueManager.StartDialogue(dialogueLines);
-            }
-        }
+            ActivarInteraccion();
     }
+
+
+    public virtual void ActivarInteraccion()
+    {
+        var dialogueManager = FindFirstObjectByType<DialogueManager>();
+        if (dialogueManager != null)
+            dialogueManager.StartDialogue(dialogueLines);
+    }
+
+
+    //private void OnInteract(InputAction.CallbackContext context)
+    //{
+    //    if (isPlayerNear)
+    //    {
+    //        var dialogueManager = FindFirstObjectByType<DialogueManager>();
+    //        if (dialogueManager != null)
+    //        {
+    //            Debug.Log("🗨️ Iniciando diálogo con NPC...");
+    //            dialogueManager.StartDialogue(dialogueLines);
+    //        }
+    //    }
+    //}
 }
 
 

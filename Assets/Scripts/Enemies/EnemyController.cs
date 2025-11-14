@@ -34,7 +34,6 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    
     private void Update()
     {
         if (player == null)
@@ -49,11 +48,9 @@ public class EnemyController : MonoBehaviour
 
         if (dist <= detectRadius)
         {
-            // perseguir
             Vector2 dir = (player.position - transform.position).normalized;
             if (dist > attackRadius)
             {
-                // MOVIMIENTO AHORA EN FIXEDUPDATE
                 currentMovement = dir * moveSpeed;
                 animator.SetBool("IsMoving", true);
             }
@@ -69,7 +66,6 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            // volver a posición inicial
             Vector2 dir = (startPos - (Vector2)transform.position);
             if (dir.magnitude > 0.1f)
             {
@@ -91,15 +87,12 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // MOVIMIENTO FÍSICO AQUÍ - con Time.fixedDeltaTime
         if (currentMovement != Vector2.zero)
         {
             rb.MovePosition(rb.position + currentMovement * Time.fixedDeltaTime);
         }
     }
-
-
-    
+     
 
     private void TryAttack()
     {

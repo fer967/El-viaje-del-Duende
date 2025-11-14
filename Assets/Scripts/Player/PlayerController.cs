@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private PlayerControls controls;
 
-    [Header("Ataque con espada")]
+    [Header("Ataque cuerpo a cuerpo")]
     public Transform attackPoint;
     public float attackRadius = 0.5f;
     public LayerMask hitLayer;
@@ -30,6 +30,13 @@ public class PlayerController : MonoBehaviour
     public float punchCooldown = 0.6f;
     private bool canPunch = true;
     private bool hasPunchAbility = false;
+
+    [Header("Proyectiles (nivel 2)")]
+    public Transform shootPoint;
+    public GameObject arrowPrefab;
+    public GameObject fireballPrefab;
+    public float shootCooldown = 0.6f;
+    private bool canShoot = true;
 
     [Header("Stats")]
     public int maxLives = 4;
@@ -69,7 +76,6 @@ public class PlayerController : MonoBehaviour
         {
             hasPunchAbility = true;
 
-            // Mostrar mensaje si todavía no se mostró
             if (GameManager.Instance != null && GameManager.Instance.hasTitanPunch && !GameManager.Instance.punchMessageShown)
             {
                 GameManager.Instance.punchMessageShown = true;
@@ -78,7 +84,6 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
 
     private void OnEnable()
     {
@@ -109,26 +114,42 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("LastMoveX", lastMoveDir.x);
         animator.SetFloat("LastMoveY", lastMoveDir.y);
 
-        // Actualizar posición del punto de ataque y puño
         if (attackPoint != null)
             attackPoint.localPosition = lastMoveDir.normalized * 0.8f;
-
         if (punchPoint != null)
             punchPoint.localPosition = lastMoveDir.normalized * 0.8f;
+        if (shootPoint != null)
+            shootPoint.localPosition = lastMoveDir.normalized * 0.8f;
     }
 
-    // ⚔️ Ataque con espada (default)
+    
     private void OnAttack()
     {
-        // Si tiene habilidad Puño y estamos en Bosque6, usa el golpe en vez de la espada
-        if (hasPunchAbility && SceneManager.GetActiveScene().name == "Bosque6")
+        string scene = SceneManager.GetActiveScene().name;
+
+        // Nivel 2 → usa proyectiles
+        if (scene == "Cueva1" || scene == "Cueva2")
         {
-            OnPunchAttack();
+            ShootArrow();
+            return;
+        }
+        else if (scene == "Cueva3")
+        {
+            ShootFireball();
             return;
         }
 
-        if (!canAttack) return;
+        // Nivel 1 → espada o puño
+        if (hasPunchAbility && scene == "Bosque6")
+            OnPunchAttack();
+        else
+            OnSwordAttack();
+    }
 
+
+    private void OnSwordAttack()
+    {
+        if (!canAttack) return;
         animator.SetTrigger("Attack");
         canAttack = false;
         Invoke(nameof(ResetAttack), attackCooldown);
@@ -141,14 +162,12 @@ public class PlayerController : MonoBehaviour
                 enemy.TakeDamage(swordDamage);
         }
     }
-
     private void ResetAttack() => canAttack = true;
 
-    // 👊 Ataque con Puño Titánico
+    
     private void OnPunchAttack()
     {
         if (!canPunch) return;
-
         animator.SetTrigger("Punch");
         canPunch = false;
         Invoke(nameof(ResetPunch), punchCooldown);
@@ -156,14 +175,50 @@ public class PlayerController : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(punchPoint.position, punchRange, hitLayer);
         foreach (var col in hits)
         {
-            // Golpea al OgreController
             var ogre = col.GetComponent<OgreController>();
             if (ogre != null)
                 ogre.TakeDamage(punchDamage);
         }
     }
-
     private void ResetPunch() => canPunch = true;
+
+    
+    private void ShootArrow()
+    {
+        if (!canShoot || arrowPrefab == null) return;
+        animator.SetTrigger("Attack_Shoot");
+        canShoot = false;
+        Invoke(nameof(ResetShoot), shootCooldown);
+
+        GameObject proj = Instantiate(arrowPrefab, shootPoint.position, Quaternion.identity);
+        Projectile p = proj.GetComponent<Projectile>();
+        if (p != null)
+        {
+            p.isEnemyProjectile = false;
+            p.targetTag = "Enemy";
+            p.Launch(lastMoveDir);
+        }
+    }
+
+    
+    private void ShootFireball()
+    {
+        if (!canShoot || fireballPrefab == null) return;
+        animator.SetTrigger("Attack_Fireball");
+        canShoot = false;
+        Invoke(nameof(ResetShoot), shootCooldown);
+
+        GameObject proj = Instantiate(fireballPrefab, shootPoint.position, Quaternion.identity);
+        Projectile p = proj.GetComponent<Projectile>();
+        if (p != null)
+        {
+            p.isEnemyProjectile = false;
+            p.targetTag = "Enemy";
+            p.Launch(lastMoveDir);
+        }
+    }
+
+    private void ResetShoot() => canShoot = true;
 
     public void UnlockPunchAbility()
     {
@@ -173,8 +228,6 @@ public class PlayerController : MonoBehaviour
         Debug.Log("✅ Habilidad Puño Titánico desbloqueada!");
     }
 
-
-    
     private void OnInteract()
     {
         float interactRadius = 1.0f;
@@ -183,13 +236,11 @@ public class PlayerController : MonoBehaviour
         {
             var dialog = hit.GetComponent<NPCDialog>();
         }
-
     }
 
     public void TakeDamage(int amount)
     {
         currentLives = Mathf.Max(currentLives - amount, 0);
-
         if (GameManager.Instance != null)
             GameManager.Instance.SetPlayerHealth(currentLives, maxLives);
 
@@ -211,10 +262,8 @@ public class PlayerController : MonoBehaviour
     public void Heal(int amount)
     {
         currentLives = Mathf.Min(currentLives + amount, maxLives);
-
         if (GameManager.Instance != null)
             GameManager.Instance.SetPlayerHealth(currentLives, maxLives);
-
         UIManager.Instance.UpdateHearts(currentLives, maxLives);
     }
 
@@ -223,8 +272,6 @@ public class PlayerController : MonoBehaviour
         transform.position = pos;
     }
 
-
-   
     private void OnDrawGizmosSelected()
     {
         if (attackPoint != null)
@@ -232,7 +279,6 @@ public class PlayerController : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
         }
-
         if (punchPoint != null)
         {
             Gizmos.color = Color.cyan;
@@ -240,6 +286,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
+
+
 
 
 

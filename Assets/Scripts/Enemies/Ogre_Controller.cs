@@ -19,7 +19,7 @@ public class OgreController : MonoBehaviour
     public float attackCooldown = 1.0f;
     public LayerMask playerLayer;
     public Transform attackPoint;
-    float dist = 0.8f;                 
+    //float dist = 0.8f;                 
 
     [Header("Drop al morir")]
     public GameObject bowDropPrefab;   
@@ -55,7 +55,6 @@ public class OgreController : MonoBehaviour
 
         if (dist <= detectRadius)
         {
-            // 🔹 Perseguir al jugador
             Vector2 dir = (player.position - transform.position).normalized;
             if (dist > attackRadius)
             {
@@ -84,8 +83,6 @@ public class OgreController : MonoBehaviour
         {
             Vector2 offset = Vector2.zero;
             
-
-            // Basado en la dirección del movimiento o último movimiento conocido
             Vector2 facingDir = new Vector2(animator.GetFloat("MoveX"), animator.GetFloat("MoveY"));
 
             if (facingDir.sqrMagnitude > 0.01f)
@@ -96,6 +93,7 @@ public class OgreController : MonoBehaviour
         }
 
     }
+
 
     private void FixedUpdate()
     {
@@ -112,7 +110,6 @@ public class OgreController : MonoBehaviour
         Vector2 dir = (currentTarget.position - transform.position);
         if (dir.magnitude < 0.1f)
         {
-            // Cambia el destino cuando llega
             currentTarget = (currentTarget == pointA) ? pointB : pointA;
         }
 
@@ -121,6 +118,7 @@ public class OgreController : MonoBehaviour
         animator.SetFloat("MoveX", dir.x);
         animator.SetFloat("MoveY", dir.y);
     }
+
 
     private void TryAttack()
     {
@@ -138,6 +136,7 @@ public class OgreController : MonoBehaviour
         }
     }
 
+
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
@@ -146,6 +145,7 @@ public class OgreController : MonoBehaviour
         if (currentHealth <= 0)
             Die();
     }
+
 
     private void Die()
     {
@@ -159,6 +159,7 @@ public class OgreController : MonoBehaviour
 
         Destroy(gameObject, 0.6f);
     }
+
 
     private void OnDrawGizmosSelected()
     {
