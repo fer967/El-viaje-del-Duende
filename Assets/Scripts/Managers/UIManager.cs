@@ -42,7 +42,6 @@ public class UIManager : MonoBehaviour
             if (exitButton != null)
                 exitButton.onClick.AddListener(ReturnToMenu);
 
-            // 🔹 Detecta cuando se carga una escena nueva
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
@@ -54,7 +53,6 @@ public class UIManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        // Evita errores si el objeto se destruye y la escena cambia
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
@@ -103,7 +101,6 @@ public class UIManager : MonoBehaviour
     }
 
     
-
     public void ExitGame()
     {
 #if UNITY_EDITOR
@@ -112,6 +109,7 @@ public class UIManager : MonoBehaviour
         Application.Quit();
 #endif
     }
+
 
     public void ReturnToMenu()
     {
@@ -143,7 +141,6 @@ public class UIManager : MonoBehaviour
     }
 
     
-
     public void ShowGameOver(string message)
     {
         if (gameOverPanel != null)
@@ -160,10 +157,7 @@ public class UIManager : MonoBehaviour
             gameOverPanel.SetActive(false);
     }
 
-    // ----------------------------------------------------------
-    //  MONEDAS
-    // ----------------------------------------------------------
-
+    
     public void AddCoins(int amount)
     {
         currentCoins += amount;
@@ -186,10 +180,7 @@ public class UIManager : MonoBehaviour
 
     public int GetCoins() => currentCoins;
 
-    // ----------------------------------------------------------
-    //  MENSAJES TEMPORALES
-    // ----------------------------------------------------------
-
+    
     public void ShowMessage(string message)
     {
         if (messageText == null)
@@ -200,7 +191,6 @@ public class UIManager : MonoBehaviour
 
         if (messageCoroutine != null)
             StopCoroutine(messageCoroutine);
-
         messageCoroutine = StartCoroutine(ShowMessageCoroutine(message));
     }
 

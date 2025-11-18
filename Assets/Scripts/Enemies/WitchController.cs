@@ -9,7 +9,7 @@ public class WitchController : MonoBehaviour
 
     [Header("Movimiento / Patrulla")]
     public float moveSpeed = 1.8f;
-    public Transform[] patrolPoints; // 4 puntos
+    public Transform[] patrolPoints; 
     private int currentPointIndex = 0;
 
     [Header("Detección y ataque")]
@@ -117,6 +117,7 @@ public class WitchController : MonoBehaviour
         }
     }
 
+
     private void TryAttackRanged(Vector2 dir)
     {
         if (Time.time - lastAttackTime < attackCooldown) return;
@@ -134,24 +135,24 @@ public class WitchController : MonoBehaviour
                 proj.Launch(dir);
             }
         }
-
-
     }
+
 
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
         animator.SetTrigger("Damage");
-
         if (currentHealth <= 0)
             Die();
     }
+
 
     private void Die()
     {
         animator.SetTrigger("Death");
         Destroy(gameObject, 0.6f);
     }
+    
 
     private void OnDrawGizmosSelected()
     {

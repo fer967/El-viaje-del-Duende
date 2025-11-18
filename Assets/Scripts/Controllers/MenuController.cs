@@ -43,11 +43,6 @@ public class MenuController : MonoBehaviour
         }
     }
 
-    //public void OpenConfig()
-    //{
-    //    // ver agregar volumen
-    //    Debug.Log("Abrir configuración");
-    //}
 }
 
 

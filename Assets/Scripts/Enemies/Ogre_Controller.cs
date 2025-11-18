@@ -19,8 +19,7 @@ public class OgreController : MonoBehaviour
     public float attackCooldown = 1.0f;
     public LayerMask playerLayer;
     public Transform attackPoint;
-    //float dist = 0.8f;                 
-
+                  
     [Header("Drop al morir")]
     public GameObject bowDropPrefab;   
     public GameObject arrowDropPrefab; 
