@@ -11,6 +11,9 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("Bosque1");
     }
 
+    [Header("Referencias")]
+    public ConfigMenu configMenu;
+
 
     public void ExitGame()
     {
@@ -27,12 +30,24 @@ public class MenuController : MonoBehaviour
         }
     }
 
-    
+
     public void OpenConfig()
     {
-        // Podés abrir un panel de opciones más adelante
-        Debug.Log("Abrir configuración");
+        if (configMenu != null)
+        {
+            configMenu.OpenConfig();
+        }
+        else
+        {
+            Debug.LogWarning("ConfigMenu no asignado en el inspector");
+        }
     }
+
+    //public void OpenConfig()
+    //{
+    //    // ver agregar volumen
+    //    Debug.Log("Abrir configuración");
+    //}
 }
 
 

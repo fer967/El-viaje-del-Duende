@@ -180,9 +180,18 @@ public class PlayerController : MonoBehaviour
                 ogre.TakeDamage(punchDamage);
         }
     }
+
     private void ResetPunch() => canPunch = true;
 
-    
+    public void UnlockPunchAbility()
+    {
+        hasPunchAbility = true;
+        PlayerPrefs.SetInt("HasPunchAbility", 1);
+        PlayerPrefs.Save();
+        Debug.Log("✅ Habilidad Puño Titánico desbloqueada!");
+    }
+
+
     private void ShootArrow()
     {
         if (!canShoot || arrowPrefab == null) return;
@@ -220,14 +229,7 @@ public class PlayerController : MonoBehaviour
 
     private void ResetShoot() => canShoot = true;
 
-    public void UnlockPunchAbility()
-    {
-        hasPunchAbility = true;
-        PlayerPrefs.SetInt("HasPunchAbility", 1);
-        PlayerPrefs.Save();
-        Debug.Log("✅ Habilidad Puño Titánico desbloqueada!");
-    }
-
+    
     private void OnInteract()
     {
         float interactRadius = 1.0f;

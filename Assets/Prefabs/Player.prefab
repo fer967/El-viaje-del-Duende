@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2662973204957863094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800945580539655385}
+  m_Layer: 3
+  m_Name: PunchPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &800945580539655385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2662973204957863094}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.32, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7572168905201308686}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3332295703211131009
 GameObject:
   m_ObjectHideFlags: 0
@@ -25,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 3332295703211131009}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.59, y: -0.39, z: 0}
+  m_LocalPosition: {x: 0.32, y: -0.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46,7 +77,6 @@ GameObject:
   - component: {fileID: 2129785261268981812}
   - component: {fileID: 3633287123188463381}
   - component: {fileID: 1288691007758548692}
-  - component: {fileID: 2032653395216756082}
   - component: {fileID: 5133177470783442887}
   m_Layer: 3
   m_Name: Player
@@ -69,6 +99,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5733120419543225140}
+  - {fileID: 800945580539655385}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1980759955214861269
@@ -192,12 +223,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 3
   attackPoint: {fileID: 5733120419543225140}
-  attackRadius: 0.5
+  attackRadius: 1
   hitLayer:
     serializedVersion: 2
     m_Bits: 64
   swordDamage: 1
   attackCooldown: 0.4
+  punchPoint: {fileID: 800945580539655385}
+  punchRange: 1
+  punchDamage: 3
+  punchCooldown: 0.6
+  shootPoint: {fileID: 0}
+  arrowPrefab: {fileID: 0}
+  fireballPrefab: {fileID: 0}
+  shootCooldown: 0.6
   maxLives: 4
 --- !u!114 &3633287123188463381
 MonoBehaviour:
@@ -263,7 +302,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.06415558}
+  m_Offset: {x: 0.12199405, y: 0.06415555}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -273,28 +312,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.72, y: 1.248311}
+  m_Size: {x: 0.9639881, y: 1.8791728}
   m_EdgeRadius: 0
---- !u!114 &2032653395216756082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3928270256845437260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea79ef194d1a1864eaf3b316a366e9af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttackController
-  attackRange: 1
-  attackDamage: 1
-  attackCooldown: 0.4
-  attackPoint: {fileID: 5733120419543225140}
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 64
-  animator: {fileID: 3744491977588133405}
 --- !u!114 &5133177470783442887
 MonoBehaviour:
   m_ObjectHideFlags: 0

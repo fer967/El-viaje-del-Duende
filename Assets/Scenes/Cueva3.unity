@@ -3761,7 +3761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39951a2fd164edd46b0049760400aeca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WitchController
-  maxHealth: 5
+  maxHealth: 1
   moveSpeed: 1.6
   patrolPoints:
   - {fileID: 1812469228}
