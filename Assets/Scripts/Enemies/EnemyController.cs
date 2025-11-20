@@ -82,6 +82,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+
     private Vector2 currentMovement = Vector2.zero;
 
 
@@ -112,7 +113,6 @@ public class EnemyController : MonoBehaviour
     }
 
     
-
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
@@ -138,6 +138,4 @@ public class EnemyController : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, detectRadius);
     }
-
-
 }

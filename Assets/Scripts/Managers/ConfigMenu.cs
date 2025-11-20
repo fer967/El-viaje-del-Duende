@@ -47,7 +47,6 @@ public class ConfigMenu : MonoBehaviour
     }
 
     
-
     public void CloseConfig()
     {
         if (configPanel != null)

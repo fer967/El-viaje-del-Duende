@@ -127,7 +127,6 @@ public class PlayerController : MonoBehaviour
     {
         string scene = SceneManager.GetActiveScene().name;
 
-        // Nivel 2 → usa proyectiles
         if (scene == "Cueva1" || scene == "Cueva2")
         {
             ShootArrow();
@@ -139,7 +138,6 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        // Nivel 1 → espada o puño
         if (hasPunchAbility && scene == "Bosque6")
             OnPunchAttack();
         else
@@ -162,6 +160,13 @@ public class PlayerController : MonoBehaviour
                 enemy.TakeDamage(swordDamage);
         }
     }
+
+    
+    public void PlaySwordSound()
+    {
+        AudioManager.instance.PlaySwordAttack();
+    }
+
     private void ResetAttack() => canAttack = true;
 
     

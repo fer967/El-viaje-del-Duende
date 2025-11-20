@@ -879,6 +879,11 @@ MonoBehaviour:
   menuMusic: {fileID: 8300000, guid: f77fe237c65a3bd4ab0ee9d73a22f828, type: 3}
   forestMusic: {fileID: 8300000, guid: da90e72bbfbe7e94e877fd9149c9ee40, type: 3}
   caveMusic: {fileID: 8300000, guid: 79895b30f7b062e4fbbbbba2fff5d6bf, type: 3}
+  swordAttack: {fileID: 8300000, guid: 6a5bbb9a3c4b29c4690bc67b8a5cdaf0, type: 3}
+  wolfmanAttack: {fileID: 8300000, guid: 7d02ba94ade6ca942808ef7019de2e1d, type: 3}
+  witchLaugh: {fileID: 8300000, guid: ac734698ea907404aaf24bc4906cc1b1, type: 3}
+  frogTongue: {fileID: 8300000, guid: 3ab4824287c91104197b897ca8052937, type: 3}
+  victoryMusic: {fileID: 8300000, guid: 21af0687f39f507488cacba0fb9bfce7, type: 3}
 --- !u!82 &1305342336
 AudioSource:
   m_ObjectHideFlags: 0

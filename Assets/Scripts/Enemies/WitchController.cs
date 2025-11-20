@@ -102,6 +102,13 @@ public class WitchController : MonoBehaviour
         animator.SetBool("isMoving", true);
     }
 
+
+    
+    public void WitchPatrolSound()
+    {
+        AudioManager.instance.PlayWitchLaugh();
+    }
+
     private void TryAttackMelee()
     {
         if (Time.time - lastAttackTime < attackCooldown) return;
@@ -150,10 +157,27 @@ public class WitchController : MonoBehaviour
     private void Die()
     {
         animator.SetTrigger("Death");
-        Destroy(gameObject, 0.6f);
+        Invoke(nameof(TriggerVictory), 1.5f);
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
+        Destroy(gameObject, 2f);
     }
-    
 
+    private void TriggerVictory()
+    {
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ShowVictory("¡Felicidades! Has derrotado a la Bruja");
+        }
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlayVictoryMusic();
+        }
+    }
+
+
+    
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

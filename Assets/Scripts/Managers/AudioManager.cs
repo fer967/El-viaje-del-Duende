@@ -11,6 +11,19 @@ public class AudioManager : MonoBehaviour
     public AudioClip forestMusic;
     public AudioClip caveMusic;
 
+    [Header("Efectos de Sonido")]        
+    public AudioClip swordAttack;
+    public AudioClip wolfmanAttack;
+    public AudioClip witchLaugh;
+    public AudioClip frogTongue;
+    public AudioClip victoryMusic;
+
+    public void PlaySwordAttack() => PlaySFX(swordAttack);
+    public void PlayWolfmanAttack() => PlaySFX(wolfmanAttack);
+    public void PlayWitchLaugh() => PlaySFX(witchLaugh);
+    public void PlayFrogTongue() => PlaySFX(frogTongue);
+    
+    private AudioSource sfxSource;    
     private AudioSource audioSource;
     private const string MUSIC_VOLUME_KEY = "MusicVolume";
     private const float DEFAULT_VOLUME = 0.7f;
@@ -23,7 +36,8 @@ public class AudioManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             audioSource = GetComponent<AudioSource>();
             LoadVolumeSettings();
-
+            sfxSource = gameObject.AddComponent<AudioSource>();
+            sfxSource.loop = false;
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
@@ -37,12 +51,18 @@ public class AudioManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-
     
+    private void PlaySFX(AudioClip clip, float volume = 1.0f)
+    {
+        if (sfxSource != null && clip != null)
+        {
+            sfxSource.PlayOneShot(clip, volume);
+        }
+    }
+
+
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log($"Escena cargada: {scene.name}");
-
         string sceneName = scene.name;
 
         if (sceneName.Contains("SampleScene") || sceneName.Contains("MenuInicio"))
@@ -69,21 +89,13 @@ public class AudioManager : MonoBehaviour
 
     private void PlayMusic(AudioClip musicClip, float fadeDuration = 1.0f)
     {
-        Debug.Log($"=== PLAY MUSIC CALLED ===");
-        Debug.Log($"Clip solicitado: {musicClip?.name}");
-        Debug.Log($"Clip actual: {audioSource?.clip?.name}");
-
         if (musicClip != null && audioSource != null)
         {
-            // SOLO evitar cambio si es EXACTAMENTE el mismo AudioClip
             if (audioSource.clip == musicClip)
             {
-                Debug.Log("🚫 Ya está reproduciendo este clip, no hacer cambio");
                 return;
             }
 
-            // SIEMPRE cambiar si son clips diferentes (aunque ambos sean música de menú)
-            Debug.Log($"🔄 Cambiando música de {audioSource.clip?.name} a: {musicClip.name}");
             StartCoroutine(FadeMusic(musicClip, fadeDuration));
         }
         else
@@ -93,15 +105,10 @@ public class AudioManager : MonoBehaviour
     }
 
 
-    
     private IEnumerator FadeMusic(AudioClip newClip, float fadeDuration)
     {
-        Debug.Log($"🎵 Iniciando fade a: {newClip.name}");
-
-        // Fade out
         float startVolume = audioSource.volume;
-        Debug.Log($"Fade out desde volumen: {startVolume}");
-
+        
         for (float t = 0; t < fadeDuration; t += Time.deltaTime)
         {
             if (audioSource != null)
@@ -116,21 +123,14 @@ public class AudioManager : MonoBehaviour
             audioSource.clip = newClip;
             audioSource.Play();
 
-            Debug.Log($"Nuevo clip asignado: {audioSource.clip?.name}");
-            Debug.Log($"AudioSource isPlaying: {audioSource.isPlaying}");
-
-            // Fade in
-            Debug.Log($"Fade in hasta volumen: {startVolume}");
             for (float t = 0; t < fadeDuration; t += Time.deltaTime)
             {
                 audioSource.volume = Mathf.Lerp(0, startVolume, t / fadeDuration);
                 yield return null;
             }
 
-            Debug.Log($"✅ Fade completado. Clip actual: {audioSource.clip?.name}");
         }
     }
-
 
     public void SetMusicVolume(float volume)
     {
@@ -166,5 +166,47 @@ public class AudioManager : MonoBehaviour
         Debug.Log($"Volumen cargado: {savedVolume}");
     }
 
-    
+
+    public void PlayVictoryMusic()
+    {
+        if (audioSource != null && victoryMusic != null)
+        {
+            audioSource.Stop();
+            audioSource.clip = victoryMusic;
+            audioSource.loop = false;
+            audioSource.Play();
+
+            Debug.Log($"✅ Música cambiada a: {audioSource.clip?.name}");
+            Debug.Log($"🔊 IsPlaying: {audioSource.isPlaying}");
+        }
+        else
+        {
+            Debug.LogError("❌ AudioSource o VictoryMusic es null");
+        }
+    }
+
+
+      
+    private IEnumerator FadeToVictoryMusic()
+    {
+        Debug.Log("🎵 Transición a música de victoria con fade");
+
+        float startVolume = audioSource.volume;
+        float fadeDuration = 1.0f;
+
+        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
+        {
+            audioSource.volume = Mathf.Lerp(startVolume, 0, t / fadeDuration);
+            yield return null;
+        }
+
+        audioSource.Stop();
+        audioSource.clip = victoryMusic;
+        audioSource.loop = false;
+        audioSource.volume = startVolume; 
+        audioSource.Play();
+
+        Debug.Log("✅ Música de victoria reproduciéndose");
+    }
+
 }

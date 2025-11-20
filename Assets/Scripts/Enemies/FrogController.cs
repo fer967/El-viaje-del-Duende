@@ -16,21 +16,24 @@ public class SapoController : MonoBehaviour
     void Update()
     {
         if (jugador == null) return;
-
         Vector2 direccionAlJugador = (jugador.position - transform.position).normalized;
         float distancia = Vector2.Distance(transform.position, jugador.position);
-
         float dot = Vector2.Dot(direccionFrontal.normalized, direccionAlJugador);
         float angulo = Mathf.Acos(dot) * Mathf.Rad2Deg;
-
         bool enRango = distancia < rangoDeteccion;
         bool enVision = angulo < anguloVision / 2f;
-
         animator.SetBool("Attack", enRango && enVision);
     }
 
-#if UNITY_EDITOR
     
+    public void FrogAttackSound()
+    {
+        AudioManager.instance.PlayFrogTongue();
+    }
+
+
+#if UNITY_EDITOR
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;

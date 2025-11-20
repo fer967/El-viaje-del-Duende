@@ -17,14 +17,12 @@ public class MenuController : MonoBehaviour
 
     public void ExitGame()
     {
-        
         if (UIManager.Instance != null)
         {
             UIManager.Instance.ExitGame();
         }
         else
         {
-            
             Application.Quit();
             Debug.Log("Juego cerrado (fallback)");
         }
