@@ -42,6 +42,9 @@ public class UIManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
 
+            if (victoryPanel != null)
+                victoryPanel.SetActive(true);
+
             if (exitButton != null)
                 exitButton.onClick.AddListener(ReturnToMenu);
 
@@ -54,6 +57,23 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    
+    private void Start()
+    {
+        if (victoryPanel != null)
+            victoryPanel.SetActive(false);
+
+        if (gameOverPanel != null)
+            gameOverPanel.SetActive(false);
+
+        if (messagePanel != null)
+            messagePanel.SetActive(false);
+
+        Debug.Log("✅ Paneles desactivados correctamente en Start");
+    }
+
+          
+  
     private void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
@@ -61,7 +81,7 @@ public class UIManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        
+                
         switch (scene.name)
         {
             case "Bosque1":
@@ -233,7 +253,6 @@ public class UIManager : MonoBehaviour
     }
 
     
-
     public void ReturnToMenuFromVictory()
     {
         Time.timeScale = 1f;

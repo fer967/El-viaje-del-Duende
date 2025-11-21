@@ -1,4 +1,5 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public class WitchController : MonoBehaviour
@@ -12,7 +13,7 @@ public class WitchController : MonoBehaviour
     public Transform[] patrolPoints; 
     private int currentPointIndex = 0;
 
-    [Header("Detecci�n y ataque")]
+    [Header("Detección y ataque")]
     public float detectRadius = 6f;
     public float meleeRadius = 1.2f;
     public float rangeAttackRadius = 4.5f;
@@ -103,7 +104,6 @@ public class WitchController : MonoBehaviour
     }
 
 
-    
     public void WitchPatrolSound()
     {
         AudioManager.instance.PlayWitchLaugh();
@@ -154,30 +154,46 @@ public class WitchController : MonoBehaviour
     }
 
 
+    
     private void Die()
     {
         animator.SetTrigger("Death");
-        Invoke(nameof(TriggerVictory), 1.5f);
         GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
-        Destroy(gameObject, 2f);
+        this.enabled = false; 
+        GetComponent<Rigidbody2D>().simulated = false;
+        TriggerVictory();
+        Destroy(gameObject, 5f);
     }
 
+
+        
     private void TriggerVictory()
     {
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.ShowVictory("�Felicidades! Has derrotado a la Bruja");
-        }
+        AudioManager.instance.PlayVictoryMusic();
 
-        if (AudioManager.instance != null)
-        {
-            AudioManager.instance.PlayVictoryMusic();
-        }
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+            player.GetComponent<PlayerController>().enabled = false;
+
+        Invoke(nameof(LoadVictoryScene), 3f);
     }
 
 
-    
+    private void LoadVictoryScene()
+    {
+        Debug.Log("🚀 Cargando PantallaFinal...");
+
+        if (UIManager.Instance != null)
+        {
+            Destroy(UIManager.Instance.gameObject);
+            Debug.Log("🗑️ UIManager destruido");
+        }
+
+        SceneManager.LoadScene("PantallaFinal", LoadSceneMode.Single);
+    }
+
+   
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

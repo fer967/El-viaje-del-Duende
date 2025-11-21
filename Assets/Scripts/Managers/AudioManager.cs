@@ -63,6 +63,13 @@ public class AudioManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        
+        if (scene.name == "PantallaFinal")
+        {
+            Debug.Log("🎵 PantallaFinal detectada - manteniendo música de victoria");
+            return;
+        }
+
         string sceneName = scene.name;
 
         if (sceneName.Contains("SampleScene") || sceneName.Contains("MenuInicio"))
@@ -175,38 +182,12 @@ public class AudioManager : MonoBehaviour
             audioSource.clip = victoryMusic;
             audioSource.loop = false;
             audioSource.Play();
-
-            Debug.Log($"✅ Música cambiada a: {audioSource.clip?.name}");
-            Debug.Log($"🔊 IsPlaying: {audioSource.isPlaying}");
         }
         else
         {
             Debug.LogError("❌ AudioSource o VictoryMusic es null");
         }
     }
-
-
-      
-    private IEnumerator FadeToVictoryMusic()
-    {
-        Debug.Log("🎵 Transición a música de victoria con fade");
-
-        float startVolume = audioSource.volume;
-        float fadeDuration = 1.0f;
-
-        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
-        {
-            audioSource.volume = Mathf.Lerp(startVolume, 0, t / fadeDuration);
-            yield return null;
-        }
-
-        audioSource.Stop();
-        audioSource.clip = victoryMusic;
-        audioSource.loop = false;
-        audioSource.volume = startVolume; 
-        audioSource.Play();
-
-        Debug.Log("✅ Música de victoria reproduciéndose");
-    }
-
+   
+   
 }
