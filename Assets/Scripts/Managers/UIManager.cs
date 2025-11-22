@@ -31,23 +31,16 @@ public class UIManager : MonoBehaviour
     public float messageDuration = 3f;
     private Coroutine messageCoroutine;
 
-    [Header("Panel de Victoria")]
-    public GameObject victoryPanel;
-    public TMPro.TextMeshProUGUI victoryText;
-
+    
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-
-            if (victoryPanel != null)
-                victoryPanel.SetActive(true);
-
+                     
             if (exitButton != null)
                 exitButton.onClick.AddListener(ReturnToMenu);
-
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
@@ -57,23 +50,14 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    
+
     private void Start()
     {
-        if (victoryPanel != null)
-            victoryPanel.SetActive(false);
-
         if (gameOverPanel != null)
             gameOverPanel.SetActive(false);
-
-        if (messagePanel != null)
-            messagePanel.SetActive(false);
-
-        Debug.Log("✅ Paneles desactivados correctamente en Start");
     }
 
-          
-  
+       
     private void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
@@ -85,7 +69,7 @@ public class UIManager : MonoBehaviour
         switch (scene.name)
         {
             case "Bosque1":
-                ShowMessage("Movimiento -> flechas  Dialoga con Artus");
+                StartCoroutine(DelayedMessage("Movimiento -> flechas  Dialoga con Artus"));
                 break;
 
             case "Bosque2":
@@ -105,7 +89,7 @@ public class UIManager : MonoBehaviour
                 break;
 
             case "Bosque6":
-                ShowMessage("Tienes Puño Titanico");
+                ShowMessage("Usa tu Puño Titanico");
                 break;
 
             case "Cueva1":
@@ -123,7 +107,15 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    
+
+    private System.Collections.IEnumerator DelayedMessage(string msg)
+    {
+        yield return null; 
+        ShowMessage(msg);
+    }
+
+
+
     public void ExitGame()
     {
 #if UNITY_EDITOR
@@ -146,7 +138,6 @@ public class UIManager : MonoBehaviour
     {
         if (heartImages == null || heartImages.Length == 0)
         {
-            Debug.LogWarning("⚠️ UIManager: no hay corazones asignados en el array heartImages.");
             return;
         }
 
@@ -154,10 +145,8 @@ public class UIManager : MonoBehaviour
         {
             if (heartImages[i] == null)
             {
-                Debug.LogWarning($"⚠️ Corazón {i} no está asignado en el UIManager.");
                 continue;
             }
-
             heartImages[i].sprite = (i < current) ? fullHeart : emptyHeart;
             heartImages[i].enabled = (i < max);
         }
@@ -184,7 +173,6 @@ public class UIManager : MonoBehaviour
     public void AddCoins(int amount)
     {
         currentCoins += amount;
-
         for (int i = 0; i < amount; i++)
         {
             GameObject coin = Instantiate(coinPrefab, coinsParent);
@@ -196,7 +184,6 @@ public class UIManager : MonoBehaviour
     {
         foreach (GameObject coin in coinImages)
             Destroy(coin);
-
         coinImages.Clear();
         currentCoins = 0;
     }
@@ -208,10 +195,8 @@ public class UIManager : MonoBehaviour
     {
         if (messageText == null)
         {
-            Debug.LogWarning("⚠️ UIManager: messageText no está asignado.");
             return;
         }
-
         if (messageCoroutine != null)
             StopCoroutine(messageCoroutine);
         messageCoroutine = StartCoroutine(ShowMessageCoroutine(message));
@@ -220,29 +205,17 @@ public class UIManager : MonoBehaviour
     private System.Collections.IEnumerator ShowMessageCoroutine(string message)
     {
         messageText.text = message;
-
         if (messagePanel != null) messagePanel.SetActive(true);
         else messageText.gameObject.SetActive(true);
-
         yield return new WaitForSeconds(messageDuration);
-
         if (messagePanel != null) messagePanel.SetActive(false);
         else messageText.gameObject.SetActive(false);
-
         messageCoroutine = null;
     }
 
     public void ShowVictory(string message = "¡VICTORIA! Has derrotado a la Bruja")
     {
-        if (victoryPanel != null)
-        {
-            victoryPanel.SetActive(true);
-            if (victoryText != null)
-                victoryText.text = message;
-        }
-
         Time.timeScale = 0f;
-
         var player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -256,10 +229,6 @@ public class UIManager : MonoBehaviour
     public void ReturnToMenuFromVictory()
     {
         Time.timeScale = 1f;
-
-        if (victoryPanel != null)
-            victoryPanel.SetActive(false);
-
         SceneManager.LoadScene("MenuInicio");
     }
    

@@ -16,10 +16,8 @@ public class ConfigMenu : MonoBehaviour
     {
         if (configPanel != null)
             configPanel.SetActive(false);
-
         if (settingsWindow != null)
             settingsWindow.SetActive(false);
-
         if (volumeSlider != null)
         {
             volumeSlider.minValue = 0f;
@@ -35,10 +33,8 @@ public class ConfigMenu : MonoBehaviour
     {
         if (configPanel != null)
             configPanel.SetActive(true);
-
         if (settingsWindow != null)
             settingsWindow.SetActive(true);
-
         if (AudioManager.instance != null && volumeSlider != null)
         {
             volumeSlider.value = AudioManager.instance.GetMusicVolume();
@@ -51,7 +47,6 @@ public class ConfigMenu : MonoBehaviour
     {
         if (configPanel != null)
             configPanel.SetActive(false);
-        
         if (settingsWindow != null)
         {
             settingsWindow.SetActive(false);  
@@ -65,11 +60,6 @@ public class ConfigMenu : MonoBehaviour
         {
             AudioManager.instance.SetMusicVolume(volume);
         }
-        else
-        {
-            Debug.LogWarning("AudioManager no está disponible");
-        }
-
         UpdateVolumeText(volume);
     }
 

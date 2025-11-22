@@ -99,13 +99,10 @@ public class EnemyController : MonoBehaviour
     {
         if (Time.time - lastAttackTime < attackCooldown) return;
         lastAttackTime = Time.time;
-
         animator.SetTrigger("Attack");
-
         Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, 1f, playerLayer);
         if (hit)
         {
-            Debug.Log("✅ Golpeó al jugador!");
             var playerScript = hit.GetComponent<PlayerController>();
             if (playerScript != null)
                 playerScript.TakeDamage(1);

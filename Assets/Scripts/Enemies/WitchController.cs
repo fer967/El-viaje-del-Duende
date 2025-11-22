@@ -88,17 +88,14 @@ public class WitchController : MonoBehaviour
     private void Patrol()
     {
         if (patrolPoints.Length == 0) return;
-
         Transform target = patrolPoints[currentPointIndex];
         Vector2 dir = (target.position - transform.position);
         animator.SetFloat("MoveX", dir.x);
         animator.SetFloat("MoveY", dir.y);
-
         if (dir.magnitude < 0.7f)
         {
             currentPointIndex = (currentPointIndex + 1) % patrolPoints.Length;
         }
-
         currentMovement = dir.normalized * moveSpeed;
         animator.SetBool("isMoving", true);
     }
@@ -169,8 +166,6 @@ public class WitchController : MonoBehaviour
         
     private void TriggerVictory()
     {
-        AudioManager.instance.PlayVictoryMusic();
-
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
             player.GetComponent<PlayerController>().enabled = false;
@@ -181,15 +176,12 @@ public class WitchController : MonoBehaviour
 
     private void LoadVictoryScene()
     {
-        Debug.Log("🚀 Cargando PantallaFinal...");
-
         if (UIManager.Instance != null)
         {
             Destroy(UIManager.Instance.gameObject);
-            Debug.Log("🗑️ UIManager destruido");
         }
-
         SceneManager.LoadScene("PantallaFinal", LoadSceneMode.Single);
+        AudioManager.instance.PlayVictoryMusic();
     }
 
    

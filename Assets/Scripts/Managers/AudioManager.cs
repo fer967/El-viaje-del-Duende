@@ -66,12 +66,9 @@ public class AudioManager : MonoBehaviour
         
         if (scene.name == "PantallaFinal")
         {
-            Debug.Log("🎵 PantallaFinal detectada - manteniendo música de victoria");
             return;
         }
-
         string sceneName = scene.name;
-
         if (sceneName.Contains("SampleScene") || sceneName.Contains("MenuInicio"))
         {
             PlayMusic(menuMusic, 1.0f);
@@ -102,12 +99,7 @@ public class AudioManager : MonoBehaviour
             {
                 return;
             }
-
             StartCoroutine(FadeMusic(musicClip, fadeDuration));
-        }
-        else
-        {
-            Debug.LogError($"❌ Error: musicClip null: {musicClip == null}, audioSource null: {audioSource == null}");
         }
     }
 
@@ -115,17 +107,14 @@ public class AudioManager : MonoBehaviour
     private IEnumerator FadeMusic(AudioClip newClip, float fadeDuration)
     {
         float startVolume = audioSource.volume;
-        
         for (float t = 0; t < fadeDuration; t += Time.deltaTime)
         {
             if (audioSource != null)
                 audioSource.volume = Mathf.Lerp(startVolume, 0, t / fadeDuration);
             yield return null;
         }
-
         if (audioSource != null)
         {
-            Debug.Log($"🔄 Cambiando clip a: {newClip.name}");
             audioSource.Stop();
             audioSource.clip = newClip;
             audioSource.Play();
@@ -146,11 +135,6 @@ public class AudioManager : MonoBehaviour
             audioSource.volume = Mathf.Clamp01(volume);
             PlayerPrefs.SetFloat(MUSIC_VOLUME_KEY, volume);
             PlayerPrefs.Save();
-            Debug.Log($"Volumen cambiado a: {volume}");
-        }
-        else
-        {
-            Debug.LogError("AudioSource es null en AudioManager");
         }
     }
 
@@ -170,7 +154,6 @@ public class AudioManager : MonoBehaviour
         {
             audioSource.volume = savedVolume;
         }
-        Debug.Log($"Volumen cargado: {savedVolume}");
     }
 
 
@@ -183,11 +166,7 @@ public class AudioManager : MonoBehaviour
             audioSource.loop = false;
             audioSource.Play();
         }
-        else
-        {
-            Debug.LogError("❌ AudioSource o VictoryMusic es null");
-        }
     }
-   
-   
+ 
+ 
 }

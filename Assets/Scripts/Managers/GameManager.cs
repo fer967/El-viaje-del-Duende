@@ -45,7 +45,6 @@ public class GameManager : MonoBehaviour
         InitCoinsUI();
     }
 
-
     void InitCoinsUI()
     {
         if (coinsContainer == null || coinPrefab == null) return;
@@ -134,8 +133,10 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        hasTitanPunch = PlayerPrefs.GetInt("HasPunchAbility", 0) == 1;
 
         if (UIManager.Instance != null)
         {
@@ -143,15 +144,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void UnlockTitanPunch()
-    {
-        hasTitanPunch = true;
-        punchMessageShown = true;
-
-        if (UIManager.Instance != null)
-            UIManager.Instance.ShowMessage("¡Has obtenido la habilidad Puño Titánico!");
-    }
-
+   
 }
 
 

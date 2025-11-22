@@ -35,7 +35,6 @@ public class OgreController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
-
         if (pointA != null && pointB != null)
             currentTarget = pointB; 
     }
@@ -47,11 +46,8 @@ public class OgreController : MonoBehaviour
             var p = GameObject.FindGameObjectWithTag("Player");
             if (p) player = p.transform;
         }
-
         if (player == null) return;
-
         float dist = Vector2.Distance(transform.position, player.position);
-
         if (dist <= detectRadius)
         {
             Vector2 dir = (player.position - transform.position).normalized;
@@ -72,18 +68,13 @@ public class OgreController : MonoBehaviour
         }
         else
         {
-            
             Patrol();
         }
-
-        
-        
+                   
         if (attackPoint != null)
         {
             Vector2 offset = Vector2.zero;
-            
             Vector2 facingDir = new Vector2(animator.GetFloat("MoveX"), animator.GetFloat("MoveY"));
-
             if (facingDir.sqrMagnitude > 0.01f)
             {
                 offset = facingDir.normalized * dist;
@@ -105,13 +96,11 @@ public class OgreController : MonoBehaviour
     private void Patrol()
     {
         if (pointA == null || pointB == null) return;
-
         Vector2 dir = (currentTarget.position - transform.position);
         if (dir.magnitude < 0.1f)
         {
             currentTarget = (currentTarget == pointA) ? pointB : pointA;
         }
-
         currentMovement = dir.normalized * moveSpeed;
         animator.SetBool("IsMoving", true);
         animator.SetFloat("MoveX", dir.x);
@@ -123,9 +112,7 @@ public class OgreController : MonoBehaviour
     {
         if (Time.time - lastAttackTime < attackCooldown) return;
         lastAttackTime = Time.time;
-
         animator.SetTrigger("Attack");
-
         Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, 1f, playerLayer);
         if (hit)
         {
@@ -140,7 +127,6 @@ public class OgreController : MonoBehaviour
     {
         currentHealth -= amount;
         animator.SetTrigger("Damage");
-
         if (currentHealth <= 0)
             Die();
     }
@@ -149,13 +135,10 @@ public class OgreController : MonoBehaviour
     private void Die()
     {
         animator.SetTrigger("Death");
-
-         if (bowDropPrefab != null)
+        if (bowDropPrefab != null)
             Instantiate(bowDropPrefab, transform.position, Quaternion.identity);
-
         if (arrowDropPrefab != null)
             Instantiate(arrowDropPrefab, transform.position + new Vector3(0.5f, 0f, 0f), Quaternion.identity);
-
         Destroy(gameObject, 0.6f);
     }
 

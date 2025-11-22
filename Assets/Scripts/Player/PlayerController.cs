@@ -42,6 +42,11 @@ public class PlayerController : MonoBehaviour
     public int maxLives = 4;
     private int currentLives;
 
+    private void OnMovePerformed(UnityEngine.InputSystem.InputAction.CallbackContext ctx) => moveInput = ctx.ReadValue<Vector2>();
+    private void OnMoveCanceled(UnityEngine.InputSystem.InputAction.CallbackContext ctx) => moveInput = Vector2.zero;
+    private void OnAttackPerformed(UnityEngine.InputSystem.InputAction.CallbackContext ctx) => OnAttack();
+    private void OnInteractPerformed(UnityEngine.InputSystem.InputAction.CallbackContext ctx) => OnInteract();
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -61,6 +66,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
+    
     void Start()
     {
         if (PlayerPrefs.HasKey("SpawnX") && PlayerPrefs.HasKey("SpawnY"))
@@ -69,38 +76,44 @@ public class PlayerController : MonoBehaviour
             float y = PlayerPrefs.GetFloat("SpawnY");
             transform.position = new Vector2(x, y);
         }
-
         UIManager.Instance.UpdateHearts(currentLives, maxLives);
-
-        if (SceneManager.GetActiveScene().name == "Bosque6" && PlayerPrefs.GetInt("HasPunchAbility", 0) == 1)
+        hasPunchAbility = PlayerPrefs.GetInt("HasPunchAbility", 0) == 1;
+        if (GameManager.Instance != null)
         {
-            hasPunchAbility = true;
-
-            if (GameManager.Instance != null && GameManager.Instance.hasTitanPunch && !GameManager.Instance.punchMessageShown)
+            GameManager.Instance.hasTitanPunch = hasPunchAbility;
+        }
+        Debug.Log($"💾 Habilidad cargada - PlayerPrefs: {PlayerPrefs.GetInt("HasPunchAbility", 0)}, hasPunchAbility: {hasPunchAbility}");
+        if (SceneManager.GetActiveScene().name == "Bosque6" && hasPunchAbility)
+        {
+            if (GameManager.Instance != null && !GameManager.Instance.punchMessageShown)
             {
                 GameManager.Instance.punchMessageShown = true;
                 if (UIManager.Instance != null)
-                    UIManager.Instance.ShowMessage("¡Has obtenido la habilidad Puño Titánico!");
+                    UIManager.Instance.ShowMessage("¡Usa el Puño Titánico contra el Ogre!");
             }
         }
     }
 
+
     private void OnEnable()
     {
         controls.Enable();
-        controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
-        controls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
-        controls.Player.Attack.performed += ctx => OnAttack();
-        controls.Player.Interact.performed += ctx => OnInteract();
+        controls.Player.Move.performed += OnMovePerformed;
+        controls.Player.Move.canceled += OnMoveCanceled;
+        controls.Player.Attack.performed += OnAttackPerformed;
+        controls.Player.Interact.performed += OnInteractPerformed;
     }
 
     private void OnDisable()
     {
-        controls.Player.Attack.performed -= ctx => OnAttack();
-        controls.Player.Interact.performed -= ctx => OnInteract();
+        controls.Player.Move.performed -= OnMovePerformed;
+        controls.Player.Move.canceled -= OnMoveCanceled;
+        controls.Player.Attack.performed -= OnAttackPerformed;
+        controls.Player.Interact.performed -= OnInteractPerformed;
         controls.Disable();
     }
 
+               
     private void FixedUpdate()
     {
         if (moveInput != Vector2.zero)
@@ -122,11 +135,10 @@ public class PlayerController : MonoBehaviour
             shootPoint.localPosition = lastMoveDir.normalized * 0.8f;
     }
 
-    
+
     private void OnAttack()
     {
         string scene = SceneManager.GetActiveScene().name;
-
         if (scene == "Cueva1" || scene == "Cueva2")
         {
             ShootArrow();
@@ -138,12 +150,22 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        if (hasPunchAbility && scene == "Bosque6")
-            OnPunchAttack();
-        else
-            OnSwordAttack();
+        if (scene == "Bosque6")
+        {
+            bool gmHasPunch = GameManager.Instance != null && GameManager.Instance.hasTitanPunch;
+            bool prefsHasPunch = PlayerPrefs.GetInt("HasPunchAbility", 0) == 1;
+            hasPunchAbility = gmHasPunch || prefsHasPunch;
+                        
+            if (hasPunchAbility)
+            {
+                OnPunchAttack();
+                return;
+            }
+        }
+        OnSwordAttack();
     }
 
+       
 
     private void OnSwordAttack()
     {
@@ -188,22 +210,30 @@ public class PlayerController : MonoBehaviour
 
     private void ResetPunch() => canPunch = true;
 
+
     public void UnlockPunchAbility()
     {
         hasPunchAbility = true;
         PlayerPrefs.SetInt("HasPunchAbility", 1);
         PlayerPrefs.Save();
-        Debug.Log("✅ Habilidad Puño Titánico desbloqueada!");
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.hasTitanPunch = true;
+            GameManager.Instance.punchMessageShown = true;  
+        }
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ShowMessage("¡Has obtenido la habilidad Puño Titánico!");
+        }
     }
 
-
+           
     private void ShootArrow()
     {
         if (!canShoot || arrowPrefab == null) return;
         animator.SetTrigger("Attack_Shoot");
         canShoot = false;
         Invoke(nameof(ResetShoot), shootCooldown);
-
         GameObject proj = Instantiate(arrowPrefab, shootPoint.position, Quaternion.identity);
         Projectile p = proj.GetComponent<Projectile>();
         if (p != null)
@@ -214,14 +244,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    
     private void ShootFireball()
     {
         if (!canShoot || fireballPrefab == null) return;
         animator.SetTrigger("Attack_Fireball");
         canShoot = false;
         Invoke(nameof(ResetShoot), shootCooldown);
-
         GameObject proj = Instantiate(fireballPrefab, shootPoint.position, Quaternion.identity);
         Projectile p = proj.GetComponent<Projectile>();
         if (p != null)
@@ -234,7 +262,6 @@ public class PlayerController : MonoBehaviour
 
     private void ResetShoot() => canShoot = true;
 
-    
     private void OnInteract()
     {
         float interactRadius = 1.0f;
@@ -250,9 +277,7 @@ public class PlayerController : MonoBehaviour
         currentLives = Mathf.Max(currentLives - amount, 0);
         if (GameManager.Instance != null)
             GameManager.Instance.SetPlayerHealth(currentLives, maxLives);
-
         UIManager.Instance.UpdateHearts(currentLives, maxLives);
-
         animator.SetTrigger("Damage");
         if (currentLives <= 0)
             Die();

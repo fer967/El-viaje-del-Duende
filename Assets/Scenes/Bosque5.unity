@@ -7913,10 +7913,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4538435666813884082, guid: be68046d37cb3d446bb0681ba28d896c, type: 3}
     - target: {fileID: 196760634070809646, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
-      propertyPath: maxHearts
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 196760634070809646, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
       propertyPath: emptyHeart
       value: 
       objectReference: {fileID: 292758189509097687, guid: be68046d37cb3d446bb0681ba28d896c, type: 3}
@@ -7943,27 +7939,27 @@ PrefabInstance:
     - target: {fileID: 196760634070809646, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
       propertyPath: 'heartImages.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 694915454}
     - target: {fileID: 196760634070809646, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
       propertyPath: 'heartImages.Array.data[1]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 694915453}
     - target: {fileID: 196760634070809646, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
       propertyPath: 'heartImages.Array.data[2]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 694915452}
     - target: {fileID: 196760634070809646, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
       propertyPath: 'heartImages.Array.data[3]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 694915451}
     - target: {fileID: 196760634070809646, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
       propertyPath: 'heartImages.Array.data[4]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 694915450}
     - target: {fileID: 196760634070809646, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
       propertyPath: 'heartImages.Array.data[5]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 694915446}
     - target: {fileID: 774244064352670878, guid: fd3831948400a614fa2a2c435cbffeba, type: 3}
       propertyPath: m_Padding.m_Top
       value: 40

@@ -15,35 +15,25 @@ public class ChestAbility : MonoBehaviour
         col.isTrigger = true;
     }
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (isOpened) return;
-
         if (collision.CompareTag("Player"))
         {
-            OpenChest();
+            OpenChest(collision);
         }
     }
 
-
-    private void OpenChest()
+    private void OpenChest(Collider2D collision)
     {
         isOpened = true;
-
         if (animator != null)
             animator.SetTrigger("Open");
-
-        if (GameManager.Instance != null)
+         PlayerController player = collision.GetComponent<PlayerController>();
+        if (player != null)
         {
-            GameManager.Instance.UnlockTitanPunch();
-            Debug.Log("Cofre activado y habilidad desbloqueada");
+            player.UnlockPunchAbility();   
         }
-        else
-        {
-            Debug.LogWarning("⚠️ No se encontró GameManager en la escena.");
-        }
-
         GetComponent<Collider2D>().enabled = false;
     }
 }
@@ -55,6 +45,11 @@ public class ChestAbility : MonoBehaviour
 
 
 
-// 🔹 (Opcional) Sonido o partículas
-// AudioManager.Instance.Play("ChestOpen");
-// Instantiate(vfxPrefab, transform.position, Quaternion.identity);
+
+
+
+
+
+
+
+
